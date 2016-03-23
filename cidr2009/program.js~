@@ -1,0 +1,957 @@
+{
+            items:[
+                {
+                    id: 4, label: 4, type:"Session", sessionname:'Registration',
+                    startdate:'2009-1-4 3:00 PM',
+                    enddate:'2009-1-4 6:00 PM'
+                },
+                {
+                    id: 9, label: 9, type:"Session", sessionname:'Dinner',
+                    startdate:'2009-1-4 6:00 PM',
+                    enddate:'2009-1-4 7:00 PM'
+                },
+                {
+                    id: 14, label: 14, type:"Session", sessionname:'Evening Get-together',
+                    startdate:'2009-1-4 7:00 PM',
+                    enddate:'2009-1-4 10:00 PM'
+                },
+                {
+                    id: 19, label: 19, type:"Session", sessionname:'Breakfast',
+                    startdate:'2009-1-5 7:00',
+                    enddate:'2009-1-5 8:30'
+                },
+                {
+                    id: 24, label: 24, type:"Session", sessionname:'Invited Talk 1',
+                    startdate:'2009-1-5 8:30',
+                    enddate:'2009-1-5 9:30'
+                },
+                {
+                    id: 29, label: 29, type:"Session", sessionname:'Big Science Data',
+                    startdate:'2009-1-5 9:30',
+                    enddate:'2009-1-5 10:30',
+                                            presentation:[
+                            {
+                                id: 34, label: 34, type:"Paper", title:'Social Systems: Can we Do More Than Just Poke Friends?',
+                                author:[
+                                    {
+                                        id: 37, label: 37, type: "Author", authorname:'Georgia Koutrika',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 41, label: 41, type: "Author", authorname:'Benjamin Bercovitz',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 45, label: 45, type: "Author", authorname:'Robert Ikeda',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 49, label: 49, type: "Author", authorname:'Filip Kaliszan',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 53, label: 53, type: "Author", authorname:'Henry Liou',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 57, label: 57, type: "Author", authorname:'Zahra Mohammadi Zadeh',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 61, label: 61, type: "Author", authorname:'Hector Garcia-Molina',
+                                        institution:'Stanford University'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 67, label: 67, type:"Paper", title:'From Declarative Languages to Declarative Processing in Computer Games',
+                                author:[
+                                    {
+                                        id: 70, label: 70, type: "Author", authorname:'Benjamin Sowell',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 74, label: 74, type: "Author", authorname:'Alan Demers',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 78, label: 78, type: "Author", authorname:'Johannes Gehrke',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 82, label: 82, type: "Author", authorname:'Nitin Gupta',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 86, label: 86, type: "Author", authorname:'Haoyuan Li',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 90, label: 90, type: "Author", authorname:'Walker White',
+                                        institution:'Cornell University'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 96, label: 96, type:"Paper", title:'Declarative Reconfigurable Trust Management',
+                                author:[
+                                    {
+                                        id: 99, label: 99, type: "Author", authorname:'William Marczak',
+                                        institution:'University of Pennsylvania'
+                                    },
+                                    {
+                                        id: 103, label: 103, type: "Author", authorname:'David Zook',
+                                        institution:'LogicBlox'
+                                    },
+                                    {
+                                        id: 107, label: 107, type: "Author", authorname:'Wenchao Zhou',
+                                        institution:'University of Pennsylvania'
+                                    },
+                                    {
+                                        id: 111, label: 111, type: "Author", authorname:'Molham Aref',
+                                        institution:'LogicBlox'
+                                    },
+                                    {
+                                        id: 115, label: 115, type: "Author", authorname:'Boon Thau Loo',
+                                        institution:'U. Pennsylvania'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 123, label: 123, type:"Session", sessionname:'Coffee Break',
+                    startdate:'2009-1-5 10:30',
+                    enddate:'2009-1-5 11:00'
+                },
+                {
+                    id: 128, label: 128, type:"Session", sessionname:'Text,XML,and Integration',
+                    startdate:'2009-1-5 11:00',
+                    enddate:'2009-1-5 12:30 PM',
+                                            presentation:[
+                            {
+                                id: 133, label: 133, type:"Paper", title:'Interactive Data Integration through Smart Copy & Paste',
+                                author:[
+                                    {
+                                        id: 136, label: 136, type: "Author", authorname:'Zachary Ives',
+                                        institution:'University Of Pennsylvania'
+                                    },
+                                    {
+                                        id: 140, label: 140, type: "Author", authorname:'Craig Knoblock',
+                                        institution:'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        id: 144, label: 144, type: "Author", authorname:'Steve Minton',
+                                        institution:'Fetch Technologies'
+                                    },
+                                    {
+                                        id: 148, label: 148, type: "Author", authorname:'Marie Jacob',
+                                        institution:'University of Pennsylvania'
+                                    },
+                                    {
+                                        id: 152, label: 152, type: "Author", authorname:'Partha Talukdar',
+                                        institution:'University of Pennsylvania'
+                                    },
+                                    {
+                                        id: 156, label: 156, type: "Author", authorname:'Rattapoom Tuchinda',
+                                        institution:'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        id: 160, label: 160, type: "Author", authorname:'Jose Luis Ambite',
+                                        institution:'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        id: 164, label: 164, type: "Author", authorname:'Maria Muslea',
+                                        institution:'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        id: 168, label: 168, type: "Author", authorname:'Cenk Gazen',
+                                        institution:'Fetch Technologies'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 174, label: 174, type:"Paper", title:'Search Driven Analysis of Heterogenous XML Data',
+                                author:[
+                                    {
+                                        id: 177, label: 177, type: "Author", authorname:'Andrey Balmin',
+                                        institution:'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        id: 181, label: 181, type: "Author", authorname:'Latha Colby',
+                                        institution:'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        id: 185, label: 185, type: "Author", authorname:'Emiran Curtmola',
+                                        institution:'UC, San Diego'
+                                    },
+                                    {
+                                        id: 189, label: 189, type: "Author", authorname:'Quanzhong Li',
+                                        institution:'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        id: 193, label: 193, type: "Author", authorname:'Fatma Ozcan',
+                                        institution:'IBM Almaden Research Center'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 199, label: 199, type:"Paper", title:'Qunits: queried units in database search',
+                                author:[
+                                    {
+                                        id: 202, label: 202, type: "Author", authorname:'Arnab Nandi',
+                                        institution:'University of Michigan'
+                                    },
+                                    {
+                                        id: 206, label: 206, type: "Author", authorname:'H V Jagadish',
+                                        institution:'University of Michigan'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 214, label: 214, type:"Session", sessionname:'Lunch',
+                    startdate:'2009-1-5 12:30 PM',
+                    enddate:'2009-1-5 1:30 PM'
+                },
+                {
+                    id: 219, label: 219, type:"Session", sessionname:'Streams and Platforms',
+                    startdate:'2009-1-5 1:30 PM',
+                    enddate:'2009-1-5 3:00 PM',
+                                            presentation:[
+                            {
+                                id: 224, label: 224, type:"Paper", title:'Boosting XML filtering through a scalable FPGA-based architecture',
+                                author:[
+                                    {
+                                        id: 227, label: 227, type: "Author", authorname:'Abhishek Mitra',
+                                        institution:'UC Riverside'
+                                    },
+                                    {
+                                        id: 231, label: 231, type: "Author", authorname:'Marcos Vieira',
+                                        institution:'UCR'
+                                    },
+                                    {
+                                        id: 235, label: 235, type: "Author", authorname:'Petko Bakalov',
+                                        institution:'ESRI'
+                                    },
+                                    {
+                                        id: 239, label: 239, type: "Author", authorname:'Vassilis Tsotras',
+                                        institution:'UCR'
+                                    },
+                                    {
+                                        id: 243, label: 243, type: "Author", authorname:'Walid Najjar',
+                                        institution:'UCR'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 249, label: 249, type:"Paper", title:'Capturing Data Uncertainty in High-Volume Stream Processing',
+                                author:[
+                                    {
+                                        id: 252, label: 252, type: "Author", authorname:'Yanlei Diao',
+                                        institution:'U. Massachusetts-Amherst'
+                                    },
+                                    {
+                                        id: 256, label: 256, type: "Author", authorname:'Anna Liu',
+                                        institution:'UMass Amherst'
+                                    },
+                                    {
+                                        id: 260, label: 260, type: "Author", authorname:'Liping Peng',
+                                        institution:'UMass Amherst'
+                                    },
+                                    {
+                                        id: 264, label: 264, type: "Author", authorname:'Charles Sutton',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 268, label: 268, type: "Author", authorname:'Thanh Tran',
+                                        institution:'UMass Amherst'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 274, label: 274, type:"Paper", title:'Inter-Operator Feedback in Data Stream Management Systems via Punctuation',
+                                author:[
+                                    {
+                                        id: 277, label: 277, type: "Author", authorname:'Rafael Fernandez-Moctezuma',
+                                        institution:'Portland State University'
+                                    },
+                                    {
+                                        id: 281, label: 281, type: "Author", authorname:'Kristin Tufte',
+                                        institution:'Portland State University'
+                                    },
+                                    {
+                                        id: 285, label: 285, type: "Author", authorname:'Jin Li',
+                                        institution:'Portland State University'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 291, label: 291, type:"Paper", title:'A Scalable Data Platform for a Large Number of Small Applications',
+                                author:[
+                                    {
+                                        id: 294, label: 294, type: "Author", authorname:'Fan Yang',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 298, label: 298, type: "Author", authorname:'Jayavel Shanmugasun',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 303, label: 303, type: "Author", authorname:'Ramana Yerneni',
+                                        institution:{
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 312, label: 312, type:"Session", sessionname:'Coffee Break',
+                    startdate:'2009-1-5 3:30 PM',
+                    enddate:'2009-1-5 3:30 PM'
+                },
+                {
+                    id: 317, label: 317, type:"Session", sessionname:'Scientific and Numeric Data',
+                    startdate:'2009-1-5 3:30 PM',
+                    enddate:'2009-1-5 5:00 PM',
+                                            presentation:[
+                            {
+                                id: 322, label: 322, type:"Paper", title:'Data Management for High-Throughput Genomics',
+                                author:[
+                                    {
+                                        id: 325, label: 325, type: "Author", authorname:'Uwe Roehm',
+                                        institution:'University of Sydney'
+                                    },
+                                    {
+                                        id: 329, label: 329, type: "Author", authorname:'Jose Blakeley',
+                                        institution:'Microsoft'
+                                    },
+                                    {
+                                        id: 333, label: 333, type: "Author", authorname:'LifeRaft: Data-Driven',
+                                        institution:'Batch Processing for the Exploration of Scientific Databases'
+                                    },
+                                    {
+                                        id: 337, label: 337, type: "Author", authorname:'Xiaodan Wang',
+                                        institution:'Johns Hopkins University'
+                                    },
+                                    {
+                                        id: 341, label: 341, type: "Author", authorname:'Randal Burns',
+                                        institution:'Johns Hopkins'
+                                    },
+                                    {
+                                        id: 345, label: 345, type: "Author", authorname:'Tanu Malik',
+                                        institution:'Purdue University'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 351, label: 351, type:"Paper", title:'Requirements for Science Data Bases and SciDB',
+                                author:[
+                                    {
+                                        id: 354, label: 354, type: "Author", authorname:'Mike Stonebraker',
+                                        institution:'MIT'
+                                    },
+                                    {
+                                        id: 358, label: 358, type: "Author", authorname:'Jacek Becla',
+                                        institution:'Stanford Linear Accelerator'
+                                    },
+                                    {
+                                        id: 362, label: 362, type: "Author", authorname:'Kian-Tat Lim',
+                                        institution:'Stanford Linear Accelerator'
+                                    },
+                                    {
+                                        id: 366, label: 366, type: "Author", authorname:'Stan Zdonik',
+                                        institution:'Brown University'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 372, label: 372, type:"Paper", title:'RIOT: I/O-Efficient Numerical Computing without SQL',
+                                author:[
+                                    {
+                                        id: 375, label: 375, type: "Author", authorname:'Yi Zhang',
+                                        institution:'Duke University'
+                                    },
+                                    {
+                                        id: 379, label: 379, type: "Author", authorname:'Herodotos Herodotou',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 384, label: 384, type: "Author", authorname:'Jun Yang',
+                                        institution:'Duke'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 392, label: 392, type:"Session", sessionname:'Dinner',
+                    startdate:'2009-1-5 6:00 PM',
+                    enddate:'2009-1-5 7:00 PM'
+                },
+                {
+                    id: 397, label: 397, type:"Session", sessionname:'Gong Show',
+                    startdate:'2009-1-5 7:15 PM',
+                    enddate:'2009-1-5 9:30 PM'
+                },
+                {
+                    id: 402, label: 402, type:"Session", sessionname:'Breakfast',
+                    startdate:'2009-1-6 7:00 PM',
+                    enddate:'2009-1-6 8:30 PM'
+                },
+                {
+                    id: 407, label: 407, type:"Session", sessionname:'Querying the Giants',
+                    startdate:'2009-1-6 8:30 PM',
+                    enddate:'2009-1-6 10:30',
+                                            presentation:[
+                            {
+                                id: 412, label: 412, type:"Paper", title:'Extracting and Querying a Comprehensive Web Database',
+                                author:{
+                                    id: 414, label: 414, type: "Author", authorname:'Michael Cafarella',
+                                    institution:'University of Washington'
+                                }
+                            },
+                            {
+                                id: 419, label: 419, type:"Paper", title:'Interactive Analysis of Web-Scale Data',
+                                author:[
+                                    {
+                                        id: 422, label: 422, type: "Author", authorname:'Christopher Olston',
+                                        institution:'Yahoo! Research'
+                                    },
+                                    {
+                                        id: 426, label: 426, type: "Author", authorname:'Khaled Elmeleegy',
+                                        institution:'Yahoo! Research'
+                                    },
+                                    {
+                                        id: 430, label: 430, type: "Author", authorname:'Flavio Junqueira',
+                                        institution:'Yahoo! Research'
+                                    },
+                                    {
+                                        id: 434, label: 434, type: "Author", authorname:'Benjamin Reed',
+                                        institution:'Yahoo! Research'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 440, label: 440, type:"Paper", title:'Continuous Analytics: Rethinking Query Processing in a Network-Effect World',
+                                author:[
+                                    {
+                                        id: 443, label: 443, type: "Author", authorname:'Michael Franklin',
+                                        institution:'Truviso'
+                                    },
+                                    {
+                                        id: 447, label: 447, type: "Author", authorname:'Sailesh Krishnamurthy',
+                                        institution:'Truviso'
+                                    },
+                                    {
+                                        id: 451, label: 451, type: "Author", authorname:'Neil Conway',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 455, label: 455, type: "Author", authorname:'Alan Li',
+                                        institution:'Truviso'
+                                    },
+                                    {
+                                        id: 459, label: 459, type: "Author", authorname:'Alex Russakovsky',
+                                        institution:'Truviso'
+                                    },
+                                    {
+                                        id: 463, label: 463, type: "Author", authorname:'Neil Thombre',
+                                        institution:'Truviso'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 469, label: 469, type:"Paper", title:'Remembrance: The Unbearable Sentience of Being Digital',
+                                author:[
+                                    {
+                                        id: 472, label: 472, type: "Author", authorname:'Ragib Hasan',
+                                        institution:'University of Illinois'
+                                    },
+                                    {
+                                        id: 476, label: 476, type: "Author", authorname:'Marianne Winslett',
+                                        institution:'University of Illinois'
+                                    },
+                                    {
+                                        id: 480, label: 480, type: "Author", authorname:'Radu Sion',
+                                        institution:'Stony Brook University'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 488, label: 488, type:"Session", sessionname:'Coffee Break',
+                    startdate:'2009-1-6 10:30',
+                    enddate:'2009-1-6 11:00'
+                },
+                {
+                    id: 493, label: 493, type:"Session", sessionname:'Gong Show Awards',
+                    startdate:'2009-1-6 11:00',
+                    enddate:'2009-1-6 11:15'
+                },
+                {
+                    id: 498, label: 498, type:"Session", sessionname:'Schemas and Processes',
+                    startdate:'2009-1-6 11:15',
+                    enddate:'2009-1-6 12:30 PM',
+                                            presentation:[
+                            {
+                                id: 503, label: 503, type:"Paper", title:'The Role of Schema Matching in Large Enterprises',
+                                author:[
+                                    {
+                                        id: 506, label: 506, type: "Author", authorname:'Ken Smith',
+                                        institution:'MITRE'
+                                    },
+                                    {
+                                        id: 510, label: 510, type: "Author", authorname:'Michael Morse',
+                                        institution:'MITRE'
+                                    },
+                                    {
+                                        id: 514, label: 514, type: "Author", authorname:'Peter Mork',
+                                        institution:'MITRE'
+                                    },
+                                    {
+                                        id: 518, label: 518, type: "Author", authorname:'Maya Li',
+                                        institution:'MITRE'
+                                    },
+                                    {
+                                        id: 522, label: 522, type: "Author", authorname:'Arnon Rosenthal',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 527, label: 527, type: "Author", authorname:'David Allen',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 532, label: 532, type: "Author", authorname:'Len Seligman',
+                                        institution:{
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                id: 539, label: 539, type:"Paper", title:'A Case for Collaborative Query Management Systems',
+                                author:[
+                                    {
+                                        id: 542, label: 542, type: "Author", authorname:'Nodira Khoussainova',
+                                        institution:'University of Washington'
+                                    },
+                                    {
+                                        id: 546, label: 546, type: "Author", authorname:'Magda Balazinska',
+                                        institution:'U. Washington'
+                                    },
+                                    {
+                                        id: 550, label: 550, type: "Author", authorname:'Wolfgang Gatterbauer',
+                                        institution:'University of Washington'
+                                    },
+                                    {
+                                        id: 554, label: 554, type: "Author", authorname:'YongChul Kwon',
+                                        institution:'University of Washington'
+                                    },
+                                    {
+                                        id: 558, label: 558, type: "Author", authorname:'Dan Suciu',
+                                        institution:'University of Washington'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 564, label: 564, type:"Paper", title:'Do-It-Yourself custom forms-driven workflow applications',
+                                author:[
+                                    {
+                                        id: 567, label: 567, type: "Author", authorname:'Keith Kowalczykowski',
+                                        institution:' app2you.com'
+                                    },
+                                    {
+                                        id: 571, label: 571, type: "Author", authorname:'Kian Win Ong',
+                                        institution:'UCSD'
+                                    },
+                                    {
+                                        id: 575, label: 575, type: "Author", authorname:'Alin Deutsch',
+                                        institution:'UCSD'
+                                    },
+                                    {
+                                        id: 579, label: 579, type: "Author", authorname:'Yannis Papakonstantinou',
+                                        institution:'UCSD'
+                                    },
+                                    {
+                                        id: 583, label: 583, type: "Author", authorname:'Michalis Petropoulos',
+                                        institution:'SUNY Buffalo'
+                                    },
+                                    {
+                                        id: 587, label: 587, type: "Author", authorname:'Kevin Zhao',
+                                        institution:'UCSD'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 595, label: 595, type:"Session", sessionname:'Lunch',
+                    startdate:'2009-1-6 12:30 PM',
+                    enddate:'2009-1-6 1:30 PM'
+                },
+                {
+                    id: 600, label: 600, type:"Session", sessionname:'Feedback on Queries',
+                    startdate:'2009-1-6 1:30 PM',
+                    enddate:'2009-1-6 3:00 PM',
+                                            presentation:[
+                            {
+                                id: 605, label: 605, type:"Paper", title:'Why Did My Query Slow Down?',
+                                author:[
+                                    {
+                                        id: 608, label: 608, type: "Author", authorname:'Nedyalko Borisov',
+                                        institution:'DUKE University'
+                                    },
+                                    {
+                                        id: 612, label: 612, type: "Author", authorname:'Sandeep Uttamchandani',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 617, label: 617, type: "Author", authorname:'Ramani Routray',
+                                        institution:{
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                id: 624, label: 624, type:"Paper", title:'Aameek Singh'
+                            },
+                            {
+                                id: 627, label: 627, type:"Paper", title:'Visualizing the robustness of query execution',
+                                author:[
+                                    {
+                                        id: 630, label: 630, type: "Author", authorname:'Goetz Graefe',
+                                        institution:'HP'
+                                    },
+                                    {
+                                        id: 634, label: 634, type: "Author", authorname:'Harumi Kuno',
+                                        institution:'Hewlett-Packard Co.'
+                                    },
+                                    {
+                                        id: 638, label: 638, type: "Author", authorname:'Janet Wiener',
+                                        institution:'Hewlett-Packard, Co.'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 644, label: 644, type:"Paper", title:'DBMSs Should Talk Back Too',
+                                author:[
+                                    {
+                                        id: 647, label: 647, type: "Author", authorname:'Alkis Simitsis',
+                                        institution:'HP Labs'
+                                    },
+                                    {
+                                        id: 651, label: 651, type: "Author", authorname:'Yannis Ioannidis',
+                                        institution:{
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 660, label: 660, type:"Session", sessionname:'Snack and Free Time',
+                    startdate:'2009-1-6 3:00 PM',
+                    enddate:'2009-1-6 6:00 PM'
+                },
+                {
+                    id: 665, label: 665, type:"Session", sessionname:'Dinner',
+                    startdate:'2009-1-6 6:00 PM',
+                    enddate:'2009-1-6 7:00 PM'
+                },
+                {
+                    id: 670, label: 670, type:"Session", sessionname:'Panel 1: Gathering Clouds',
+                    startdate:'2009-1-6 7:15 PM',
+                    enddate:'2009-1-6 8:15 PM',
+                                            presentation:[
+                            {
+                                id: 675, label: 675, type:"Paper", title:'Building on Quicksand',
+                                author:[
+                                    {
+                                        id: 678, label: 678, type: "Author", authorname:'Pat Helland',
+                                        institution:'Microsoft'
+                                    },
+                                    {
+                                        id: 682, label: 682, type: "Author", authorname:'David Campbell',
+                                        institution:'Microsoft'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 688, label: 688, type:"Paper", title:'Principles for Inconsistency',
+                                author:[
+                                    {
+                                        id: 691, label: 691, type: "Author", authorname:'Shel Finkelstein',
+                                        institution:'SAP'
+                                    },
+                                    {
+                                        id: 695, label: 695, type: "Author", authorname:'Dean Jacobs',
+                                        institution:'SAP'
+                                    },
+                                    {
+                                        id: 699, label: 699, type: "Author", authorname:'Rainer Brendle',
+                                        institution:'SAP'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 705, label: 705, type:"Paper", title:'SCADS: Scale-Independent Storage for Social Computing Applications',
+                                author:[
+                                    {
+                                        id: 708, label: 708, type: "Author", authorname:'Michael Armbrust',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 712, label: 712, type: "Author", authorname:'Armando Fox',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 716, label: 716, type: "Author", authorname:'David Patterson',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 720, label: 720, type: "Author", authorname:'Nick Lanham',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 724, label: 724, type: "Author", authorname:'Beth Trushkowsky',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 728, label: 728, type: "Author", authorname:'Jesse Trutna',
+                                        institution:'UC Berkeley'
+                                    },
+                                    {
+                                        id: 732, label: 732, type: "Author", authorname:'Haruki Oh',
+                                        institution:'UC Berkeley'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 740, label: 740, type:"Session", sessionname:'Panel 2: Pouring Data',
+                    startdate:'2009-1-6 8:15 PM',
+                    enddate:'2009-1-6 9:30 PM',
+                                            presentation:[
+                            {
+                                id: 745, label: 745, type:"Paper", title:'Harnessing the Deep Web: Present and Future',
+                                author:[
+                                    {
+                                        id: 748, label: 748, type: "Author", authorname:'Jayant Madhavan',
+                                        institution:'Google Inc.'
+                                    },
+                                    {
+                                        id: 752, label: 752, type: "Author", authorname:'Loredana Afanasiev',
+                                        institution:'Universiteit van Amsterdam'
+                                    },
+                                    {
+                                        id: 756, label: 756, type: "Author", authorname:'Lyublena Antova',
+                                        institution:'Cornell University'
+                                    },
+                                    {
+                                        id: 760, label: 760, type: "Author", authorname:'Alon Halevy',
+                                        institution:'Google'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 766, label: 766, type:"Paper", title:'The Case for a Structured Approach to Managing Unstructured Data',
+                                author:[
+                                    {
+                                        id: 769, label: 769, type: "Author", authorname:'AnHai Doan',
+                                        institution:'Univ of Wisconsin'
+                                    },
+                                    {
+                                        id: 773, label: 773, type: "Author", authorname:'Jeff Naughton',
+                                        institution:'Wisconsin'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 779, label: 779, type:"Paper", title:'SocialScope: Enabling Information Discovery on Social Content Sites',
+                                author:[
+                                    {
+                                        id: 782, label: 782, type: "Author", authorname:'Sihem Amer-Yahia',
+                                        institution:'Yahoo! Research'
+                                    },
+                                    {
+                                        id: 786, label: 786, type: "Author", authorname:'Laks Lakshmanan',
+                                        institution:'UBC'
+                                    },
+                                    {
+                                        id: 790, label: 790, type: "Author", authorname:'Cong Yu',
+                                        institution:'Yahoo! Research'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 796, label: 796, type:"Paper", title:'Sailing the Information Ocean with Awareness of Currents: Discovery and Application of Source Dependence',
+                                author:[
+                                    {
+                                        id: 799, label: 799, type: "Author", authorname:'Laure Berti-Equille',
+                                        institution:'Universite de Rennes 1'
+                                    },
+                                    {
+                                        id: 803, label: 803, type: "Author", authorname:'Anish Das Sarma',
+                                        institution:'Stanford University'
+                                    },
+                                    {
+                                        id: 807, label: 807, type: "Author", authorname:'Xin (Luna) Dong',
+                                        institution:'AT&T Labs-Research'
+                                    },
+                                    {
+                                        id: 811, label: 811, type: "Author", authorname:'Amelie Marian',
+                                        institution:'Rutgers University'
+                                    },
+                                    {
+                                        id: 815, label: 815, type: "Author", authorname:'Divesh Srivastava',
+                                        institution:'ATT Labs-Research'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 823, label: 823, type:"Session", sessionname:'Breakfast',
+                    startdate:'2009-1-7 7:00',
+                    enddate:'2009-1-7 8:30'
+                },
+                {
+                    id: 828, label: 828, type:"Session", sessionname:'Invited Talk 2',
+                    startdate:'2009-1-7 8:30',
+                    enddate:'2009-1-7 9:30',
+                                            presentation:{
+                            id: 832, label: 832, type:"Paper", title:'James Hamilton (Microsoft): Cooperative Expendable Micro-Slice Servers'
+                        }
+                },
+                {
+                    id: 836, label: 836, type:"Session", sessionname:'Power 1: Green Data',
+                    startdate:'2009-1-7 9:30',
+                    enddate:'2009-1-7 10:15',
+                                            presentation:[
+                            {
+                                id: 841, label: 841, type:"Paper", title:'Energy Efficiency: The New Holy Grail of Data Management Systems Research',
+                                author:[
+                                    {
+                                        id: 844, label: 844, type: "Author", authorname:'Stavros Harizopoulos',
+                                        institution:'HP Labs'
+                                    },
+                                    {
+                                        id: 848, label: 848, type: "Author", authorname:'Mehul Shah',
+                                        institution:{
+                                        }
+                                    },
+                                    {
+                                        id: 853, label: 853, type: "Author", authorname:'Parthasarathy Ranganathan',
+                                        institution:'HP Labs'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 859, label: 859, type:"Paper", title:'Towards Eco-friendly Database Management Systems',
+                                author:[
+                                    {
+                                        id: 862, label: 862, type: "Author", authorname:'Willis Lang',
+                                        institution:'University of Wisconsin-Madison'
+                                    },
+                                    {
+                                        id: 866, label: 866, type: "Author", authorname:'Jignesh Patel',
+                                        institution:'Wisconsin'
+                                    }
+                                ]
+                            }
+                        ]
+                },
+                {
+                    id: 874, label: 874, type:"Session", sessionname:'Coffee Break and Checkout',
+                    startdate:'2009-1-7 10:15',
+                    enddate:'2009-1-7 11:00'
+                },
+                {
+                    id: 879, label: 879, type:"Session", sessionname:'Storage Redux',
+                    startdate:'2009-1-7 11:00',
+                    enddate:'2009-1-7 12:15 PM',
+                                            presentation:[
+                            {
+                                id: 884, label: 884, type:"Paper", title:' uFLIP: Understanding Flash IO Patterns',
+                                author:[
+                                    {
+                                        id: 887, label: 887, type: "Author", authorname:'Luc Bouganim',
+                                        institution:'INRIA'
+                                    },
+                                    {
+                                        id: 891, label: 891, type: "Author", authorname:'Bj_É¬_rn J_É¬_nsson',
+                                        institution:'Reykjav_Ék University'
+                                    },
+                                    {
+                                        id: 895, label: 895, type: "Author", authorname:'Philippe Bonnet',
+                                        institution:'Department of Computer Science, University of Copenhagen'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 901, label: 901, type:"Paper", title:'Unbundling Transaction Services in the Cloud',
+                                author:[
+                                    {
+                                        id: 904, label: 904, type: "Author", authorname:'David Lomet',
+                                        institution:'Microsoft Research'
+                                    },
+                                    {
+                                        id: 908, label: 908, type: "Author", authorname:'Alan Fekete',
+                                        institution:'University of Sydney'
+                                    },
+                                    {
+                                        id: 912, label: 912, type: "Author", authorname:'Gerhard Weikum',
+                                        institution:'Max Plank Institute'
+                                    },
+                                    {
+                                        id: 916, label: 916, type: "Author", authorname:'Mike Zwilling',
+                                        institution:'Microsoft SQL Server'
+                                    },
+                                    {
+                                        id: 920, label: 920, type: "Author", authorname:'The Case for RodentStore',
+                                        institution:' an Adaptive,Declarative Storage System'
+                                    },
+                                    {
+                                        id: 924, label: 924, type: "Author", authorname:'Philippe Cudre-Mauroux',
+                                        institution:'MIT'
+                                    },
+                                    {
+                                        id: 928, label: 928, type: "Author", authorname:'Eugene Wu',
+                                        institution:'MIT'
+                                    },
+                                    {
+                                        id: 932, label: 932, type: "Author", authorname:'Sam Madden',
+                                        institution:'MIT'
+                                    }
+                                ]
+                            },
+                            {
+                                id: 938, label: 938, type:"Paper", title:'Teaching an Old Elephant New Tricks',
+                                author:{
+                                    id: 940, label: 940, type: "Author", authorname:'Nicolas Bruno',
+                                    institution:'Microsoft'
+                                }
+                            }
+                        ]
+                },
+                {
+                    id: 947, label: 947, type:"Session", sessionname:'Best Paper Award and Closing Remarks',
+                    startdate:'2009-1-7 12:00 PM',
+                    enddate:'2009-1-7 12:30 PM'
+                },
+                {
+                    id: 952, label: 952, type:"Session", sessionname:'Lunch',
+                    startdate:'2009-1-7 12:30 PM',
+                    enddate:'2009-1-7 1:30 PM'
+                }
+            ]
+}

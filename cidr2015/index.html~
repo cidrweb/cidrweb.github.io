@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="The 7th biennial Conference on Innovative Data Systems Research (CIDR 2015)" />
+	<meta name="keywords" content="CIDR 2015, Asilomar Conference, Innovative Data Systems Research" />
+	<meta name="author" content="Jena Bakula" />
+	<link rel="stylesheet" type="text/css" href="andreas01.css" media="screen,projection" />
+	<link rel="stylesheet" type="text/css" href="http://www.cidrdb.org/cidr2013/print.css" media="print" />
+	<title>CIDR 2015</title>
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+theImages[0] = 'img/asilomar2.jpg'
+
+// do not edit anything below this line
+
+var p = theImages.length;
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+function showImage(){
+
+document.write('<div id="masthead">');
+
+document.write('<img src="' + theImages[whichImage] + '" alt="" width="760" height="200" /></a>');
+
+document.write('</div>');
+
+}
+
+//  End -->
+
+</script>
+
+
+
+</head>
+
+<body>
+<div id="wrap">
+
+	<div id="header">
+		<h1><a href="index.html">CIDR 2015</a></h1>
+		<p>January 4-7, 2015        <span style="padding-left:30px">  Asilomar, California</span></p>
+	</div>
+
+<!--
+	<img id="frontphoto" src="img/asilomar1.jpg" width="760" height="200" alt="" />
+-->
+	<script language="JavaScript">
+	  
+	  showImage();
+	  
+	</script>
+
+	<div id="leftside">
+		<h2 class="hide">Menu:</h2>
+		
+		<ul class="avmenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cfp.html">Call For Papers</a></li>
+			<li><a href="org.html">Organization</a></li>
+			<li><a href="program.html">Program and Papers</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			<li><a href="http://www.visitasilomar.com">Venue Information</a></li>
+			<li><a href="../index.html">Previous Conferences</a>
+				<ul>
+					<li><a href="http://www.cidrdb.org/cidr2013/index.html">
+                                         CIDR 2013</a></li>
+                                        <li><a href="../cidr2011/index.html">CIDR 2011</a></li>
+					<li><a href="../cidr2009/index.html">CIDR 2009</a></li>
+					<li><a href="../cidr2007/index.html">CIDR 2007</a></li>
+					<li><a href="../cidr2005/index.html">CIDR 2005</a></li>
+					<li><a href="../cidr2003/index.html">CIDR 2003</a></li>
+				</ul>
+			</li>
+<!--
+			<li><a class="current" href="index2.html">2-column layout A</a></li>
+			<li><a href="index3.html">2-column layout B</a></li>
+			<li><a href="print.html">Print stylesheet</a></li>
+-->
+		</ul>
+		
+<!--
+		<div class="announce">
+			<p><p>
+			<h2>Site Updates:</h2>
+			<p><strong>Jun 18, 2010:</strong><br />Site Launched!</p>
+			<p class="textright"><a href="#">Sample link &raquo;</a></p>
+		</div>
+-->
+	</div>
+
+	<div id="contentwide">
+		<h2>General information</h2>
+		<p>
+		  The biennial Conference on Innovative Data Systems Research (CIDR) is a 
+		  systems-oriented conference, complementary in its mission to the mainstream 
+		  database conferences like SIGMOD and VLDB, emphasizing the systems architecture 
+		  perspective. CIDR gathers researchers and practitioners from both academia 
+		  and industry to discuss the latest innovative and visionary ideas in the field.
+
+		<p>
+		  Papers are invited on novel approaches to data systems architecture and usage. <br>
+		  <img src="img/chapel.jpg" height="120" width="160" class="right" alt="Conference Venue" />
+		  CIDR mainly encourages papers about
+		  innovative and risky data management system architecture ideas, 
+		  systems-building experience and insight, 
+		  resourceful experimental studies, 
+		  provocative position statements. 
+		  CIDR especially values innovation, experience-based insight, and vision.
+
+		<p>
+		  <b><a href="cfp.html"> Call for Papers</a></b> 
+		   
+		  
+		<p>
+		  As usual, the conference will be held at the Asilomar Conference Grounds on the 
+		  Pacific Ocean just south of Monterey, CA. The program will include: keynotes, 
+		  paper presentations, panels, a gong-show and plenty of time for interaction.
+		
+		  		  
+
+		  <p>
+		<h3>Important Dates</h3><b>(all deadlines are 11:59pm Pacific Time)</b>
+		<ul> 
+		<li><b>August 19, 2014: abstract submission deadline</li>
+		<li><b>August 19, 2014: regular paper submission deadline</li>
+		<li><b>October 13, 2014: author notification for regular papers</li>
+		<li><b>November 21, 2014: camera-ready deadline for regular papers</li>
+		<li><b>January 4-7, 2015: conference</li>
+		<ul>
+                
+<!--
+<br>
+<p>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=35cmbs7mbq2ui29mideocu2v58%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="500" height="300" frameborder="0" scrolling="no"></iframe>
+-->
+	</div>
+
+	<div id="footer">
+	  <p><span>&copy; 2012 <a href="index.html#">CIDR Conference</a></span><br />
+	    Template design by <a href="http://andreasviklund.com/">Andreas Viklund</a><br />
+	    Header pictures by <a href="http://people.epfl.ch/pinar.tozun">Pinar Tozun</a></p>
+	</div>
+
+</div>
+</body>
+</html>

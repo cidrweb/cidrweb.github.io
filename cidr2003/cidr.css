@@ -1,0 +1,90 @@
+<!-- Stylesheet CIDR 2003 -->
+
+
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Global				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+BODY {
+	background: #ffffff
+}
+
+.foo {
+	width: 650px
+}
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Header				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Section				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+.sectionBG {
+	background: #cffcbb
+}
+
+.sectionTxt {
+	font-size: 14pt;
+	font-family: Arial, Verdana, Helvetica;
+	font-weight: normal
+}
+
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Subsection				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+
+.subsectionHeaderBG {
+	background: 	#5db954
+}
+
+.subsectionBG {
+	background:	#f4fecc
+}
+
+.contentSubsectionTxt {
+	font-size: 16pt;
+	font-family: Arial, Verdana, Helvetica;
+	font-weight: normal;
+	color: #ffffff
+}
+
+.subsectionLinkTxt {
+	font-size: 8pt;
+	font-family: Arial, Verdana, Helvetica;
+	font-weight: normal;
+	color: #000000
+}
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Content				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+
+.contentTxt {
+	font-size: 14pt;
+	font-family: Arial, Verdana, Helvetica;
+	font-weight: normal
+}
+
+.contentBG {
+	background:	#ffffff		
+}
+<!--++++++++++++++++++++++++++++++++++++-->
+<!-- 					-->
+<!-- Footer				-->
+<!-- 					-->
+<!--++++++++++++++++++++++++++++++++++++-->
+
+.footerTxt {
+        font-size : 8pt;
+        font-family : Arial, Verdana, Helvetica;
+        font-weight : normal
+} 
+

@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang=en-us>
+  <head>
+    <title>CIDR 2003</title>
+    <link rel=StyleSheet href="cidr.css" type="text/css">
+    <meta name="author" content="Vuk Ercegovac">
+  </head>
+  
+  <body>
+    <table border="0" width="650" cellpadding="0" cellspacing="0">
+      
+      <!--++++++++++++++++++++++++++++++++++++-->
+      <!-- 					-->
+      <!-- Header				-->
+      <!-- 					-->
+      <!--++++++++++++++++++++++++++++++++++++-->
+	<tr>
+	  <td>
+	    <table width="650" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		  <td>
+		    <img src="images/lonetree_banner.jpg" border="0" width="650" alt="lone cypress">
+		  </td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	
+	<tr>
+	  
+	  <td>
+	    
+	    <table border="0" width="650" cellspacing="0" cellpadding="0">
+	      
+		<tr>
+		  <td class="sectionBG" valign="top">
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <!-- 				    -->
+		    <!-- Section			    -->
+		    <!-- 				    -->
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <table border="0" width="150" cellspacing="5" cellpadding="0" >
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis000.gif" border="0"><a href="index.html">Welcome</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="call_2003.html">Call For Papers</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="http://cmt.research.microsoft.com/CIDR2002/CallForPapers.asp" target="_blank">Paper Submission</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="https://teller.doit.wisc.edu/cidr/cgi-bin/cidr2003conreg.cgi">Registration</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="organization_2003.html">Organization</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="http://www.asilomarcenter.com" target="_blank">Venue Information</a></font></td>
+			</tr>
+			<tr>
+			  <td>
+			    <a href="http://www.vldb.org" target="_blank"><img src="images/vldb.gif" border="0" width="100" height="100"></a>
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  		  
+		  <td valign="top" class=contentBG>
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <!-- 				    -->
+		    <!-- Content			    -->
+		    <!-- 				    -->
+		    <!--++++++++++++++++++++++++++++++++++++-->		    
+		    <table border="0" cellpadding="0" cellspacing="0" width="500">
+			<tr>
+			  <td class=subsectionHeaderBG><a name="purpose"></a><font class=contentSubsectionTxt>Purpose</font></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+		        <tr>
+			  <td>
+			    <table border="0" cellpadding="0" cellspacing="0" width="500">
+				<tr>
+				  <td>
+				    <table border="0" cellpadding="0" cellspacing="0" width="375">
+					<tr>
+					  <td>
+					    <font class=contentTxt>CIDR offers a venue for the presentation of on innovative data systems architectures, as well as a prestigious publication opportunity. Such papers are typically speculative or are system evaluations. The visionary papers usually lack rigorous frameworks, simulations of performance, or prototype implementations. The prototype descriptions generally are a detailed report on successes and mistakes. There is no venue among the major DBMS conferences for papers on such work. Traditional conferences usually reject such submissions. However, these are often the very papers that offer long term value to the field, and should be widely disseminated. CIDR will not compete with the established conferences presenting rigorous treatises in established areas; rather its goal is to air radically new ideas.</font>
+					    <p><font class=contentTxt>The conference will be single-tracked. Proceedings will be published both as a website and in book form. The conference will run every-other year, typically in the fall or winter during non-HTPS years.</font>
+					  </td>
+					</tr>
+				    </table>
+				  </td>
+				  <td valign="top">
+				    <table border="0" cellpadding="0" cellspacing="0" width="120" class=subsectionBG>
+					<tr>
+					  <td align="center">
+					    <font class=subsectionLinkTxt><a href="#purpose">Purpose</a></font>
+					  </td>
+					</tr>
+					<tr>
+					  <td align="center">
+					    <font class=subsectionLinkTxt><a href="#sponsorship">Sponsorship</a></font>
+					  </td>
+					</tr>
+					<tr>
+					  <td align="center">
+					    <font class=subsectionLinkTxt><a href="#dates">Important Dates</a></font>
+					  </td>
+					</tr>
+				    </table>
+				  </td>
+				</tr>
+			    </table>
+			  </td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td class=subsectionHeaderBG><a name="sponsorship"></a><font class=contentSubsectionTxt>Sponsorship</font></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>	
+			    <font class=contentTxt>		    
+			    The CIDR conference is sponsored by the VLDB Foundation in co-operation with ACM SIGMOD.
+			    </font>
+			  </td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td class=subsectionHeaderBG><a name="dates"></a><font class=contentSubsectionTxt>Important Dates</font></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>	
+			    <font class=contentTxt>		    
+			    <ul>
+			      <li>Submissions: August 8, 2002
+			      <li>Acceptance: October 20, 2002
+			      <li>Final Versions: December 1, 2002
+			      <li>Conference: January 5-8, 2003
+			    </ul>
+			    </font>
+			  </td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+		    </table>
+		  </td>		  
+		</tr>
+	    </table>
+	  </td>
+	  
+	</tr>
+	
+	<!--++++++++++++++++++++++++++++++++++++-->
+	<!-- 					-->
+	<!-- Footer				-->
+	<!-- 					-->
+	<!--++++++++++++++++++++++++++++++++++++-->
+	<tr>
+	  <td>
+	    <table border="0" width="650" cellspacing="0" cellpadding="0" class="sectionBG">
+		<tr>
+		  <td>
+		    <table border="0" width="150" cellspacing="0" cellpadding="0">
+			<tr>
+			  <td>
+			    &nbsp;
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  
+		  <td class=contentBG>
+		    <table border="0" width="500" cellspacing="5" cellpadding="0">
+			<tr>
+			  <td class=subsectionHeaderBG><img src="images/pix_none.gif"  width="1" height="1" border="0"></td>
+			</tr>
+			<tr>
+			  <td align="center">
+			    <font class="footerTxt"><a href="index.html">Welcome</a> | <a href="call_2003.html">Call For Papers</a> | <a href="http://cmt.research.microsoft.com/CIDR2002/CallForPapers.asp" target="_blank">Paper Submission</a> | <a href="https://teller.doit.wisc.edu/cidr/cgi-bin/cidr2003conreg.cgi">Registration</a> | <a href="organization_2003.html">Organization</a> | <a href="http://www.asilomarcenter.com" target="_blank">Venue Information</a></font><br>
+			    <font class="footerTxt">Copyright Information</font><br>
+			    <font class="footerTxt"><a href="about.html" target="_blank">About the site</a></font><br>
+			    <font class="footerTxt">Last modified: Sun Apr  7 13:49:09 CDT 2002</font>
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	
+    </table>    
+  </body>
+</html>

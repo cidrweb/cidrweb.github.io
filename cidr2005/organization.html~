@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang=en-us>
+  <head>
+    <title>CIDR 2005 Organization</title>
+    <link rel=StyleSheet href="cidr.css" type="text/css">
+    <meta name="author" content="Vuk Ercegovac">
+  </head>
+  
+  <body>
+    <table border="0" width="650" cellpadding="0" cellspacing="0">
+      
+      <!--++++++++++++++++++++++++++++++++++++-->
+      <!-- 					-->
+      <!-- Header				-->
+      <!-- 					-->
+      <!--++++++++++++++++++++++++++++++++++++-->
+	<tr>
+	  <td>
+	    <table width="650" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		  <td>
+		    <img src="images/asilomarBoardwalk.jpg" border="0" width="650" alt="asilomar">
+		  </td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	
+	<tr>
+	  
+	  <td>
+	    
+	    <table border="0" width="650" cellspacing="0" cellpadding="0">
+	      
+		<tr>
+		  <td class="sectionBG" valign="top">
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <!-- 				    -->
+		    <!-- Section			    -->
+		    <!-- 				    -->
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <table border="0" width="175" cellspacing="5" cellpadding="0" >
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="index.html">Welcome</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="call.html">Call For Papers</a></font></td>
+			</tr>
+<!--
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0">
+<a href="http://msrcmt.research.microsoft.com/CIDR05" target="_blank">Paper Submission</a></font></td>
+			</tr>
+-->
+			<tr>
+              <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="program.html">Program</a></font></td>
+            </tr>
+                <tr> 
+                   <td><font class=sectionTxt><img 
+src="images/axis015.gif" border="0"><a
+href="cidr05cd-rom.tar.gz">Electronic Proceedings</a></font></td>
+                </tr>
+
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="reg.html">Registration</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis000.gif" border="0"><a href="organization.html">Organization</a></font></td>
+			</tr>
+			<tr>
+			  <td><font class=sectionTxt><img src="images/axis015.gif" border="0"><a href="http://www.asilomarcenter.com" target="_blank">Venue Information</a></font></td>
+			</tr>
+			<tr>
+			  <td>
+			    <a href="http://www.vldb.org" target="_blank"><img src="images/vldb.gif" border="0" width="100" height="100"></a>
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  		  
+		  <td valign="top" class=contentBG>
+		    <!--++++++++++++++++++++++++++++++++++++-->
+		    <!-- 				    -->
+		    <!-- Content			    -->
+		    <!-- 				    -->
+		    <!--++++++++++++++++++++++++++++++++++++-->		    
+		    <table border="0" cellpadding="0" cellspacing="0" width="475">
+			<tr>
+			  <td class=subsectionHeaderBG><a name="organization"></a><font class=contentSubsectionTxt>Organization</font></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+		        <tr>
+			  <td>
+			    <table border="0" cellpadding="0" cellspacing="0" width="475">
+				<tr>
+				  <td>
+				    <table border="0" cellpadding="0" cellspacing="0" width="375">
+					<tr>
+					  <td>
+					    <font class=contentTxt>
+<h3>Organization</h3>
+The conference is organized by the 28 people listed below who peer-review the submissions. The organizing committee is a 
+continuing organization with rotating committee members.  The conference is held every second year.  </font>
+					  </td>
+					</tr>
+				    </table>
+				  </td>
+				  <td valign="top">
+				    <table border="0" cellpadding="0" cellspacing="0" width="120" class=subsectionBG>
+					<tr>
+					  <td align="center">
+					    <font class=subsectionLinkTxt><a href="#oraganization">Organization</a></font>
+					  </td>
+					</tr>
+					<tr>
+					  <td align="center">
+					    <font class=subsectionLinkTxt><a href="#committee">Organizing Committee</a></font>
+					  </td>
+					</tr>
+				    </table>
+				  </td>
+				</tr>
+			    </table>
+			  </td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td class=subsectionHeaderBG><a name="committee"></a><font class=contentSubsectionTxt>Organizing Committee</font></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>	
+			    <font class=contentTxt>
+			    <h3>Organizing Committee</h3>		    
+			    <ul>
+			      <li>Anastassia Ailamaki
+			      <li>Phil Bernstein
+			      <li>Mike Carey
+			      <li>Surajit Chaudhuri
+			      <li>Mitch Cherniack
+			      <li>Sophie Cluet
+			      <li>David Dewitt (general chair)
+			      <li>Dana Florescu
+			      <li>Mike Franklin
+			      <li>Dieter Gawlick
+			      <li>Goetz Graefe
+			      <li>Jim Gray (ex-officio)
+			      <li>Hector Garcia-Molina
+			      <li>Laura Haas
+			      <li>Alon Halevy
+			      <li>Joey Hellerstein
+			      <li>Martin Kersten
+			      <li>Donald Kossmann
+			      <li>Sam Madden
+			      <li>Renee Miller
+			      <li>Jeff Naughton
+			      <li>Hamid Pirahesh
+			      <li>Hans Schek
+			      <li>Avi Silbershatz
+			      <li>Mike Stonebraker (PC-chair)
+			      <li>Jennifer Widom
+			      <li>Gerhard Weikum (co-chair)
+			      <li>Stan Zdonik
+			    </ul>
+			    </font>
+			  </td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+		    </table>
+		  </td>		  
+		</tr>
+	    </table>
+	  </td>
+	  
+	</tr>
+	
+	<!--++++++++++++++++++++++++++++++++++++-->
+	<!-- 					-->
+	<!-- Footer				-->
+	<!-- 					-->
+	<!--++++++++++++++++++++++++++++++++++++-->
+	<tr>
+	  <td>
+	    <table border="0" width="650" cellspacing="0" cellpadding="0" class="sectionBG">
+		<tr>
+		  <td>
+		    <table border="0" width="175" cellspacing="0" cellpadding="0">
+			<tr>
+			  <td>
+			    &nbsp;
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  
+		  <td class=contentBG>
+		    <table border="0" width="475" cellspacing="5" cellpadding="0">
+			<tr>
+			  <td class=subsectionHeaderBG><img src="images/pix_none.gif"  width="1" height="1" border="0"></td>
+			</tr>
+			<tr>
+			  <td align="center">
+			    <font class="footerTxt">
+			    <a href="index.html">Welcome</a> | 
+			    <a href="call.html">Call For Papers</a> | 
+			    <!--<a href="http://cmt.research.microsoft.com/CIDR2002/CallForPapers.asp" target="_blank">-->Paper Submission<!--</a>--> | 
+			    <a href="reg.html">Registration</a> | 
+			    <a href="organization.html">Organization</a> | 
+			    <a href="http://www.asilomarcenter.com" target="_blank">Venue Information</a></font><br>
+			    <font class="footerTxt">Copyright Information</font><br>
+			    <font class="footerTxt"><a href="about.html" target="_blank">About the site</a></font><br>
+			    <font class="footerTxt">Last modified: Mon Jan  26 11:05:27 CDT 2004</font>
+			  </td>
+			</tr>
+		    </table>
+		  </td>
+		  
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	
+    </table>
+  </body>
+</html>

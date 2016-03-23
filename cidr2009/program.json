@@ -1,0 +1,982 @@
+{
+        items : [
+            
+                {
+                    name : 'Registration',
+                    startdate : '2009-1-4 3:00 PM',
+                    enddate : '2009-1-4 6:00 PM'
+                },
+                {
+                    name : 'Dinner',
+                    startdate : '2009-1-4 6:00 PM',
+                    enddate : '2009-1-4 7:00 PM'
+                },
+                {
+                    name : 'Evening Get-together',
+                    startdate : '2009-1-4 7:00 PM',
+                    enddate : '2009-1-4 10:00 PM'
+                },
+                {
+                    name : 'Breakfast',
+                    startdate : '2009-1-5 7:00',
+                    enddate : '2009-1-5 8:30'
+                },
+                {
+                    name : 'Invited Talk 1',
+                    startdate : '2009-1-5 8:30',
+                    enddate : '2009-1-5 9:30'
+                },
+                {
+                    name : 'Big Science Data',
+                    startdate : '2009-1-5 9:30',
+                    enddate : '2009-1-5 10:30',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Social Systems :  Can we Do More Than Just Poke Friends?',
+                                author : [
+                                    {
+                                        name : 'Georgia Koutrika',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Benjamin Bercovitz',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Robert Ikeda',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Filip Kaliszan',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Henry Liou',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Zahra Mohammadi Zadeh',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Hector Garcia-Molina',
+                                        institution : 'Stanford University'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'From Declarative Languages to Declarative Processing in Computer Games',
+                                author : [
+                                    {
+                                        name : 'Benjamin Sowell',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Alan Demers',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Johannes Gehrke',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Nitin Gupta',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Haoyuan Li',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Walker White',
+                                        institution : 'Cornell University'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Declarative Reconfigurable Trust Management',
+                                author : [
+                                    {
+                                        name : 'William Marczak',
+                                        institution : 'University of Pennsylvania'
+                                    },
+                                    {
+                                        name : 'David Zook',
+                                        institution : 'LogicBlox'
+                                    },
+                                    {
+                                        name : 'Wenchao Zhou',
+                                        institution : 'University of Pennsylvania'
+                                    },
+                                    {
+                                        name : 'Molham Aref',
+                                        institution : 'LogicBlox'
+                                    },
+                                    {
+                                        name : 'Boon Thau Loo',
+                                        institution : 'U. Pennsylvania'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Coffee Break',
+                    startdate : '2009-1-5 10:30',
+                    enddate : '2009-1-5 11:00'
+                },
+                {
+                    name : 'Text,XML,and Integration',
+                    startdate : '2009-1-5 11:00',
+                    enddate : '2009-1-5 12:30 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Interactive Data Integration through Smart Copy & Paste',
+                                author : [
+                                    {
+                                        name : 'Zachary Ives',
+                                        institution : 'University Of Pennsylvania'
+                                    },
+                                    {
+                                        name : 'Craig Knoblock',
+                                        institution : 'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        name : 'Steve Minton',
+                                        institution : 'Fetch Technologies'
+                                    },
+                                    {
+                                        name : 'Marie Jacob',
+                                        institution : 'University of Pennsylvania'
+                                    },
+                                    {
+                                        name : 'Partha Talukdar',
+                                        institution : 'University of Pennsylvania'
+                                    },
+                                    {
+                                        name : 'Rattapoom Tuchinda',
+                                        institution : 'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        name : 'Jose Luis Ambite',
+                                        institution : 'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        name : 'Maria Muslea',
+                                        institution : 'University of Southern California - Information Sciences Institute'
+                                    },
+                                    {
+                                        name : 'Cenk Gazen',
+                                        institution : 'Fetch Technologies'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Search Driven Analysis of Heterogenous XML Data',
+                                author : [
+                                    {
+                                        name : 'Andrey Balmin',
+                                        institution : 'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        name : 'Latha Colby',
+                                        institution : 'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        name : 'Emiran Curtmola',
+                                        institution : 'UC, San Diego'
+                                    },
+                                    {
+                                        name : 'Quanzhong Li',
+                                        institution : 'IBM Almaden Research Center'
+                                    },
+                                    {
+                                        name : 'Fatma Ozcan',
+                                        institution : 'IBM Almaden Research Center'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Qunits :  queried units in database search',
+                                author : [
+                                    {
+                                        name : 'Arnab Nandi',
+                                        institution : 'University of Michigan'
+                                    },
+                                    {
+                                        name : 'H V Jagadish',
+                                        institution : 'University of Michigan'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Lunch',
+                    startdate : '2009-1-5 12:30 PM',
+                    enddate : '2009-1-5 1:30 PM'
+                },
+                {
+                    name : 'Streams and Platforms',
+                    startdate : '2009-1-5 1:30 PM',
+                    enddate : '2009-1-5 3:00 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Boosting XML filtering through a scalable FPGA-based architecture',
+                                author : [
+                                    {
+                                        name : 'Abhishek Mitra',
+                                        institution : 'UC Riverside'
+                                    },
+                                    {
+                                        name : 'Marcos Vieira',
+                                        institution : 'UCR'
+                                    },
+                                    {
+                                        name : 'Petko Bakalov',
+                                        institution : 'ESRI'
+                                    },
+                                    {
+                                        name : 'Vassilis Tsotras',
+                                        institution : 'UCR'
+                                    },
+                                    {
+                                        name : 'Walid Najjar',
+                                        institution : 'UCR'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Capturing Data Uncertainty in High-Volume Stream Processing',
+                                author : [
+                                    {
+                                        name : 'Yanlei Diao',
+                                        institution : 'U. Massachusetts-Amherst'
+                                    },
+                                    {
+                                        name : 'Anna Liu',
+                                        institution : 'UMass Amherst'
+                                    },
+                                    {
+                                        name : 'Liping Peng',
+                                        institution : 'UMass Amherst'
+                                    },
+                                    {
+                                        name : 'Charles Sutton',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Thanh Tran',
+                                        institution : 'UMass Amherst'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Inter-Operator Feedback in Data Stream Management Systems via Punctuation',
+                                author : [
+                                    {
+                                        name : 'Rafael Fernandez-Moctezuma',
+                                        institution : 'Portland State University'
+                                    },
+                                    {
+                                        name : 'Kristin Tufte',
+                                        institution : 'Portland State University'
+                                    },
+                                    {
+                                        name : 'Jin Li',
+                                        institution : 'Portland State University'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'A Scalable Data Platform for a Large Number of Small Applications',
+                                author : [
+                                    {
+                                        name : 'Fan Yang',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Jayavel Shanmugasun',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'Ramana Yerneni',
+                                        institution : {
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Coffee Break',
+                    startdate : '2009-1-5 3:30 PM',
+                    enddate : '2009-1-5 3:30 PM'
+                },
+                {
+                    name : 'Scientific and Numeric Data',
+                    startdate : '2009-1-5 3:30 PM',
+                    enddate : '2009-1-5 5:00 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Data Management for High-Throughput Genomics',
+                                author : [
+                                    {
+                                        name : 'Uwe Roehm',
+                                        institution : 'University of Sydney'
+                                    },
+                                    {
+                                        name : 'Jose Blakeley',
+                                        institution : 'Microsoft'
+                                    },
+                                    {
+                                        name : 'LifeRaft :  Data-Driven',
+                                        institution : 'Batch Processing for the Exploration of Scientific Databases'
+                                    },
+                                    {
+                                        name : 'Xiaodan Wang',
+                                        institution : 'Johns Hopkins University'
+                                    },
+                                    {
+                                        name : 'Randal Burns',
+                                        institution : 'Johns Hopkins'
+                                    },
+                                    {
+                                        name : 'Tanu Malik',
+                                        institution : 'Purdue University'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Requirements for Science Data Bases and SciDB',
+                                author : [
+                                    {
+                                        name : 'Mike Stonebraker',
+                                        institution : 'MIT'
+                                    },
+                                    {
+                                        name : 'Jacek Becla',
+                                        institution : 'Stanford Linear Accelerator'
+                                    },
+                                    {
+                                        name : 'Kian-Tat Lim',
+                                        institution : 'Stanford Linear Accelerator'
+                                    },
+                                    {
+                                        name : 'Stan Zdonik',
+                                        institution : 'Brown University'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'RIOT :  I/O-Efficient Numerical Computing without SQL',
+                                author : [
+                                    {
+                                        name : 'Yi Zhang',
+                                        institution : 'Duke University'
+                                    },
+                                    {
+                                        name : 'Herodotos Herodotou',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'Jun Yang',
+                                        institution : 'Duke'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Dinner',
+                    startdate : '2009-1-5 6:00 PM',
+                    enddate : '2009-1-5 7:00 PM'
+                },
+                {
+                    name : 'Gong Show',
+                    startdate : '2009-1-5 7:15 PM',
+                    enddate : '2009-1-5 9:30 PM'
+                },
+                {
+                    name : 'Breakfast',
+                    startdate : '2009-1-6 7:00 PM',
+                    enddate : '2009-1-6 8:30 PM'
+                },
+                {
+                    name : 'Querying the Giants',
+                    startdate : '2009-1-6 8:30 PM',
+                    enddate : '2009-1-6 10:30',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Extracting and Querying a Comprehensive Web Database',
+                                author : {
+                                    name : 'Michael Cafarella',
+                                    institution : 'University of Washington'
+                                }
+                            },
+                            {
+                                title : 'Interactive Analysis of Web-Scale Data',
+                                author : [
+                                    {
+                                        name : 'Christopher Olston',
+                                        institution : 'Yahoo! Research'
+                                    },
+                                    {
+                                        name : 'Khaled Elmeleegy',
+                                        institution : 'Yahoo! Research'
+                                    },
+                                    {
+                                        name : 'Flavio Junqueira',
+                                        institution : 'Yahoo! Research'
+                                    },
+                                    {
+                                        name : 'Benjamin Reed',
+                                        institution : 'Yahoo! Research'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Continuous Analytics :  Rethinking Query Processing in a Network-Effect World',
+                                author : [
+                                    {
+                                        name : 'Michael Franklin',
+                                        institution : 'Truviso'
+                                    },
+                                    {
+                                        name : 'Sailesh Krishnamurthy',
+                                        institution : 'Truviso'
+                                    },
+                                    {
+                                        name : 'Neil Conway',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Alan Li',
+                                        institution : 'Truviso'
+                                    },
+                                    {
+                                        name : 'Alex Russakovsky',
+                                        institution : 'Truviso'
+                                    },
+                                    {
+                                        name : 'Neil Thombre',
+                                        institution : 'Truviso'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Remembrance :  The Unbearable Sentience of Being Digital',
+                                author : [
+                                    {
+                                        name : 'Ragib Hasan',
+                                        institution : 'University of Illinois'
+                                    },
+                                    {
+                                        name : 'Marianne Winslett',
+                                        institution : 'University of Illinois'
+                                    },
+                                    {
+                                        name : 'Radu Sion',
+                                        institution : 'Stony Brook University'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Coffee Break',
+                    startdate : '2009-1-6 10:30',
+                    enddate : '2009-1-6 11:00'
+                },
+                {
+                    name : 'Gong Show Awards',
+                    startdate : '2009-1-6 11:00',
+                    enddate : '2009-1-6 11:15'
+                },
+                {
+                    name : 'Schemas and Processes',
+                    startdate : '2009-1-6 11:15',
+                    enddate : '2009-1-6 12:30 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'The Role of Schema Matching in Large Enterprises',
+                                author : [
+                                    {
+                                        name : 'Ken Smith',
+                                        institution : 'MITRE'
+                                    },
+                                    {
+                                        name : 'Michael Morse',
+                                        institution : 'MITRE'
+                                    },
+                                    {
+                                        name : 'Peter Mork',
+                                        institution : 'MITRE'
+                                    },
+                                    {
+                                        name : 'Maya Li',
+                                        institution : 'MITRE'
+                                    },
+                                    {
+                                        name : 'Arnon Rosenthal',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'David Allen',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'Len Seligman',
+                                        institution : {
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'A Case for Collaborative Query Management Systems',
+                                author : [
+                                    {
+                                        name : 'Nodira Khoussainova',
+                                        institution : 'University of Washington'
+                                    },
+                                    {
+                                        name : 'Magda Balazinska',
+                                        institution : 'U. Washington'
+                                    },
+                                    {
+                                        name : 'Wolfgang Gatterbauer',
+                                        institution : 'University of Washington'
+                                    },
+                                    {
+                                        name : 'YongChul Kwon',
+                                        institution : 'University of Washington'
+                                    },
+                                    {
+                                        name : 'Dan Suciu',
+                                        institution : 'University of Washington'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Do-It-Yourself custom forms-driven workflow applications',
+                                author : [
+                                    {
+                                        name : 'Keith Kowalczykowski',
+                                        institution : ' app2you.com'
+                                    },
+                                    {
+                                        name : 'Kian Win Ong',
+                                        institution : 'UCSD'
+                                    },
+                                    {
+                                        name : 'Alin Deutsch',
+                                        institution : 'UCSD'
+                                    },
+                                    {
+                                        name : 'Yannis Papakonstantinou',
+                                        institution : 'UCSD'
+                                    },
+                                    {
+                                        name : 'Michalis Petropoulos',
+                                        institution : 'SUNY Buffalo'
+                                    },
+                                    {
+                                        name : 'Kevin Zhao',
+                                        institution : 'UCSD'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Lunch',
+                    startdate : '2009-1-6 12:30 PM',
+                    enddate : '2009-1-6 1:30 PM'
+                },
+                {
+                    name : 'Feedback on Queries',
+                    startdate : '2009-1-6 1:30 PM',
+                    enddate : '2009-1-6 3:00 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Why Did My Query Slow Down?',
+                                author : [
+                                    {
+                                        name : 'Nedyalko Borisov',
+                                        institution : 'DUKE University'
+                                    },
+                                    {
+                                        name : 'Sandeep Uttamchandani',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'Ramani Routray',
+                                        institution : {
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Aameek Singh'
+                            },
+                            {
+                                title : 'Visualizing the robustness of query execution',
+                                author : [
+                                    {
+                                        name : 'Goetz Graefe',
+                                        institution : 'HP'
+                                    },
+                                    {
+                                        name : 'Harumi Kuno',
+                                        institution : 'Hewlett-Packard Co.'
+                                    },
+                                    {
+                                        name : 'Janet Wiener',
+                                        institution : 'Hewlett-Packard, Co.'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'DBMSs Should Talk Back Too',
+                                author : [
+                                    {
+                                        name : 'Alkis Simitsis',
+                                        institution : 'HP Labs'
+                                    },
+                                    {
+                                        name : 'Yannis Ioannidis',
+                                        institution : {
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Snack and Free Time',
+                    startdate : '2009-1-6 3:00 PM',
+                    enddate : '2009-1-6 6:00 PM'
+                },
+                {
+                    name : 'Dinner',
+                    startdate : '2009-1-6 6:00 PM',
+                    enddate : '2009-1-6 7:00 PM'
+                },
+                {
+                    name : 'Panel 1: Gathering Clouds',
+                    startdate : '2009-1-6 7:15 PM',
+                    enddate : '2009-1-6 8:15 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Building on Quicksand',
+                                author : [
+                                    {
+                                        name : 'Pat Helland',
+                                        institution : 'Microsoft'
+                                    },
+                                    {
+                                        name : 'David Campbell',
+                                        institution : 'Microsoft'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Principles for Inconsistency',
+                                author : [
+                                    {
+                                        name : 'Shel Finkelstein',
+                                        institution : 'SAP'
+                                    },
+                                    {
+                                        name : 'Dean Jacobs',
+                                        institution : 'SAP'
+                                    },
+                                    {
+                                        name : 'Rainer Brendle',
+                                        institution : 'SAP'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'SCADS :  Scale-Independent Storage for Social Computing Applications',
+                                author : [
+                                    {
+                                        name : 'Michael Armbrust',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Armando Fox',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'David Patterson',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Nick Lanham',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Beth Trushkowsky',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Jesse Trutna',
+                                        institution : 'UC Berkeley'
+                                    },
+                                    {
+                                        name : 'Haruki Oh',
+                                        institution : 'UC Berkeley'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Panel 2: Pouring Data',
+                    startdate : '2009-1-6 8:15 PM',
+                    enddate : '2009-1-6 9:30 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Harnessing the Deep Web :  Present and Future',
+                                author : [
+                                    {
+                                        name : 'Jayant Madhavan',
+                                        institution : 'Google Inc.'
+                                    },
+                                    {
+                                        name : 'Loredana Afanasiev',
+                                        institution : 'Universiteit van Amsterdam'
+                                    },
+                                    {
+                                        name : 'Lyublena Antova',
+                                        institution : 'Cornell University'
+                                    },
+                                    {
+                                        name : 'Alon Halevy',
+                                        institution : 'Google'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'The Case for a Structured Approach to Managing Unstructured Data',
+                                author : [
+                                    {
+                                        name : 'AnHai Doan',
+                                        institution : 'Univ of Wisconsin'
+                                    },
+                                    {
+                                        name : 'Jeff Naughton',
+                                        institution : 'Wisconsin'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'SocialScope :  Enabling Information Discovery on Social Content Sites',
+                                author : [
+                                    {
+                                        name : 'Sihem Amer-Yahia',
+                                        institution : 'Yahoo! Research'
+                                    },
+                                    {
+                                        name : 'Laks Lakshmanan',
+                                        institution : 'UBC'
+                                    },
+                                    {
+                                        name : 'Cong Yu',
+                                        institution : 'Yahoo! Research'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Sailing the Information Ocean with Awareness of Currents :  Discovery and Application of Source Dependence',
+                                author : [
+                                    {
+                                        name : 'Laure Berti-Equille',
+                                        institution : 'Universite de Rennes 1'
+                                    },
+                                    {
+                                        name : 'Anish Das Sarma',
+                                        institution : 'Stanford University'
+                                    },
+                                    {
+                                        name : 'Xin (Luna) Dong',
+                                        institution : 'AT&T Labs-Research'
+                                    },
+                                    {
+                                        name : 'Amelie Marian',
+                                        institution : 'Rutgers University'
+                                    },
+                                    {
+                                        name : 'Divesh Srivastava',
+                                        institution : 'ATT Labs-Research'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Breakfast',
+                    startdate : '2009-1-7 7:00',
+                    enddate : '2009-1-7 8:30'
+                },
+                {
+                    name : 'Invited Talk 2',
+                    startdate : '2009-1-7 8:30',
+                    enddate : '2009-1-7 9:30',
+                    presentations : {
+                        presentation : {
+                            title : 'James Hamilton (Microsoft): Cooperative Expendable Micro-Slice Servers'
+                        }
+                    }
+                },
+                {
+                    name : 'Power 1: Green Data',
+                    startdate : '2009-1-7 9:30',
+                    enddate : '2009-1-7 10:15',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : 'Energy Efficiency :  The New Holy Grail of Data Management Systems Research',
+                                author : [
+                                    {
+                                        name : 'Stavros Harizopoulos',
+                                        institution : 'HP Labs'
+                                    },
+                                    {
+                                        name : 'Mehul Shah',
+                                        institution : {
+                                        }
+                                    },
+                                    {
+                                        name : 'Parthasarathy Ranganathan',
+                                        institution : 'HP Labs'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Towards Eco-friendly Database Management Systems',
+                                author : [
+                                    {
+                                        name : 'Willis Lang',
+                                        institution : 'University of Wisconsin-Madison'
+                                    },
+                                    {
+                                        name : 'Jignesh Patel',
+                                        institution : 'Wisconsin'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Coffee Break and Checkout',
+                    startdate : '2009-1-7 10:15',
+                    enddate : '2009-1-7 11:00'
+                },
+                {
+                    name : 'Storage Redux',
+                    startdate : '2009-1-7 11:00',
+                    enddate : '2009-1-7 12:15 PM',
+                    presentations : {
+                        presentation : [
+                            {
+                                title : ' uFLIP :  Understanding Flash IO Patterns',
+                                author : [
+                                    {
+                                        name : 'Luc Bouganim',
+                                        institution : 'INRIA'
+                                    },
+                                    {
+                                        name : 'Bj_É¬_rn J_É¬_nsson',
+                                        institution : 'Reykjav_Ék University'
+                                    },
+                                    {
+                                        name : 'Philippe Bonnet',
+                                        institution : 'Department of Computer Science, University of Copenhagen'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Unbundling Transaction Services in the Cloud',
+                                author : [
+                                    {
+                                        name : 'David Lomet',
+                                        institution : 'Microsoft Research'
+                                    },
+                                    {
+                                        name : 'Alan Fekete',
+                                        institution : 'University of Sydney'
+                                    },
+                                    {
+                                        name : 'Gerhard Weikum',
+                                        institution : 'Max Plank Institute'
+                                    },
+                                    {
+                                        name : 'Mike Zwilling',
+                                        institution : 'Microsoft SQL Server'
+                                    },
+                                    {
+                                        name : 'The Case for RodentStore',
+                                        institution : ' an Adaptive,Declarative Storage System'
+                                    },
+                                    {
+                                        name : 'Philippe Cudre-Mauroux',
+                                        institution : 'MIT'
+                                    },
+                                    {
+                                        name : 'Eugene Wu',
+                                        institution : 'MIT'
+                                    },
+                                    {
+                                        name : 'Sam Madden',
+                                        institution : 'MIT'
+                                    }
+                                ]
+                            },
+                            {
+                                title : 'Teaching an Old Elephant New Tricks',
+                                author : {
+                                    name : 'Nicolas Bruno',
+                                    institution : 'Microsoft'
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    name : 'Best Paper Award and Closing Remarks',
+                    startdate : '2009-1-7 12:00 PM',
+                    enddate : '2009-1-7 12:30 PM'
+                },
+                {
+                    name : 'Lunch',
+                    startdate : '2009-1-7 12:30 PM',
+                    enddate : '2009-1-7 1:30 PM'
+                }
+            ]
+}

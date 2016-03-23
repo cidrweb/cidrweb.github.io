@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link rel="stylesheet" type="text/css" href="andreas01.css" media="screen,projection" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+	<title>CIDR 2011 - Call For Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+
+	<div id="header">
+		<h1><a href="index.html">CIDR 2011</a></h1>
+		<p>January 9-12, 2011        <span style="padding-left:30px">  Asilomar, California</span></p>
+	</div>
+
+	<div id="leftside">
+		<h2 class="hide">Menu:</h2>
+		
+		<ul class="avmenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cfp.html">Call For Papers</a></li>
+			<li><a href="org.html">Organization</a></li>
+			<li><a href="index.html">Program</a></li>
+			<li><a href="index.html">Registration</a></li>
+			<li><a href="index.html">Venue Information</a></li>
+			<li><a href="http://www.cidrdb.org/index.html">Previous Conferences</a>
+				<ul>
+					<li><a href="http://www.cidrdb.org/cidr2009/index.html">CIDR 2009</a></li>
+					<li><a href="http://www.cidrdb.org/cidr2007/index.html">CIDR 2007</a></li>
+					<li><a href="http://www.cidrdb.org/cidr2005/index.html">CIDR 2005</a></li>
+					<li><a href="http://www.cidrdb.org/cidr2003/index.html">CIDR 2003</a></li>
+				</ul>
+			</li>
+<!--
+			<li><a class="current" href="index2.html">2-column layout A</a></li>
+			<li><a href="index3.html">2-column layout B</a></li>
+			<li><a href="print.html">Print stylesheet</a></li>
+-->
+		</ul>
+		
+<!--
+		<div class="announce">
+			<p><p>
+			<h2>Site Updates:</h2>
+			<p><strong>Jun 18, 2010:</strong><br />Site Launched!</p>
+			<p class="textright"><a href="#">Sample link &raquo;</a></p>
+		</div>
+-->
+	</div>
+
+	<div id="contentwide">
+		<h2>Call For Papers</h2>
+		<p>
+
+
+		<h3>Important Dates</h3>
+		<dl>
+			<dt>September 24, 2010: abstract submission deadline
+			<dt>October 1, 2010: paper submission deadline
+			<dt>November 15, 2010: author notification
+			<dt>December 10, 2010: final papers due 
+			<dt>January 9-12, 2011 conference
+		<dl>
+
+
+<p>
+		<h3>Overview</h3>
+<p>
+The biennial Conference on Innovative Data Systems Research (CIDR) is a systems-oriented
+conference, complementary in its mission to the mainstream database conferences like SIGMOD
+and VLDB, emphasizing the systems architecture perspective.  The conference draws practitioners,
+researchers, and thinkers from academia and industry to explore and debate the latest ideas
+in the field.  A single-track schedule and a beautiful location encourage
+active engagement and discussion throughout the event.
+<p>
+Papers are invited on novel approaches to data systems architecture and use. 
+CIDR especially seeks papers about innovative and risky approaches, systems-building experience,
+killer applications and "war stories", experimental studies, unsolved technical challenges,
+provocative position statements, and other off-the-beaten-path papers on the architecture and
+implementation of data-centric systems.  CIDR especially values innovation, experience-based insight, and vision.
+<p>
+
+
+		<h3>SUBMISSIONS</h3>
+<p>
+<h3>Regular Submissions</h3>
+<p>
+Topics of interest include but are not limited to: database systems, storage management, 
+cloud computing, massive data analysis, software service infrastructure, scalability and
+dependability, personal information spaces, embedded and sensor databases, user interfaces, 
+information integration and data cleaning architectures, information retrieval, declarative 
+systems, data management in networks, benchmarking and experimental methodology.   We also 
+welcome submissions on thought-provoking applications and emerging uses of data management technology.
+<p>
+Submissions must be formatted using the ACM SIG style. 
+(see <a href="http://www.acm.org/sigs/pubs/proceed/template.html">ACM Template</a>), and must not exceed SIX pages in 
+length (half the length of a SIGMOD paper, to enforce concise presentation).  Authors of
+papers on implemented systems are highly encouraged to also submit a one-page demo proposal 
+detailing a 10-minute demonstration of the work to be given at the conference.  Final versions 
+of accepted papers will be published in the electronic proceedings of the CIDR conference and 
+will be given a space allocation of up to 12 pages. 
+<p>
+To encourage authors to submit only their best work,<b> each person can be an author or 
+co-author of only one regular submission to CIDR</b>.   Authors cannot be added to a paper after submission.  
+If an author appears on multiple submissions, the PC may reject all those submissions without review.
+
+<h3>Outrageous Ideas and Vision Track</h3>
+<p>
+In cooperation with the <a href="http://www.cra.org/ccc/">Computing Community Consortium</a>, CIDR invites submissions
+to a special "Outrageous Ideas and Vision" track.    The emphasis of this track will be on long term challenges and opportunities for the database and data management communities that are outside of current mainstream research in the field. 
+In contrast to regular CIDR submissions, which are expected to have grounding in current or near-term practice, the submissions to the Outrageous Ideas and Vision track will be judged on the extent to which they expand the possibilities and horizons of the field.   Submissions to this track should follow the same formatting guidelines as regular submissions, but are limited to be at most FOUR pages in length for both submission and final publication.   
+<p>
+Note that authors can submit papers to the Outrageous Ideas and Vision track in addition to the one allowed 
+regular CIDR submission.  Also note that we anticipate that only a small portion of the papers accepted to the conference will be from the Outrageous Ideas and Vision Track.  
+<p>
+To encourage researchers to present truly visionary concepts, the CCC is offering prizes to up to 3 top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded as travel grants.
+
+
+	</div>
+
+	<div id="footer">
+		<p><span>&copy; 2010 <a href="#">CIDR Conference</a></span><br />
+		Template design by <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+	</div>
+
+</div>
+</body>
+</html>
