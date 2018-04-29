@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Your description goes here" />
+<meta name="keywords" content="your,keywords,goes,here" />
+<meta name="author" content="Your Name" />
+<link rel="stylesheet" type="text/css" href="andreas01.css"
+	media="screen,projection" />
+<link rel="stylesheet" type="text/css"
+	href="http://www.cidrdb.org/cidr2013/print.css" media="print" />
+<title>CIDR 2019 - Registration</title>
+
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+<script language="JavaScript">
+<!-- This script and many more are available free online at -->
+	// Set up the image files to be used.
+
+	var theImages = new Array() // do not change this
+
+	// To add more image files, continue with the
+
+	// pattern below, adding to the array.
+
+	theImages[0] = 'img/Property_Courtyard.jpg'
+
+	// do not edit anything below this line
+
+	var p = theImages.length;
+
+	var whichImage = Math.round(Math.random() * (p - 1));
+
+	function showImage() {
+
+		document.write('<div id="masthead">');
+
+		document
+				.write('<img src="' + theImages[whichImage] + '" alt="" width="760" height="200" /></a>');
+
+		document.write('</div>');
+
+	}
+	/*** 
+	 Simple jQuery Slideshow Script
+	 Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+	 ***/
+
+	function slideSwitch() {
+		var $active = $('#slideshow IMG.active');
+
+		if ($active.length == 0)
+			$active = $('#slideshow IMG:last');
+
+		// use this to pull the images in the order they appear in the markup
+		var $next = $active.next().length ? $active.next()
+				: $('#slideshow IMG:first');
+
+		// uncomment the 3 lines below to pull the images in random order
+
+		// var $sibs  = $active.siblings();
+		// var rndNum = Math.floor(Math.random() * $sibs.length );
+		// var $next  = $( $sibs[ rndNum ] );
+
+		$active.addClass('last-active');
+
+		$next.css({
+			opacity : 0.0
+		}).addClass('active').animate({
+			opacity : 1.0
+		}, 1000, function() {
+			$active.removeClass('active last-active');
+		});
+	}
+
+	$(function() {
+		setInterval("slideSwitch()", 5000);
+	});
+</script>
+
+<style type="text/css">
+
+/*** set the width and height to match your images **/
+#slideshow {
+	position: relative;
+	height: 350px;
+}
+
+#slideshow IMG {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	opacity: 0.0;
+}
+
+#slideshow IMG.active {
+	z-index: 10;
+	opacity: 1.0;
+}
+
+#slideshow IMG.last-active {
+	z-index: 9;
+}
+</style>
+
+
+
+</head>
+
+<body>
+	<div id="wrap">
+
+		<div id="header">
+			<h1>
+				<a href="index.html">CIDR 2019</a>
+			</h1>
+			<p>
+				January 13-16, 2019 <span style="padding-left: 30px">
+					Asilomar, California</span>
+			</p>
+		</div>
+
+		<!--
+	<img id="frontphoto" src="img/Property_Courtyard.jpg" width="760" height="200" alt="" />
+-->
+		<script language="JavaScript">
+			showImage();
+		</script>
+		<div id="leftside">
+			<h2 class="hide">Menu:</h2>
+
+			<ul class="avmenu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cfp.html">Call For Papers</a></li>
+				<li><a href="org.html">Organization</a></li>
+				<li><a href="program.html">Program and Papers</a></li>
+				<li><a href="registration.html">Venue and Registration</a></li>
+				<!--			<li><a href="http://www.chaminade.com">Venue Information</a></li>   -->
+				<li><a href="../index.html">Previous Conferences</a>
+					<ul>
+						<li><a href="http://cidrdb.org/cidr2017/index.html">CIDR
+								2017</a></li>
+						<li><a href="http://cidrdb.org/cidr2015/index.html">CIDR
+								2015</a></li>
+						<li><a href="http://cidrdb.org/cidr2013/index.html">CIDR
+								2013</a></li>
+						<li><a href="../cidr2011/index.html">CIDR 2011</a></li>
+						<li><a href="../cidr2009/index.html">CIDR 2009</a></li>
+						<li><a href="../cidr2007/index.html">CIDR 2007</a></li>
+						<li><a href="../cidr2005/index.html">CIDR 2005</a></li>
+						<li><a href="../cidr2003/index.html">CIDR 2003</a></li>
+					</ul></li>
+				<!--
+			<li><a class="current" href="index2.html">2-column layout A</a></li>
+			<li><a href="index3.html">2-column layout B</a></li>
+			<li><a href="print.html">Print stylesheet</a></li>
+-->
+			</ul>
+
+			<!--
+		<div class="announce">
+			<p><p>
+			<h2>Site Updates:</h2>
+			<p><strong>Jun 18, 2010:</strong><br />Site Launched!</p>
+			<p class="textright"><a href="#">Sample link &raquo;</a></p>
+		</div>
+-->
+		</div>
+
+		<div id="contentwide">
+			<h2>Registration</h2>
+
+
+			<p>
+				<!--
+		  <h3>
+                  <b> The conference is sold out. We can no longer accept registrations. </b> 
+                 </h3>
+                
+
+				<ul>
+					<li><strong>Before October 27, 2016</strong>: early
+						registration for authors of abstracts and submitted papers and
+						demos.
+						<li><strong>After October 27, 2016</strong>: registration on
+							first come first serve basis until capacity filled.
+				</ul>
+				<p>
+					CIDR 2017 will be held at <a href="http://www.chaminade.com">Chaminade
+						Resort & Spa</a>, a mountaintop hotel on 300 acres in Santa Cruz,
+					California. Chaminade is a 75 minute drive from San Francisco
+					airport and just 45 minutes from San Jose airport. Chaminade
+					features modern, spacious guest rooms in eleven villas nestled
+					among eucalyptus and redwood forests. The resort includes a fitness
+					center, pool, hot tub, spa services, hiking trails and tennis. The
+					conference center has sweeping views of Monterey Bay and the Santa
+					Cruz mountains. It is a relatively small resort so CIDR will occupy
+					most, if not all, of the space.
+				</p>
+				<div id="slideshow" position="center">
+					<img src="img/image1.jpg" alt="Slideshow Image 1" width="580"
+						height="300" class="active" /> <img src="img/image2.jpg"
+						alt="Slideshow Image 2" width="580" height="300" /> <img
+						src="img/image3.jpg" alt="Slideshow Image 3" width="580"
+						height="300" /> <img src="img/image4.jpg" alt="Slideshow Image 4"
+						width="580" height="300" />
+				</div>
+
+				<h3>Registration Options</h3>
+
+				<ul>
+					<li>Regular registration: single room is $1,125, shared room
+						is $805</li>
+
+					<li>Student registration: single room is $1,025, shared room
+						is $705</li>
+				</ul>
+			<p>Rooms have either a single, king bed or two double beds.</p>
+			<p>The registration fee covers lodging for three nights, from
+				Sunday, Jan. 8 to Wednesday, Jan. 11 plus food during the
+				conference. <b>If you must arrive late or leave early, you will still
+				be charged for the entire conference.</b> There is no day rate, i.e., no
+				option for lodging off-site.</p>
+			<p>For attendees who wish to stay longer, i.e., arrive before
+				Jan. 8 or depart after Jan. 11, a special rate is available but you
+				must contact Chaminade to make arrangements. Similarly, a special
+				rate is available for family members or guests who accompany
+				attendees. Contact Chaminade for details.</p>
+			<p>There is no direct public transportation to Chaminade.
+				However, taxis are available from downtown Santa Cruz which is 3
+				miles away.</p>
+			<h3>Registration Instructions</h3>
+			<p>Connect to the Chaminade registration page for regular
+				attendees or students using one of the links below.
+				Check-in/Check-out: Specify your arrival and departure dates. As
+				mentioned above, if you arrive late or leave early, you will still
+				be charged for the full conference upon check-out and departure from
+				the Chaminade resort.</p>
+
+			<ul>
+				<li>Rooms: specify 1</li>
+
+				<li>Adults: specify 1</li>
+			</ul>
+			<p>Shared rooms: if you want to share a room with another CIDR
+				2017 attendee, you should first find a roommate on your own (CIDR
+				does not provide a matching service). Then, register for a single
+				room (choose a king or double bed as you wish) and inform Chaminade
+				the name of your roommate. You may call or email them or specify the
+				name in the Comments section under Special Requests. Discount code:
+				there is no discount code</p>
+
+			<p>
+				<b>Note about Total Charges:</b> due to limitations with the
+				Chaminade website, the total charges shown on the registration page
+				do NOT match what you will be charged at check-out upon departure
+				from Chaminade. For example, shared room attendees will see total
+				charges for a single room. Charges for private room attendees will
+				be close to the correct number but will be a little low. So, do not
+				be alarmed by the number shown for Total Charges. It will be
+				corrected at check-out.
+			</p>
+
+			<p>Please follow the appropriate link for the registration.</p>
+			<ul>
+				<li><a
+					href="http://bookings.ihotelier.com/bookings.jsp?groupID=1564586&hotelID=15334">Regular
+						registration</a></li>
+				<li><a
+					href="http://bookings.ihotelier.com/bookings.jsp?groupID=1714620&hotelID=15334">Student
+						registration</a></li>
+			</ul>
+			<p>
+				Questions, concerns, comments: contact <a
+					href="mailto:kevinwilkinson1@acm.org">Kevin Wilkinson</a> (CIDR
+				Local Arrangments)
+			</p>
+
+ -->
+
+
+			<!--
+<TABLE cellpadding="2" cellspacing="0">
+<TR id="row1">
+<TD><b>Private Room (Historic)</b></TD>  <TD>$847.43 per person 
+<TR id="row2">
+<TD><b>Private Room (Standard)</b></TD> <TD>$976.09 per person 
+<TR id="row3">
+<TD><b>Shared Room - 2 participants (Historic)</b></TD>  <TD>$690.20  per person 
+<TR id="row4">
+<TD><b>Shared Room - 2 participants (Standard)</b></TD>  <TD>$737.59  per person 
+</TABLE>
+<p>
+<p>
+See the registration form for details and for prices for non-participant guests.
+<p>
+<h3>How to register:</h3>
+<p>Fill out the registration form (deactivated - Conference sold out!) and do one of the following:
+</br>
+1) Fax completed form (including credit card information)  to Asilomar Reservations at:
+<br><span style="padding-left:30px"> 831-642-4262
+<p>
+2) Email completed form (including credit card information) to <a href="mailto:AsilomarSales@aramark.com">AsilomarSales@aramark.com</a> 
+<p>
+3) Snail Mail  Completed form (including credit card information) to:
+<br>
+<br><span style="padding-left:30px">Asilomar Conference Grounds
+<br><span style="padding-left:30px">P.O. Box 537
+<br><span style="padding-left:30px">800 Asilomar Avenue
+<br><span style="padding-left:30px">Pacific Grove, CA 93950
+<p>
+<b>Reservation deadline is December 4th, 2014. Please note that space is limited and provided on a first-come-first-served basis.</b>
+-->
+		</div>
+
+		<div id="footer">
+			<p>
+				<span>&copy; 2012 <a href="registration.html#">CIDR
+						Conference</a></span><br /> Template design by <a
+					href="http://andreasviklund.com/">Andreas Viklund</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
