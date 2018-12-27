@@ -1,2876 +1,641 @@
-<html xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html>
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="CIDR-sessions.fld/filelist.xml">
-<!--[if gte mso 9]><xml>
- <o:OfficeDocumentSettings>
-  <o:AllowPNG/>
- </o:OfficeDocumentSettings>
-</xml><![endif]-->
-<link rel=themeData href="CIDR-sessions.fld/themedata.thmx">
-<link rel=colorSchemeMapping href="CIDR-sessions.fld/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves>false</w:TrackMoves>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>AR-SA</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:EnableOpenTypeKerning/>
-   <w:DontFlipMirrorIndents/>
-   <w:OverrideTableStyleHps/>
-  </w:Compatibility>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="375">
-  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 9"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="header"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footer"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index heading"/>
-  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of figures"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope return"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="line number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="page number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of authorities"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="macro"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toa heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 5"/>
-  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Closing"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Signature"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Message Header"/>
-  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Salutation"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Date"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Note Heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Block Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="E-mail Signature"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Top of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Bottom of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal (Web)"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Acronym"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Cite"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Code"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Definition"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Keyboard"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Preformatted"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Sample"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Typewriter"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Variable"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="No List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Contemporary"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Elegant"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Professional"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Balloon Text"/>
-  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Theme"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" QFormat="true"
-   Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" QFormat="true"
-   Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" QFormat="true"
-   Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" QFormat="true"
-   Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" QFormat="true"
-   Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" QFormat="true"
-   Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Hyperlink"/>
- </w:LatentStyles>
-</xml><![endif]-->
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
 	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:decorative;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
-@font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Times;
-	panose-1:0 0 5 0 0 0 0 2 0 0;
-	mso-font-charset:0;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1342185562 0 0 415 0;}
+	panose-1:0 0 5 0 0 0 0 2 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
+	{margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
+	{mso-style-link:"Heading 1 Char";
 	margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	mso-outline-level:1;
 	font-size:24.0pt;
 	font-family:Times;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
 	font-weight:bold;}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Header Char";
+	{mso-style-link:"Header Char";
 	margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+	font-family:"Arial",sans-serif;}
 p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Footer Char";
+	{mso-style-link:"Footer Char";
 	margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+	font-family:"Arial",sans-serif;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
+	{color:blue;
+	text-decoration:underline;}
 a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:#954F72;
-	text-decoration:underline;
-	text-underline:single;}
+	{color:#954F72;
+	text-decoration:underline;}
 p
-	{mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
+	{margin-right:0in;
 	margin-left:0in;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
+	{mso-style-link:"Balloon Text Char";
 	margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
 	font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+	font-family:"Tahoma",sans-serif;}
 p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	margin:0in;
+	{margin:0in;
 	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+	font-family:"Arial",sans-serif;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:10.0pt;
 	margin-left:.5in;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Cambria",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-bidi-font-family:"Times New Roman";}
+	font-family:"Cambria",serif;}
 span.Heading1Char
 	{mso-style-name:"Heading 1 Char";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
 	mso-style-link:"Heading 1";
-	mso-ansi-font-size:16.0pt;
-	mso-bidi-font-size:16.0pt;
 	font-family:"Calibri Light",sans-serif;
-	mso-ascii-font-family:"Calibri Light";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Calibri Light";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#2E74B5;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
+	color:#2E74B5;}
 span.HeaderChar
 	{mso-style-name:"Header Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
 	mso-style-link:Header;
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	mso-ascii-font-family:Arial;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;}
+	font-family:"Arial",sans-serif;}
 span.FooterChar
 	{mso-style-name:"Footer Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
 	mso-style-link:Footer;
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	mso-ascii-font-family:Arial;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;}
+	font-family:"Arial",sans-serif;}
 span.BalloonTextChar
 	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
 	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+	font-family:"Times New Roman",serif;}
 span.headerchar0
 	{mso-style-name:headerchar;
-	mso-style-unhide:no;
-	font-family:"Arial",sans-serif;
-	mso-ascii-font-family:Arial;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;}
+	font-family:"Arial",sans-serif;}
 span.footerchar0
 	{mso-style-name:footerchar;
-	mso-style-unhide:no;
-	font-family:"Arial",sans-serif;
-	mso-ascii-font-family:Arial;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;}
+	font-family:"Arial",sans-serif;}
 span.heading1char0
 	{mso-style-name:heading1char;
-	mso-style-unhide:no;
 	font-family:Times;
-	mso-ascii-font-family:Times;
-	mso-hansi-font-family:Times;
 	font-weight:bold;}
 span.balloontextchar0
 	{mso-style-name:balloontextchar;
-	mso-style-unhide:no;
-	font-family:"Tahoma",sans-serif;
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
+	font-family:"Tahoma",sans-serif;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:.8in 1.0in .8in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
+	margin:.8in 1.0in .8in 1.0in;}
 div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
- @list l0
-	{mso-list-id:50274724;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-993470976 -992073714 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l0:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-weight:normal;
-	mso-ansi-font-style:normal;}
-@list l0:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l0:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l0:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1
-	{mso-list-id:149058721;
-	mso-list-type:hybrid;
-	mso-list-template-ids:465086598 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l1:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2
-	{mso-list-id:165366997;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1611787026 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l2:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l3
-	{mso-list-id:243032542;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1898120490 752791022 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l3:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.25in;
-	text-indent:-.25in;}
-@list l3:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:1.75in;
-	text-indent:-9.0pt;}
-@list l3:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.25in;
-	text-indent:-.25in;}
-@list l3:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.75in;
-	text-indent:-.25in;}
-@list l3:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.25in;
-	text-indent:-9.0pt;}
-@list l3:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.75in;
-	text-indent:-.25in;}
-@list l3:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.25in;
-	text-indent:-.25in;}
-@list l3:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:4.75in;
-	text-indent:-9.0pt;}
-@list l4
-	{mso-list-id:300113304;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-723198156 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l4:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;}
-@list l4:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l4:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l4:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l4:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l4:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l4:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l4:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l4:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-@list l5
-	{mso-list-id:322395368;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-521910272 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l5:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l5:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l5:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l5:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l6
-	{mso-list-id:336543051;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1655335652 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l6:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;}
-@list l6:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l6:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l6:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l6:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l6:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l6:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l6:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l6:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-@list l7
-	{mso-list-id:340788370;
-	mso-list-type:hybrid;
-	mso-list-template-ids:444513558 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l7:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l7:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l7:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l7:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l8
-	{mso-list-id:407314019;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-580591894 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l8:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l8:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l8:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l8:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l9
-	{mso-list-id:530850113;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1761961386 1085822238 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l9:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;
-	mso-ansi-font-style:normal;
-	mso-bidi-font-style:normal;}
-@list l9:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l9:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l9:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l9:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l9:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l9:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l9:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l9:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-@list l10
-	{mso-list-id:579291802;
-	mso-list-template-ids:1323184276;}
-@list l10:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l10:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:"Courier New";
-	mso-bidi-font-family:"Times New Roman";}
-@list l10:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l10:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:;
-	mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l11
-	{mso-list-id:715469504;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1110477992 67698703 67698703 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l11:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level2
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l11:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l11:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l11:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l12
-	{mso-list-id:748888987;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1099232258 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l12:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l12:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l12:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l12:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l13
-	{mso-list-id:825324433;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1171382006 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l13:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;}
-@list l13:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l13:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l13:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l13:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l13:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l13:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l13:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l13:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-@list l14
-	{mso-list-id:1363628962;
-	mso-list-type:hybrid;
-	mso-list-template-ids:883702624 752791022 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l14:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:.25in;
-	text-indent:-.25in;}
-@list l14:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:.75in;
-	text-indent:-.25in;}
-@list l14:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:1.25in;
-	text-indent:-9.0pt;}
-@list l14:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.75in;
-	text-indent:-.25in;}
-@list l14:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.25in;
-	text-indent:-.25in;}
-@list l14:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.75in;
-	text-indent:-9.0pt;}
-@list l14:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.25in;
-	text-indent:-.25in;}
-@list l14:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.75in;
-	text-indent:-.25in;}
-@list l14:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:4.25in;
-	text-indent:-9.0pt;}
-@list l15
-	{mso-list-id:1484617976;
-	mso-list-type:hybrid;
-	mso-list-template-ids:266132736 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l15:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;}
-@list l15:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l15:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l15:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l15:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l15:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l15:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l15:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l15:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-@list l16
-	{mso-list-id:1580560811;
-	mso-list-type:hybrid;
-	mso-list-template-ids:547896420 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l16:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l16:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l16:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l16:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l17
-	{mso-list-id:1805541172;
-	mso-list-type:hybrid;
-	mso-list-template-ids:653418610 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l17:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l17:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l17:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l17:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l18
-	{mso-list-id:2130314765;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1655335652 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l18:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.0in;
-	text-indent:-.25in;}
-@list l18:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.5in;
-	text-indent:-.25in;}
-@list l18:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:2.0in;
-	text-indent:-9.0pt;}
-@list l18:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.5in;
-	text-indent:-.25in;}
-@list l18:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.0in;
-	text-indent:-.25in;}
-@list l18:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:3.5in;
-	text-indent:-9.0pt;}
-@list l18:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.0in;
-	text-indent:-.25in;}
-@list l18:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.5in;
-	text-indent:-.25in;}
-@list l18:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	margin-left:5.0in;
-	text-indent:-9.0pt;}
-ol
+ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
+	
+	
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none}
+    span.s3 {font: 6.0px 'Times New Roman'; text-decoration: underline ; font-kerning: none}
+    span.s4 {font: 16.0px Cambria; font-kerning: none}
+    span.s5 {font: 9.0px 'Times New Roman'; font-kerning: none}
+  
 -->
 </style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;}
-table.MsoTableGrid
-	{mso-style-name:"Table Grid";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-priority:39;
-	mso-style-unhide:no;
-	border:solid windowtext 1.0pt;
-	mso-border-alt:solid windowtext .5pt;
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-border-insideh:.5pt solid windowtext;
-	mso-border-insidev:.5pt solid windowtext;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;}
 </style>
-<![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <base target="_parent" />
+
 </head>
 
-<body lang=EN-US link=blue vlink="#954F72" style='tab-interval:.5in'>
+<body lang=EN-US link=blue vlink="#954F72">
 
 <div class=WordSection1>
 
-<p class=MsoNormal style='text-autospace:none'><b><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal style='text-autospace:none'><b>&nbsp;</b></p>
 
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>SUNDAY JANUARY 13<sup>th</sup><span
-class=GramE> 2019</span><o:p></o:p></span></u></b></p>
+<p class=MsoNormal style='text-autospace:none'><b><u>SUNDAY JANUARY 13<sup>th</sup>
+2019</u></b></p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>6pm - 7pm Dinner <o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>6pm - 7pm Dinner </p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>7pm - 8pm Reception <o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>7pm - 8pm Reception </p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></b></p>
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='text-decoration:
+ none'>&nbsp;</span></u></b></p>
 
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>MONDAY JANUARY 14<sup>th</sup><span
-class=GramE> 2019</span><o:p></o:p></span></u></b></p>
+<p class=MsoNormal style='text-autospace:none'><b><u>MONDAY JANUARY 14<sup>th</sup>
+2019</u></b></p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span lang=DE
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'>7:30</span></u><u><span lang=DE style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi;mso-ansi-language:DE'> AM – </span></u><u><span
-lang=DE style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
-major-bidi;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:
-major-bidi;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'>9</span></u><u><span lang=DE style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi;mso-ansi-language:DE'>:00 AM</span></u><u><span
-lang=DE style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
-major-bidi;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:
-major-bidi;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'> </span></u><u><span lang=DE style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi;mso-ansi-language:DE'>BREAKFAST</span></u><span
-lang=DE style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
-major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'><o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'><u><span lang=DE>7:30</span></u><u><span
+lang=DE> AM – </span></u><u><span lang=DE>9</span></u><u><span lang=DE>:00 AM</span></u><u><span
+lang=DE> </span></u><u><span lang=DE>BREAKFAST</span></u></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span lang=DE
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u><span lang=DE><span
+ style='text-decoration:none'>&nbsp;</span></span></u></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span lang=DE
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-mso-ansi-language:DE'>9:00 AM – 10:00 <span class=GramE>AM&nbsp; KEYNOTE</span><o:p></o:p></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u><span lang=DE>9:00 AM – 10:00
+AM&nbsp; KEYNOTE</span></u></p>
 
-<p class=MsoNormal><b><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi;color:black'>“</span></b><b><i><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>DNA Data
-Storage and Near-Molecule Processing for the Yottabyte Era”</span></i></b><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-color:black'> by Karin Strauss (Microsoft) and Luis <span class=SpellE>Ceze</span>
-(University of Washington)</span><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p></o:p></span></p>
+<p class=MsoNormal><b><span style='color:black'>“</span></b><b><i>DNA Data
+Storage and Near-Molecule Processing for the Yottabyte Era”</i></b><span
+style='color:black'> by Karin Strauss (Microsoft) and Luis Ceze (University of
+Washington)</span></p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:00 AM – 10:30 BREAK<o:p></o:p></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u>10:00 AM – 10:30 BREAK</u></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u><span style='text-decoration:
+ none'>&nbsp;</span></u></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:30 AM – 12:00 AM SESSION 1: <b>Hardware-Conscious
-Query Processing<o:p></o:p></b></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u>10:30 AM – 12:00 AM SESSION 1:
+<b>Hardware-Conscious Query Processing</b></u></p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>Introduction<o:p></o:p></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>Introduction</p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l15 level1 lfo4;
-text-autospace:none'><![if !supportLists]><b><i><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></i></b><![endif]><span dir=LTR></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Raja <span
-class=SpellE>Appuswamy</span> (<span class=SpellE>Eurecom</span>); Kevin <span
-class=SpellE>Lebrigand</span> (IPMC); Pascal <span class=SpellE>Barbry</span>
-(IPMC); Marc <span class=SpellE>Antonini</span> (<span class=SpellE>Universite</span>
-Nice Sophia Antipolis); Olivier <span class=SpellE>Madderson</span> (Imperial
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p98-appuswamy-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></i></b><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Raja
+Appuswamy (Eurecom); Kevin Lebrigand (IPMC); Pascal Barbry (IPMC); Marc
+Antonini (Universite Nice Sophia Antipolis); Olivier Madderson (Imperial
 College); Paul Freemont (Imperial College); James McDonald (Imperial College);
-Thomas <span class=SpellE>Heinis</span> (Imperial College): <b><i>“<span
-class=SpellE>OligoArchive</span>: Using DNA in the DBMS storage hierarchy”<o:p></o:p></i></b></span></p>
+Thomas Heinis (Imperial College): <b><i>“OligoArchive: Using DNA in the DBMS
+storage hierarchy”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l15 level1 lfo4;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Periklis</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> <span
-class=SpellE>Chrysogelos</span> (EPFL); Panagiotis <span class=SpellE>Sioulas</span>
-(École <span class=SpellE>Polytechnique</span> <span class=SpellE>Fédérale</span>
-de Lausanne); Anastasia <span class=SpellE>Ailamaki</span> (EPFL): <b><i>“Hardware-conscious
-Query Processing in GPU-accelerated Analytical Engines”</i></b><o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p127-chrysogelos-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l15 level1 lfo4;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Alberto Lerner (<span class=SpellE>eXascale</span>
-<span class=SpellE>Infolab</span>); Rana Hussein (University of Fribourg);
-Philippe <span class=SpellE>Cudre-Mauroux</span> (University of Fribourg,
-Switzerland): <b><i>“The Case for Network Accelerated Query Processing”</i></b><o:p></o:p></span></p>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Periklis
+Chrysogelos (EPFL); Panagiotis Sioulas (École Polytechnique Fédérale de
+Lausanne); Anastasia Ailamaki (EPFL): <b><i>“Hardware-conscious Query
+Processing in GPU-accelerated Analytical Engines”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l15 level1 lfo4;
-text-autospace:none'><![if !supportLists]><b><i><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></i></b><![endif]><span dir=LTR></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Gustavo Alonso
-(ETHZ); Carsten Binnig (TU Darmstadt); <span class=SpellE>Ippokratis</span> <span
-class=SpellE>Pandis</span> (Amazon Web Services); Kenneth Salem (University of
-Waterloo); Jan <span class=SpellE>Skrzypczak</span> (<span class=SpellE>Zuse</span>
-<span class=SpellE>Institue</span>, Berlin); Ryan Stutsman (University of
-Utah); Lasse <span class=SpellE>Thostrup</span> (TU Darmstadt); <span
-class=SpellE>Tianzheng</span> Wang (Simon Fraser University); Zeke Wang (ETH
-Zurich); Tobias Ziegler (TU Darmstadt): <b><i>“DPI: The Data Processing
-Interface for Modern Networks”<o:p></o:p></i></b></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p142-lerner-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Alberto
+Lerner (eXascale Infolab); Rana Hussein (University of Fribourg); Philippe
+Cudre-Mauroux (University of Fribourg, Switzerland): <b><i>“The Case for
+Network Accelerated Query Processing”</i></b></span></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>12:00 PM – 1:00 <span class=GramE>PM <span
-style='mso-spacerun:yes'> </span>LUNCH</span> BREAK&nbsp;<o:p></o:p></span></u></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p44-alonso-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+<span
+style='font-family:"Times New Roman",serif'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></i></b><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Gustavo
+Alonso (ETHZ); Carsten Binnig (TU Darmstadt); Ippokratis Pandis (Amazon Web
+Services); Kenneth Salem (University of Waterloo); Jan Skrzypczak (Zuse
+Institue, Berlin); Ryan Stutsman (University of Utah); Lasse Thostrup (TU
+Darmstadt); Tianzheng Wang (Simon Fraser University); Zeke Wang (ETH Zurich);
+Tobias Ziegler (TU Darmstadt): <b><i>“DPI: The Data Processing Interface for
+Modern Networks”</i></b></span></p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>1:00 PM – 2:30 PM SESSIONS 2A and 2B <o:p></o:p></span></u></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>Session
-2A <b>Cloud<o:p></o:p></b></span></p>
+<p class=MsoNormal style='text-autospace:none'><u>12:00 PM – 1:00 PM  LUNCH BREAK&nbsp;</u></p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'><u><span style='text-decoration:
+ none'>&nbsp;</span></u></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l0 level1 lfo14;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi;mso-bidi-font-weight:bold;mso-bidi-font-style:italic'><span
-style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Joseph M <span class=SpellE>Hellerstein</span>
-(UC Berkeley); Jose <span class=SpellE>Faleiro</span> (UC Berkeley); Joseph
-Gonzalez (UC Berkeley); Johann <span class=SpellE>Schleier</span>-Smith (UC
-Berkeley); <span class=SpellE>Vikram</span> <span class=SpellE>Sreekanti</span>
-(UC Berkeley); Alexey <span class=SpellE>Tumanov</span> (UC Berkeley);
-Chenggang Wu (UC Berkeley): <b><i>“Serverless Computing: One Step Forward, Two
-Steps Back”<o:p></o:p></i></b></span></p>
+<p class=MsoNormal style='text-autospace:none'><u>1:00 PM – 2:30 PM SESSIONS 2A
+and 2B </u></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l0 level1 lfo14;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi;mso-bidi-font-weight:bold;mso-bidi-font-style:italic'><span
-style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Johannes <span class=SpellE>Gehrke</span>
-(Microsoft); Lindsay Allen (Microsoft); Panagiotis Antonopoulos (Microsoft);
-Arvind <span class=SpellE>Arasu</span> (Microsoft); Joachim Hammer (Microsoft);
-James Hunter (Microsoft Research); Raghav Kaushik (Microsoft); Donald <span
-class=SpellE>Kossmann</span> (Microsoft Research); Ravi Ramamurthy (MICROSOFT);
-Srinath <span class=SpellE>Setty</span> (Microsoft); Jakub <span class=SpellE>Szymaszek</span>
-(Microsoft); Alexander van <span class=SpellE>Renen</span> (Technical
-University of Munich); Jonathan Lee (Microsoft Research); <span class=SpellE>Ramarathnam</span>
-Venkatesan (Microsoft): <b><i>“Veritas: Shared Verifiable Databases and Tables
-in the Cloud”<o:p></o:p></i></b></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>Session 2A <b>Cloud</b></p>
 
-<p class=MsoNormal><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p119-hellerstein-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Joseph
+M Hellerstein (UC Berkeley); Jose Faleiro (UC Berkeley); Joseph Gonzalez (UC
+Berkeley); Johann Schleier-Smith (UC Berkeley); Vikram Sreekanti (UC Berkeley);
+Alexey Tumanov (UC Berkeley); Chenggang Wu (UC Berkeley): <b><i>“Serverless
+Computing: One Step Forward, Two Steps Back”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p111-gehrke-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Johannes
+Gehrke (Microsoft); Lindsay Allen (Microsoft); Panagiotis Antonopoulos
+(Microsoft); Arvind Arasu (Microsoft); Joachim Hammer (Microsoft); James Hunter
+(Microsoft Research); Raghav Kaushik (Microsoft); Donald Kossmann (Microsoft
+Research); Ravi Ramamurthy (MICROSOFT); Srinath Setty (Microsoft); Jakub
+Szymaszek (Microsoft); Alexander van Renen (Technical University of Munich);
+Jonathan Lee (Microsoft Research); Ramarathnam Venkatesan (Microsoft): <b><i>“Veritas:
+Shared Verifiable Databases and Tables in the Cloud”</i></b></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoListParagraph style='text-autospace:none'><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Session 2B <b>Querying Sensitive
-Data<o:p></o:p></b></span></p>
+"Times New Roman",serif'>Session 2B <b>Querying Sensitive Data</b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l17 level1 lfo17'><![if !supportLists]><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi;color:black'><span
-style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Ios</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> <span
-class=SpellE>Kotsogiannis</span> (Duke University); <span class=SpellE>Yuchao</span>
-Tao (Duke University); Ashwin <span class=SpellE>Machanavajjhala</span> (Duke);
-Gerome <span class=SpellE>Miklau</span> (University of Massachusetts Amherst);
+<p class=MsoListParagraph style='text-indent:-.25in'>
+<span class="s1"> <a href="papers/p125-kotsogiannis-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span style='font-family:
+"Times New Roman",serif;color:black'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Ios
+Kotsogiannis (Duke University); Yuchao Tao (Duke University); Ashwin
+Machanavajjhala (Duke); Gerome Miklau (University of Massachusetts Amherst);
 Michael Hay (Colgate University): “<b><i>Architecting a Differentially Private
-SQL Engine”</i></b></span><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi;color:black'><o:p></o:p></span></p>
+SQL Engine”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l17 level1 lfo17'><![if !supportLists]><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi;color:black'><span
-style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-fareast-font-family:
-"Times New Roman";mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi;
-color:black'>Rajesh <span class=SpellE>Bordawekar</span> (IBM T. J. Watson
-Research Center); Oded <span class=SpellE>Shmueli</span> (Computer Science
-Department, Technion): “</span><b><i><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'>Exploiting Latent Information in Relational Databases via Word
-Embedding and Application to Degrees of Disclosure”</span></i></b><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-theme-font:major-bidi;color:black'><o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in'>
+<span class="s1"> <a href="papers/p27-bordawekar-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span style='font-family:
+"Times New Roman",serif;color:black'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif;
+color:black'>Rajesh Bordawekar (IBM T. J. Watson Research Center); Oded Shmueli
+(Computer Science Department, Technion): “</span><b><i><span style='font-family:
+"Times New Roman",serif'>Exploiting Latent Information in Relational Databases
+via Word Embedding and Application to Degrees of Disclosure”</span></i></b></p>
 
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>2:30 PM – 3:00 PM BREAK&nbsp;<o:p></o:p></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u>2:30 PM – 3:00 PM BREAK&nbsp;</u></p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>3:00 <span class=GramE>PM<span
-style='mso-spacerun:yes'>  </span>–</span> <span
-style='mso-spacerun:yes'> </span>5:00 PM SESSION 3 <b>New Approaches to
-Building Systems and Applications<o:p></o:p></b></span></u></p>
+<p class=MsoNormal style='text-autospace:none'><u>3:00 PM  –  5:00 PM SESSION 3
+<b>New Approaches to Building Systems and Applications</b></u></p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introduction<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Introduction</p>
 
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo6;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Holger <span class=SpellE>Pirk</span>
-(Imperial College London); Jana <span class=SpellE>Giceva</span> (Imperial
-College London); Peter <span class=SpellE>Pietzuch</span> (Imperial College
-London): <b><i>“Thriving in the No Man's Land between Compilers and Databases”</i></b><o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p91-pirk-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Holger
+Pirk (Imperial College London); Jana Giceva (Imperial College London); Peter
+Pietzuch (Imperial College London): <b><i>“Thriving in the No Man's Land
+between Compilers and Databases”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo6;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Alexander J Ratner (Stanford
-University); Braden Hancock (Stanford University); Christopher Re (Stanford
-University): <b><i>“The Role of Massively Multi-Task and Weak Supervision in
-Software 2.0”</i></b><o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p58-ratner-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Alexander
+J Ratner (Stanford University); Braden Hancock (Stanford University);
+Christopher Re (Stanford University): <b><i>“The Role of Massively Multi-Task
+and Weak Supervision in Software 2.0”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo6;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Sandeep Tata (&quot;Google,
-USA&quot;); Vlad <span class=SpellE>Panait</span> (Google); <span class=SpellE>Suming</span>
-Chen (Google); Mike <span class=SpellE>Colagrosso</span> (Google): <b><i>“<span
-class=SpellE>ItemSuggest</span>: A Data Management Platform for Machine Learned
-Ranking Services”</i></b>&nbsp;<o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p29-tata-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Sandeep
+Tata (&quot;Google, USA&quot;); Vlad Panait (Google); Suming Chen (Google);
+Mike Colagrosso (Google): <b><i>“ItemSuggest: A Data Management Platform for
+Machine Learned Ranking Services”</i></b>&nbsp;</span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo6;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Stratos <span class=SpellE>Idreos</span>
-<span style='color:black'>Stratos <span class=SpellE>Idreos</span> (Harvard
-University); <span class=SpellE>Niv</span> Dayan (Harvard University); Wilson
-Qin (Harvard University); Mali <span class=SpellE>Akmanalp</span> (Harvard
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p143-idreos-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Stratos
+Idreos <span style='color:black'>Stratos Idreos (Harvard University); Niv Dayan
+(Harvard University); Wilson Qin (Harvard University); Mali Akmanalp (Harvard
 University); Sophie Hilgard (Harvard University); Andrew Ross (Harvard
-University); James Lennon (Harvard University); Varun Jain (Harvard University);
-Harshita Gupta (Harvard University); David Li (Harvard University); <span
-class=SpellE>Zichen</span> Zhu (Harvard University)</span>:</span> <span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>“<b><i>Design
+University); James Lennon (Harvard University); Varun Jain (Harvard
+University); Harshita Gupta (Harvard University); David Li (Harvard University);
+Zichen Zhu (Harvard University)</span>:</span> <span style='font-family:"Times New Roman",serif'>“<b><i>Design
 Continuums and the Path Toward Self-Designing Key-Value Stores that Know and
-Learn”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo6;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Tim <span class=SpellE>Kraska</span>
-(MIT); Mohammad Alizadeh (MIT CSAIL); Alex <span class=SpellE>Beutel</span>
-(Google); Ed Chi (Google); Ani <span class=SpellE>Kristo</span> (Brown
-University); Guillaume Leclerc (<span class=SpellE>Massachussets</span>
-Institute of Technology); Samuel Madden (MIT); <span class=SpellE>Hongzi</span>
-Mao (MIT CSAIL); <span class=SpellE>Vikram</span> Nathan (MIT): <b><i>“<span
-class=SpellE>SageDB</span>: A Learned Database System”</i></b><o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>6:00 PM – 7:00 PM &nbsp; DINNER <o:p></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>7:00 PM <span class=GramE>-&nbsp; 8:00</span>
-PM&nbsp; GONG SHOW 1</span></u><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>(Session chair: Andy <span class=SpellE>Pavlo</span>
-– CMU)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>TUESDAY JANUARY 15<sup>th</sup><span
-class=GramE> 2019</span><o:p></o:p></span></u></b></p>
-
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></b></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>7:30</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'> AM – </span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>9</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>:00 AM</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'> </span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>BREAKFAST</span></u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></b></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>9:00 AM – 10:00 <span class=GramE>AM&nbsp;
-KEYNOTE</span> 2<o:p></o:p></span></u></p>
-
-<p class=MsoNormal><b><i><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>“Using Bots, Machine Learning &amp; Pipelines
-to create a modern data management environment”</span></i></b><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>, by
-Mark Ramsay (GSK)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:00 AM – 10:30 BREAK<o:p></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:30 AM – 11:45 AM SESSION 4 <b>Query
-Optimization</b> <b><o:p></o:p></b></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introduction<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l7 level1 lfo7;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Michael J Freitag (TUM); Thomas
-Neumann (TUM): <b><i>“Every Row Counts: Combining Sketches and Sampling for
-Accurate Group-By Result Estimates”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l7 level1 lfo7;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Andreas <span class=SpellE>Kipf</span>
-(Technical University of Munich); Thomas <span class=SpellE>Kipf</span>
-(University of Amsterdam); Bernhard Radke (<span class=SpellE>Technische</span>
-Universität München); Viktor Leis (TUM); Peter <span class=SpellE>Boncz</span>
-(Centrum <span class=SpellE>Wiskunde</span> &amp; Informatica); <span
-class=SpellE>Alfons</span> Kemper (TUM): <b><i>“Learned Cardinalities:
-Estimating Correlated Joins with Deep Learning”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l7 level1 lfo7;
-text-autospace:none'><![if !supportLists]><i><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></i><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Ryan C Marcus (Brandeis University);
-Olga <span class=SpellE>Papaemmanouil</span> (Brandeis University): <b><i>“Towards
-a Hands-Free Query Optimizer through Deep Learning”</i></b><i> <o:p></o:p></i></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>12:00 PM – 3:00 LUNCH &amp; BEACH<o:p></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-indent:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>3:00 PM – 5:00 PM SESSION 5 <b>Multimedia and
-Multimodal</b> <b><o:p></o:p></b></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>Introduction<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:.5in;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l13 level1 lfo10;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Sanjay Krishnan (U Chicago); Adam <span
-class=SpellE>Dziedzic</span> (The University of Chicago); Aaron J Elmore
-(University of Chicago): <b><i>“<span class=SpellE>DeepLens</span>: Towards a Visual
-Data Management System”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l13 level1 lfo10;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Daniel Kang (Stanford University);
-Peter D <span class=SpellE>Bailis</span> (Stanford University); <span
-class=SpellE>Matei</span> <span class=SpellE>Zaharia</span> (Stanford and
-Databricks): <b><i>“Challenges and Opportunities in DNN-Based Video Analytics:
-A Demonstration of the <span class=SpellE>BlazeIt</span> Video Query Engine”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l13 level1 lfo10;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Wenbo</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> Tao (MIT); <span
-class=SpellE>Xiaoyu</span> Liu (Purdue University); <span class=SpellE>Cagatay</span>
-<span class=SpellE>Demiralp</span> (MIT); Remco Chang (Tufts University);
-Michael <span class=SpellE>Stonebraker</span> (MIT): <b><i>“<span class=SpellE>Kyrix</span>:
-Interactive Visual Data Exploration at Scale”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l13 level1 lfo10;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Codi J Burley (The Ohio State
-University); Arnab Nandi (The Ohio State University): <b><i>“<span
-class=SpellE>ARQuery</span>: Hallucinating Analytics over Real-World Data using
-Augmented Reality”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l13 level1 lfo10;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Immanuel <span class=SpellE>Trummer</span>
-(Cornell University): <b><i>“Data Vocalization with <span class=SpellE>CiceroDB</span>”</i></b><o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>6:00 PM – 7:00 PM&nbsp;DINNER<o:p></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>7:00 PM – 8:00 PM&nbsp;GONG SHOW – 2</span></u><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'> <o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>(Session chair: Andy <span class=SpellE>Pavlo</span>
-<span class=GramE>–&nbsp; CMU</span>) <o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><b><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>WEDNESDAY JANUARY 16<sup>th</sup><span
-class=GramE> 2019</span><o:p></o:p></span></u></b></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>7:30</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'> AM – </span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>9</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>:00 AM</span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'> </span></u><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>BREAKFAST</span></u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>9:00 AM – 10:00&nbsp;AM SESSION 6 <b>Data
-Integration and Evolution<o:p></o:p></b></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introduction<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l1 level1 lfo12;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Tobias <span class=SpellE>Bleifuß</span>
-(<span class=SpellE>Hasso</span> Plattner Institute); Leon <span class=SpellE>Bornemann</span>
-(<span class=SpellE>Hasso</span> Plattner Institute); Dmitri V. Kalashnikov
-(AT&amp;T Labs Research); Felix Naumann (<span class=SpellE>Hasso</span>
-Plattner Institute); <span class=SpellE>Divesh</span> Srivastava (AT&amp;T Labs
-Research): <b><i>“<span class=SpellE>DBChEx</span>: Interactive Exploration of
-Data and Schema Change”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l1 level1 lfo12;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Zack Ives (University of
-Pennsylvania); Yi Zhang (University of Pennsylvania); <span class=SpellE>Soonbo</span>
-Han (University of Pennsylvania); <span class=GramE>Nan<span
-style='mso-spacerun:yes'>  </span>Zheng</span> (University of Pennsylvania): <b><i>“Dataset
-Relationship Management”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l1 level1 lfo12;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Zhongjun</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> <span
-class=SpellE>Jin</span> (University of Michigan); Christopher <span
-class=SpellE>Baik</span> (University of Michigan); Michael <span class=SpellE>Cafarella</span>
-(University of Michigan); H. V. Jagadish (University of Michigan); <span
-class=SpellE>Yuze</span> Lou (University of Michigan): <b><i>“Demonstration of
-a Multiresolution Schema Mapping System”</i></b><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:-51.0pt;text-autospace:none'><span
-style='mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:00 AM – 10:30 BREAK<o:p></o:p></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>&nbsp;<o:p></o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><u><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'>10:30 AM – 12:15&nbsp;AM SESSION 7 <b>System
-Correctness and Performance<o:p></o:p></b></span></u></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='text-autospace:none'><span style='mso-ascii-font-family:
-"Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><span style='mso-tab-count:1'>            </span>Introduction<o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l12 level1 lfo18;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Shrainik</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> Jain
-(University of Washington); <span class=SpellE>Jiaqi</span> Yan (Snowflake
-Computing); <span class=SpellE>Thiery</span> <span class=SpellE>Cruanes</span>
-(Snowflake Computing); Bill Howe (University of Washington):<b><i> “Database-Agnostic
-Workload Management”</i></b><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l12 level1 lfo18;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Zuyu</span></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'> Zhang
-(University of Wisconsin-Madison); Harshad Deshmukh (University of
+Learn”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p117-kraska-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Tim
+Kraska (MIT); Mohammad Alizadeh (MIT CSAIL); Alex Beutel (Google); Ed Chi
+(Google); Ani Kristo (Brown University); Guillaume Leclerc (Massachussets
+Institute of Technology); Samuel Madden (MIT); Hongzi Mao (MIT CSAIL); Vikram
+Nathan (MIT): <b><i>“SageDB: A Learned Database System”</i></b></span></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>6:00 PM – 7:00 PM &nbsp; DINNER
+</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>7:00 PM -&nbsp; 8:00 PM&nbsp;
+GONG SHOW 1</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>(Session chair: Andy Pavlo – CMU)</p>
+
+<p class="p2"><span class="s1"><a href="gongshow.html#monday">Monday presentations</a></span></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u>TUESDAY JANUARY 15<sup>th</sup>
+2019</u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='text-decoration:
+ none'>&nbsp;</span></u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><u>7:30</u><u> AM – </u><u>9</u><u>:00
+AM</u><u> </u><u>BREAKFAST</u></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='text-decoration:
+ none'>&nbsp;</span></u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><u>9:00 AM – 10:00 AM&nbsp;
+KEYNOTE 2</u></p>
+
+<p class=MsoNormal><b><i>“Using Bots, Machine Learning &amp; Pipelines to
+create a modern data management environment”</i></b>, by Mark Ramsay (GSK)</p>
+
+<p class=MsoNormal style='text-autospace:none'><u><span style='text-decoration:
+ none'>&nbsp;</span></u></p>
+
+<p class=MsoNormal style='text-autospace:none'><u>10:00 AM – 10:30 BREAK</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>10:30 AM – 11:45 AM SESSION 4
+<b>Query Optimization</b> </u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Introduction</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p23-freitag-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Michael
+J Freitag (TUM); Thomas Neumann (TUM): <b><i>“Every Row Counts: Combining
+Sketches and Sampling for Accurate Group-By Result Estimates”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p101-kipf-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Andreas
+Kipf (Technical University of Munich); Thomas Kipf (University of Amsterdam);
+Bernhard Radke (Technische Universität München); Viktor Leis (TUM); Peter Boncz
+(Centrum Wiskunde &amp; Informatica); Alfons Kemper (TUM): <b><i>“Learned
+Cardinalities: Estimating Correlated Joins with Deep Learning”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p96-marcus-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></i><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Ryan
+C Marcus (Brandeis University); Olga Papaemmanouil (Brandeis University): <b><i>“Towards
+a Hands-Free Query Optimizer through Deep Learning”</i></b><i> </i></span></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>12:00 PM – 3:00 LUNCH &amp;
+BEACH</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-indent:.5in;text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>3:00 PM – 5:00 PM SESSION 5 <b>Multimedia
+and Multimodal</b> </u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-autospace:none'>Introduction</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-autospace:none'>&nbsp;</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p40-krishnan-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Sanjay
+Krishnan (U Chicago); Adam Dziedzic (The University of Chicago); Aaron J Elmore
+(University of Chicago): <b><i>“DeepLens: Towards a Visual Data Management
+System”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p141-kang-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Daniel
+Kang (Stanford University); Peter D Bailis (Stanford University); Matei Zaharia
+(Stanford and Databricks): <b><i>“Challenges and Opportunities in DNN-Based
+Video Analytics: A Demonstration of the BlazeIt Video Query Engine”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p70-tao-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Wenbo
+Tao (MIT); Xiaoyu Liu (Purdue University); Cagatay Demiralp (MIT); Remco Chang
+(Tufts University); Michael Stonebraker (MIT): <b><i>“Kyrix: Interactive Visual
+Data Exploration at Scale”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p93-burley-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Codi
+J Burley (The Ohio State University); Arnab Nandi (The Ohio State University): <b><i>“ARQuery:
+Hallucinating Analytics over Real-World Data using Augmented Reality”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p39-trummer-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Immanuel
+Trummer (Cornell University): <b><i>“Data Vocalization with CiceroDB”</i></b></span></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>6:00 PM – 7:00 PM&nbsp;DINNER</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>7:00 PM – 8:00 PM&nbsp;GONG SHOW
+– 2</u> 
+</p>
+
+<p class=MsoNormal style='text-autospace:none'>(Session chair: Andy Pavlo
+–&nbsp; CMU) </p>
+<p class="p2"><span class="s1"><a href="gongshow.html#tuesday">Tuesday presentations</a></span></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u>WEDNESDAY JANUARY 16<sup>th</sup>
+2019</u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>7:30</u><u> AM – </u><u>9</u><u>:00
+AM</u><u> </u><u>BREAKFAST</u></p>
+
+<p class=MsoNormal style='text-autospace:none'><u><span style='text-decoration:
+ none'>&nbsp;</span></u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>9:00 AM – 10:00&nbsp;AM
+SESSION 6 <b>Data Integration and Evolution</b></u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Introduction</p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p65-bleifuss-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Tobias
+Bleifuß (Hasso Plattner Institute); Leon Bornemann (Hasso Plattner Institute);
+Dmitri V. Kalashnikov (AT&amp;T Labs Research); Felix Naumann (Hasso Plattner
+Institute); Divesh Srivastava (AT&amp;T Labs Research): <b><i>“DBChEx:
+Interactive Exploration of Data and Schema Change”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p55-ives-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Zack
+Ives (University of Pennsylvania); Yi Zhang (University of Pennsylvania);
+Soonbo Han (University of Pennsylvania); Nan  Zheng (University of
+Pennsylvania): <b><i>“Dataset Relationship Management”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p9-jin-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Zhongjun
+Jin (University of Michigan); Christopher Baik (University of Michigan);
+Michael Cafarella (University of Michigan); H. V. Jagadish (University of
+Michigan); Yuze Lou (University of Michigan): <b><i>“Demonstration of a
+Multiresolution Schema Mapping System”</i></b></span></p>
+
+<p class=MsoNormal style='margin-left:-51.0pt;text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>10:00 AM – 10:30 BREAK</u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'><u>10:30 AM – 12:15&nbsp;AM
+SESSION 7 <b>System Correctness and Performance</b></u></p>
+
+<p class=MsoNormal style='text-autospace:none'>&nbsp;</p>
+
+<p class=MsoNormal style='text-autospace:none'>            Introduction</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p110-jain-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Shrainik
+Jain (University of Washington); Jiaqi Yan (Snowflake Computing); Thiery
+Cruanes (Snowflake Computing); Bill Howe (University of Washington):<b><i> “Database-Agnostic
+Workload Management”</i></b></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p133-zhang-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Zuyu
+Zhang (University of Wisconsin-Madison); Harshad Deshmukh (University of
 Wisconsin-Madison); Jignesh Patel (UW - Madison): <b><i>“Data Partitioning for
-In-Memory Systems: Myths, Challenges, and Opportunities”</i></b><o:p></o:p></span></p>
+In-Memory Systems: Myths, Challenges, and Opportunities”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l12 level1 lfo18;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Anastasios <span class=SpellE>Arvanitis</span>
-(Unravel Data Systems); <span class=SpellE>Shivnath</span> <span class=SpellE>Babu</span>
-(Duke University); Eric Chu (Unravel Data Systems); Adrian Popescu (Unravel
-Data Systems); <span class=SpellE>Alkis</span> <span class=SpellE>Simitsis</span>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p150-arvanitis-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Anastasios
+Arvanitis (Unravel Data Systems); Shivnath Babu (Duke University); Eric Chu
+(Unravel Data Systems); Adrian Popescu (Unravel Data Systems); Alkis Simitsis
 (Unravel Data Systems); Kevin Wilkinson (Unravel Data Systems): <b><i>“Automated
-Performance Management for the Big Data Stack”</i></b><o:p></o:p></span></p>
+Performance Management for the Big Data Stack”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l12 level1 lfo18;
-text-autospace:none'><![if !supportLists]><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span dir=LTR></span><span style='font-family:
-"Times New Roman",serif;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
-major-bidi;mso-bidi-theme-font:major-bidi'>Lennart Oldenburg (University of
-California, Santa Cruz); <span class=SpellE>Xiangfeng</span> Zhu (University of
-California, Santa Cruz); Kamala <span class=SpellE>Ramasubramanian</span>
-(University of California, Santa Cruz); Peter Alvaro (UC Santa Cruz): <b><i>“Fixed
-It <span class=GramE>For</span> You: Protocol Repair Using Lineage Graphs”</i></b><o:p></o:p></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p122-oldenburg-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Lennart
+Oldenburg (University of California, Santa Cruz); Xiangfeng Zhu (University of
+California, Santa Cruz); Kamala Ramasubramanian (University of California,
+Santa Cruz); Peter Alvaro (UC Santa Cruz): <b><i>“Fixed It For You: Protocol
+Repair Using Lineage Graphs”</i></b></span></p>
 
-<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l12 level1 lfo18;
-text-autospace:none'><![if !supportLists]><b><i><span style='font-family:"Times New Roman",serif;
-mso-ascii-theme-font:major-bidi;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-bidi;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:
-major-bidi'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></i></b><![endif]><span dir=LTR></span><span
-style='font-family:"Times New Roman",serif;mso-ascii-theme-font:major-bidi;
-mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi'>Martin Kersten
-(CWI); Stefan <span class=SpellE>Manegold</span> (CWI Amsterdam); Ying Zhang (<span
-class=SpellE>MonetDB</span> Solutions); <span class=SpellE>Panos</span> <span
-class=SpellE>Kuoutsourakis</span> (<span class=SpellE>MonetDB</span> Solutions):
-<b><i>“SQALPEL: A database performance platform”<o:p></o:p></i></b></span></p>
+<p class=MsoListParagraph style='text-indent:-.25in;text-autospace:none'>
+<span class="s1"> <a href="papers/p50-kersten-cidr19.pdf">        <i class="fa fa-file-pdf-o fa-lg"></i></a></span>
+<span
+style='font-family:"Times New Roman",serif'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></i></b><span dir=LTR></span><span style='font-family:"Times New Roman",serif'>Martin
+Kersten (CWI); Stefan Manegold (CWI Amsterdam); Ying Zhang (MonetDB Solutions);
+Panos Kuoutsourakis (MonetDB Solutions): <b><i>“SQALPEL: A database performance
+platform”</i></b></span></p>
 
-<p class=MsoNormal><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal>&nbsp;</p>
 
 </div>
 
