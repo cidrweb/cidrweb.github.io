@@ -111,6 +111,17 @@ body {
     font-style: italic;
 
 }
+.session-location {
+    display: block;
+    font-style: italic;
+
+}
+
+.session-location a {
+    display: block;
+    font-style: italic;
+
+}
 
 .session-title,
 .time-slot {
@@ -157,7 +168,6 @@ body {
 }
 
 .track-all {
-    display: flex;
     justify-content: center;
     align-items: center;
     background: #ccc;
