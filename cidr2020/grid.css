@@ -33,7 +33,7 @@
             */
         
         grid-template-columns:
-            [times] 7em
+            [times] 8em
             [track-1-start] 4fr
             [track-1-end];
     }
