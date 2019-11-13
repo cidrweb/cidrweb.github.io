@@ -7,16 +7,23 @@
         grid-gap: 1em;
         grid-template-rows:
             [tracks] auto
-            [time-0730] 1fr
-            [time-0900] 1fr
-            [time-1000] 1fr
-            [time-1030] 2fr
-            [time-1210] 1fr
-            [time-1340] 2fr
-            [time-1520] 1fr
-            [time-1550] 2fr
-            [time-1730] 1fr
-            [time-1900] 1fr;
+            [time-0730] auto
+            [time-0900] auto
+            [time-1000] auto
+            [time-1020] auto
+            [time-1030] auto
+            [time-1050] auto
+            [time-1210] auto
+            [time-1340] auto
+            [time-1510] auto
+            [time-1520] auto
+            [time-1550] auto
+            [time-1610] auto
+            [time-1640] auto
+            [time-1730] auto
+            [time-1800] auto
+            [time-1900] auto
+            [time-1930] auto;
             
             
             /* Note 1:
