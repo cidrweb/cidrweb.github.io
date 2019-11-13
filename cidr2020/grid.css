@@ -6,7 +6,6 @@
         display: grid;
         grid-gap: 1em;
         grid-template-rows:
-            [tracks] auto
             [time-0730] auto
             [time-0900] auto
             [time-1000] auto
@@ -34,14 +33,14 @@
             */
         
         grid-template-columns:
-            [times] 6em
+            [times] 7em
             [track-1-start] 4fr
             [track-1-end];
     }
 }
 
 .time-slot {
-    grid-column: times;
+    grid-column: times
 }
 
 .track-slot {
@@ -116,7 +115,7 @@ body {
 .session-title,
 .time-slot {
     margin: 0;
-    font-size: .75em;
+    font-size: 1em;
 }
 
 .session-title a {
@@ -134,8 +133,7 @@ body {
 
 .track-slot,
 .time-slot {
-    font-weight: bold;
-    font-size:.45em;
+    font-size:1em;
 }
 
 .track-1 {
