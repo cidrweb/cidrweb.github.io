@@ -106,6 +106,12 @@ body {
     font-size: .8em;
 
 }
+.keynote-presenter {
+    display: block;
+    font-style: bold;
+    font-size: 1em;
+
+}
 .session-talk {
     display: block;
     font-style: italic;
@@ -153,7 +159,7 @@ body {
 }
 
 .track-2 {
-    background-color: #687f00;
+    background-color: #1259B2687f00;
     color: #fff;
 }
 
