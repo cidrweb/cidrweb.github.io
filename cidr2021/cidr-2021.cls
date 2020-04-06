@@ -1644,8 +1644,8 @@
 \def\CopyrightYear#1{\global\copyrtyr{#1}}
 \def\crdata#1{\global\acmcopyr{#1}}
 \def\permission#1{\global\boilerplate{#1}}
-\global\boilerplate={This article is published under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/), which permits distribution and reproduction in any medium as well allowing derivative works, provided that you attribute the original work to the author(s) and CIDR 2020.}
-\global\conferenceinfo{10th Annual Conference on Innovative Data Systems Research (CIDR `20)}{January 12-15, 2020, Amsterdam, Netherlands.}
+\global\boilerplate={This article is published under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/), which permits distribution and reproduction in any medium as well allowing derivative works, provided that you attribute the original work to the author(s) and CIDR 2021.}
+\global\conferenceinfo{11th Annual Conference on Innovative Data Systems Research (CIDR `21)}{January 10-13, 2021, Chaminade, USA.}
 \newtoks\copyrightetc
 \toappear{\the\boilerplate\par
 {\confname{\the\conf}} \the\confinfo\par \the\copyrightetc}
