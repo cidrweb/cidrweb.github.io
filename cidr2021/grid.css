@@ -8,8 +8,10 @@
         grid-template-rows:
         	[time-0700] auto
             [time-0730] auto
+            [time-0800] auto
+            [time-0830] auto
             [time-0900] auto
-            [time-0915] auto
+            [time-0930] auto
             [time-1000] auto;
             
             
