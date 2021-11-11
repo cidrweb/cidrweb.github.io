@@ -1268,7 +1268,7 @@
   \global\@ACM@journal@bibstripfalse
 }
 \if@ACM@journal\else
-\acmConference[CIDR'22]{12th Annual Conference on Innovative Data Systems Research}{January 10-13, 2022}{Chaminade, USA}%12th Annual Conference on Innovative Data Systems Research (CIDR `22)}{January 10-13, 2022, Chaminade, USA.}
+\acmConference[CIDR'22]{12th Annual Conference on Innovative Data Systems Research}{January 10-13, 2022}{Chaminade, USA}%12th Annual Conference on Innovative Data Systems Research (CIDR `22)}{January 9-12, 2022, Chaminade, USA.}
 
 \fi
 \def\acmBooktitle#1{\gdef\@acmBooktitle{#1}}
@@ -1624,7 +1624,7 @@
    This paper is published under the Creative Commons Attribution~4.0
    International (CC-BY~4.0) license. Authors reserve their rights to
    disseminate the work on their personal and corporate Web sites with
-   the appropriate attribution, provided that you attribute the original work to the authors and CIDR 2022. 12th Annual Conference on Innovative Data Systems Research (CIDR ’22). January 10-13, 2022, Chaminade, USA.
+   the appropriate attribution, provided that you attribute the original work to the authors and CIDR 2022. 12th Annual Conference on Innovative Data Systems Research (CIDR ’22). January 9-12, 2022, Chaminade, USA.
 }
 \def\copyrightyear#1{\def\@copyrightyear{#1}}
 \copyrightyear{\@acmYear}
