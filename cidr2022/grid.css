@@ -6,7 +6,7 @@
         display: grid;
         grid-gap: 1em;
         grid-template-rows:
-            [time-0730] auto
+            [time-0700] auto
             [time-0830] auto
             [time-0845] auto
             [time-0900] auto
