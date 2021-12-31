@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="The 12th Conference on Innovative Data Systems Research (CIDR 2022), Registration Information" />
+<meta name="keywords" content="your,keywords,goes,here" />
+<meta name="author" content="Your Name" />
+<link rel="stylesheet" type="text/css" href="andreas02.css"
+	media="screen,projection" />
+<link rel="stylesheet" type="text/css"
+	href="http://www.cidrdb.org/cidr2013/print.css" media="print" />
+<title>CIDR 2022 - Registration</title>
+
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+<script language="JavaScript">
+<!-- This script and many more are available free online at -->
+	// Set up the image files to be used.
+
+	var theImages = new Array() // do not change this
+
+	// To add more image files, continue with the
+
+	// pattern below, adding to the array.
+
+	theImages[0] = 'img/Property_Courtyard.jpg'
+
+	// do not edit anything below this line
+
+	var p = theImages.length;
+
+	var whichImage = Math.round(Math.random() * (p - 1));
+
+	function showImage() {
+
+		document.write('<div id="masthead">');
+
+		document
+				.write('<img src="' + theImages[whichImage] + '" alt="" width="760" height="200" /></a>');
+
+		document.write('</div>');
+
+	}
+	/*** 
+	 Simple jQuery Slideshow Script
+	 Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+	 ***/
+
+	function slideSwitch() {
+		var $active = $('#slideshow IMG.active');
+
+		if ($active.length == 0)
+			$active = $('#slideshow IMG:last');
+
+		// use this to pull the images in the order they appear in the markup
+		var $next = $active.next().length ? $active.next()
+				: $('#slideshow IMG:first');
+
+		// uncomment the 3 lines below to pull the images in random order
+
+		// var $sibs  = $active.siblings();
+		// var rndNum = Math.floor(Math.random() * $sibs.length );
+		// var $next  = $( $sibs[ rndNum ] );
+
+		$active.addClass('last-active');
+
+		$next.css({
+			opacity : 0.0
+		}).addClass('active').animate({
+			opacity : 1.0
+		}, 1000, function() {
+			$active.removeClass('active last-active');
+		});
+	}
+
+	$(function() {
+		setInterval("slideSwitch()", 5000);
+	});
+</script>
+
+<style type="text/css">
+
+/*** set the width and height to match your images **/
+#slideshow {
+	position: relative;
+	height: 350px;
+}
+
+#slideshow IMG {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	opacity: 0.0;
+}
+
+#slideshow IMG.active {
+	z-index: 10;
+	opacity: 1.0;
+}
+
+#slideshow IMG.last-active {
+	z-index: 9;
+}
+</style>
+
+<style>
+    #myFrame { width:100%; height:100%; }
+</style>
+
+
+
+</head>
+
+<body>
+	<div id="wrap">
+
+		<div id="header">
+			<h1>
+				<a href="index.html">CIDR 2022</a>
+			</h1>
+			<p>
+				January 9-12, 2022        <span style="padding-left:30px">  Chaminade, CA</span>
+			</p>
+		</div>
+
+		<!--
+	<img id="frontphoto" src="img/Property_Courtyard.jpg" width="760" height="200" alt="" />
+-->
+		<script language="JavaScript">
+			showImage();
+		</script>
+		<div id="leftside">
+			<h2 class="hide">Menu:</h2>
+
+			<ul class="avmenu">
+				<li><a href="index.html">Home</a></li>
+			<li><a href="cfp.html">Call For Papers</a></li>
+			<li><a href="officers.html">Officers</a></li>
+			<li><a href="org.html">Organization</a></li>
+			<li><a href="keynotespeakers.html">Keynotes</a></li>
+			<li><a href="program.html">Program</a></li>
+
+			<li><a href="registration.html">Venue and Registration</a></li>
+<!--			<li><a href="http://www.chaminade.com">Venue Information</a></li>   -->
+			<li><a href="../index.html">Previous Conferences</a>
+				<ul>
+				<li><a href="../cidr2021/index.html">CIDR 2021</a></li>
+
+				<li><a href="../cidr2020/index.html">CIDR 2020</a></li>
+				<li><a href="../cidr2019/index.html">CIDR 2019</a></li>
+				<li><a href="../cidr2017/index.html">CIDR 2017</a></li>
+					<li><a href="../cidr2015/index.html">CIDR 2015</a></li>
+                                        <li><a href="../cidr2013/index.html">CIDR 2013</a></li>
+                                        <li><a href="../cidr2011/index.html">CIDR 2011</a></li>
+					<li><a href="../cidr2009/index.html">CIDR 2009</a></li>
+					<li><a href="../cidr2007/index.html">CIDR 2007</a></li>
+					<li><a href="../cidr2005/index.html">CIDR 2005</a></li>
+					<li><a href="../cidr2003/index.html">CIDR 2003</a></li>
+				</ul>
+			</li>
+			</ul>
+
+			<!--
+		<div class="announce">
+			<p><p>
+			<h2>Site Updates:</h2>
+			<p><strong>Jun 18, 2010:</strong><br />Site Launched!</p>
+			<p class="textright"><a href="#">Sample link &raquo;</a></p>
+		</div>
+-->
+		</div>
+
+		<div id="contentwide">
+			<h2> Notes for CIDR 2022 In-Person Attendees at Chaminade</h2>
+
+
+We are pleased you will be joining us for CIDR 2022 at Chaminade Resort in Santa Cruz. Here are some notes that you may find useful for your visit. If you have any questions or concerns, contact <a href = "mailto:CIDR2022Info@cidrdb.org"">CIDR2022Info@cidrdb.org </a>.
+
+<h3>Covid Precautions</h3>
+<ul>
+<li>	Attendees must bring proof of vaccination and enough masks for the duration of the conference.</li>
+<li>	Masks must be worn indoors except during meals or when giving a presentation.</li>
+<li>	Audience seats will be widely spaced for social distancing.</li>
+</ul>
+For private discussion, there is easy access to outdoor space just off the conference room and the dining room.
+<ul>
+<li>	Hotel staff will be masked.
+<li>	If you feel ill, we have a limited number of antigen test kits available. It is best to bring your own if you have them.</li>
+<li>	Contactless check-out:  no need to visit the front desk. Chaminade will email you your receipt.</li>
+<li>	Check-in: there is no contactless option for check-in. You’ll need to present some identification and your credit card to get your room key.</li>
+
+</ul>
+<h3>Upon Arrival</h3>
+The resort comprises a main building with conference rooms, dining rooms and the front desk. Guest rooms are in the outlying buildings. Check-in is at 4pm.
+
+	Enter the main building and get your room keys at the Front Desk on your right. A central stairway leads to the Seacliff Terrace where you'll find the CIDR registration desk starting at 4pm. To the right of the registration desk is the Santa Cruz Room, our conference room. Our private dining room, the Sunset Restaurant is on the first floor directly beneath the Santa Cruz Room. For reference, see the floor plan at the bottom of this page. 
+
+<h3>Getting There</h3>
+	The resort is about 2 miles from the Pacific Ocean in the hills overlooking Santa Cruz.
+
+	Auto: The road to Santa Cruz (highway 17) can get congested so check traffic conditions (511.org or a phone app). If you are coming from San Francisco, highway 280 is a pleasant alternative to highway 101. For directions, see https://www.chaminade.com/about_santa_cruz_resort/santa_cruz_directions/   Be wary of alternative driving routes suggested by smart phone apps unless you are familiar with the roads.
+
+<ul>
+	<li> Public Tranport: take a bus to Santa Cruz, then taxi or ride share (e.g., Uber/Lyft) to Chaminade. </li>
+
+	<li>	Bus from San Francisco airport:  Both Greyhound and Wanderu offer bus service between San Francisco Airport (SFO) and Santa Cruz. Check their websites for schedules. </li>
+
+	<li>	Bus Santa Jose: <a href="http://www.scmtd.com/en/routes/20191/17/wd_ob"> scmtd </a> </li>
+</ul>
+
+<h3>Things to Do</h3>
+	Chaminade Resort has a number of attractions including a spa and hiking trails through the property. Unfortunately, their outdoor pool is closed for renovation.
+
+<p>
+
+Santa Cruz is a beach town and a university town. The main beach attraction is the boardwalk with its rides, games and food. The University of California - Santa Cruz has a beautiful campus in the redwood hills above town. The Arboretum and Botanic Garden have an excellent collection of plants from California and the southern hemisphere.
+
+<p>
+
+Things to do in and around Santa Cruz: 
+<ul>
+<li>	<a href="https://www.chaminade.com/things_to_do_santa_cruz/"> Chaminade Santa Cruz Guide </a></li>
+<li>	<a href="https://www.santacruz.org/blog"> Santa Cruz Blog </a> </li>
+</ul>
+ 
+At this time of year, there are two other nature events of note in the area. Monarch butterflies over-winter in the trees at Natural Bridges State Park in Santa Cruz. And a few miles up the coast (a nice drive, by the way), you can visit Ano Nuevo State Park and view the massive elephant seals where they come ashore to make more elephant seals. (Make reservations before you go).  
+
+<ul>
+
+<li><a href="https://thatsmypark.org/parks-and-beaches/natural-bridges-state-beach/"> Butterflies </a></li>
+<li><a href="https://www.parks.ca.gov/?page_id=29375">Elephant seals</a> </li>
+</ul>
+
+<h3> Chaminade Main Building Floor Plan </h3>
+
+<img src="img/chaminade_floor_plan.png" alt="Chaminade Floor Plan" style="width:550px">
+
+		<div id="footer">
+			<p>
+				<span>&copy; 2012 <a href="registration.html#">CIDR
+						Conference</a></span><br /> Template design by <a
+					href="http://andreasviklund.com/">Andreas Viklund</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
