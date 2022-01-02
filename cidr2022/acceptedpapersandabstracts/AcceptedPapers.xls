@@ -1,0 +1,3172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="s1">
+      <Font x:Family="Swiss" ss:Bold="1" />
+    </Style>
+    <Style ss:ID="s2">
+      <NumberFormat ss:Format="0%" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="DEF_SYEHPFAD">
+    <Table>
+      <Row>
+        <Cell ss:Index="1">
+          <Data ss:Type="String">DEF_SYEHPFAD</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="3">
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Paper ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Last Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Paper Title</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Abstract</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Contact Author Name</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Contact Author Email</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Authors</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Names</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Track Name</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Subject Area</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Secondary Subject Areas</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Conflicts</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Assigned</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Completed</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">% Completed</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Bids</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Discussion</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Status</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Author Feedback</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Feedback Submitted?</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Camera Ready</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Camera Ready Submitted?</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Presentation</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Number of Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Supplementary Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Number of Supplementary Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Reviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Reviewer Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">MetaReviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">MetaReviewer Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">SeniorMetaReviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">SeniorMetaReviewerEmails</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/18/2021 5:09:21 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:23:46 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DAPHNE: An Open and Extensible System Infrastructure for Integrated Data Analysis Pipelines]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Integrated data analysis (IDA) pipelines---that combine data management (DM) and query processing, high-performance computing (HPC), and machine learning (ML) training and scoring---become increasingly common in practice. Interestingly, systems of these areas share many compilation and runtime techniques, and the used---increasingly heterogeneous---hardware infrastructure converges as well. Yet, the programming paradigms, cluster resource management, data formats and representations, and execution strategies differ substantially. DAPHNE is an open and extensible system infrastructure for such IDA pipelines, including language abstractions, compilation and runtime techniques, multi-level scheduling, hardware (HW) accelerators, and computational storage for increasing productivity and eliminating unnecessary overheads. In this paper, we make a case for IDA pipelines, describe the overall DAPHNE system architecture, its key components, and the design of a vectorized execution engine for computational storage, HW accelerators, as well as local and distributed operations. Preliminary experiments that compare DAPHNE with MonetDB, Pandas, DuckDB, and TensorFlow show promising results.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Patrick Damme]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[patrick.damme@tugraz.at]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Patrick Damme (Graz University of Technology & Know-Center GmbH)*; Marius Birkenbach (KAI); Constantinos Bitsakos (NTUA); Matthias Boehm (Graz University of Technology); Philippe Bonnet (IT Univ Copenhagen, Denmark); Florina M. Ciorba (Technical University of Dresden, Germany / University of Basel, Switzerland); Mark Dokter (Know-Center GmbH); Pawel Dowgiallo (Intel); Ahmed Eleliemy (University of Basel); Christian Faerber (Intel Corporation); Georgios Goumas (	National Technical University of Athens); Dirk Habich (TU Dresden); Niclas Hedam (IT University of Copenhagen); Marlies Hofer (AVL List GmbH); Wenjun Huang (German Aerospace Center); Kevin Innerebner (Graz University of Technology); Vasileios Karakostas (National Technical University of Athens (NTUA)); Roman Kern (KNOW-CENTER GmbH); Tomaž Kosar (University of Maribor); Alexander Krause (TU Dresden); Daniel Krems (AVL List GmbH); Andreas Laber (Infineon); Wolfgang Lehner (TU Dresden); Eric Mier (TU Dresden); Marcus Paradies (German Aerospace Center); Bernhard Peischl (); Gabrielle Poerwawinata (University of Basel); Stratos Psomadakis (ICCS/NTUA); Tilmann Rabl (HPI, University of Potsdam); Piotr Ratuszniak (Intel Technology Poland); Pedro Silva (HPI, University of Potsdam); Nikolai Skuppin (German Aerospace Center (DLR)); Andreas Starzacher (Infineon); Benjamin Steinwender (KAI GmbH); Ilin Tolovski (Hasso Plattner Institute); Pinar Tozun (IT University of Copenhagen); Wojciech Ulatowski (Intel); Yuanyuan Wang (Technical University of Munich (TUM); German Aerospace Center (DLR)); Izajasz Wrosz (Intel); Aleš Zamuda (University of Maribor); Ce Zhang (ETH); Xiaoxiang Zhu (Technical University of Munich (TUM); German Aerospace Center (DLR))]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Damme, Patrick*; Birkenbach, Marius; Bitsakos, Constantinos; Boehm, Matthias; Bonnet, Philippe; Ciorba, Florina M.; Dokter, Mark; Dowgiallo, Pawel; Eleliemy, Ahmed; Faerber, Christian; Goumas, Georgios; Habich, Dirk; Hedam, Niclas; Hofer, Marlies; Huang, Wenjun; Innerebner, Kevin; Karakostas, Vasileios; Kern, Roman; Kosar, Tomaž; Krause, Alexander; Krems, Daniel; Laber, Andreas; Lehner, Wolfgang; Mier, Eric; Paradies, Marcus; Peischl, Bernhard; Poerwawinata, Gabrielle; Psomadakis, Stratos; Rabl, Tilmann; Ratuszniak, Piotr; Silva, Pedro; Skuppin, Nikolai; Starzacher, Andreas; Steinwender, Benjamin; Tolovski, Ilin; Tozun, Pinar; Ulatowski, Wojciech; Wang, Yuanyuan; Wrosz, Izajasz; Zamuda, Aleš; Zhang, Ce; Zhu, Xiaoxiang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[patrick.damme@tugraz.at*; marius.birkenbach@k-ai.at; kbitsak@cslab.ece.ntua.gr; m.boehm@tugraz.at; phbo@itu.dk; florina.ciorba@unibas.ch; mdokter@know-center.at; pawel.dowgiallo@intel.com; eleliemy.ahmedhamdy@gmail.com; christian.faerber@intel.com; goumas@cslab.ece.ntua.gr; dirk.habich@tu-dresden.de; nhed@itu.dk; Marlies.Hofer@avl.com; wenjun.huang@dlr.de; innerebner@student.tugraz.at; vkarakos@cslab.ece.ntua.gr; rkern@know-center.at; tomaz.kosar@um.si; alexander.krause@tu-dresden.de; Daniel.Krems@avl.com; Andreas.Laber@infineon.com; wolfgang.lehner@tu-dresden.de; Eric.mier@tu-dresden.de; marcus.paradies@dlr.de; bernhard.peischl@avl.com; gabrielle.poerwawinata@unibas.ch; psomas@cslab.ece.ntua.gr; tilmann.rabl@hpi.de; piotr.ratuszniak@intel.com; pedro.silva@hpi.de; nikolai.skuppin@dlr.de; Andreas.Starzacher@infineon.com; benjamin.steinwender@k-ai.at; ilin.tolovski@hpi.de; pito@itu.dk; wojciech.ulatowski@intel.com; yuanyuan.wang@dlr.de; izajasz.p.wrosz@intel.com; ales.zamuda@um.si; ce.zhang@inf.ethz.ch; xiaoxiang.zhu@dlr.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[12]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR2022_paper4.pdf (890,661 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Justin Levandoski (Google); Shimin Chen (Chinese Academy of Sciences)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; justin.levandoski@gmail.com; chensm@ict.ac.cn]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[5]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/18/2021 7:20:10 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:24:30 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Decoupled Transactions: Low Tail Latency Online Transactions Atop Jittery Servers]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Increasingly, incidents are reported where servers and networks suddenly become very slow in modern cloud data centers. Many distributed systems experience cascading slowness as one or a few slow servers (or their network) bring the entire system to its knees.
+
+Non-transactional work copes by using idempotent retries bypassing the laggards. For transactional databases, it’s not so simple. This paper sketches a design for a distributed database providing responsive snapshot isolation transactions even when some of its servers and connections stop or, more perniciously, just slow down.
+
+We present a thought experiment for a decoupled transactions database system that avoids cascading slowdown when a subset of its servers are sick but not necessarily dead. The goal is to provide low tail latency online transactions atop servers and networks that may sometimes go slow. Assume at most F recalcitrant servers in the database. Can we design a robust system that makes predictable progress while not waiting for F slow servers?
+]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Pat Helland]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[phelland@salesforce.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Pat Helland (Salesforce)*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Helland, Pat*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[phelland@salesforce.com*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR-2022-Helland-Decoupled-Transaction-Submission.pdf (887,146 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Arun Kumar (University of California, San Diego); Gustavo Alonso (ETHZ); Jana Giceva (TUM)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[arunkk@eng.ucsd.edu; alonso@inf.ethz.ch; jana.giceva@tum.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[6]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/19/2021 7:23:17 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:24:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[A Unified Transferable Model for ML-Enhanced DBMS]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Recently, the database management system (DBMS) community has witnessed the power of machine learning (ML) solutions for DBMS tasks. Despite their promising performance, these existing solutions can hardly be considered satisfactory. First, these ML-based methods in DBMS are not effective enough because they are optimized on each specific task, and cannot explore or understand the intrinsic connections between tasks. Second, the training process has serious limitations that hinder their practicality, because they need to retrain the entire model from scratch for a new DB. Moreover, for each retraining, they require an excessive amount of training data, which is very expensive to acquire and unavailable for a new DB.
+We propose to explore the transferabilities of the ML methods both across tasks and across DBs to tackle these fundamental drawbacks.
+
+In this paper, we propose a unified model MTMLF that uses a multi-task training procedure to capture the transferable knowledge across tasks and a pre-train fine-tune procedure to distill the transferable meta knowledge across DBs. 
+We believe this paradigm is more suitable for cloud DB service and has the potential to revolutionize the way how ML is used in DBMS. Furthermore, to demonstrate the predicting power and viability of MTMLF, we provide a concrete and very promising case study on query optimization tasks. Last but not least, we discuss several concrete research opportunities along this line of work.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ziniu Wu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ziniuw@mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ziniu Wu (Massachusetts Institute of Technology)*; Pei Yu (中国科学技术大学); Peilun Yang (University of Technology Sydney); Rong Zhu (Alibaba Group); Yuxing Han (ByteDance); Yaliang Li (Alibaba Group); Defu Lian (University of Science and Technology of China); Kai Zeng (Alibaba Group); Jingren Zhou (Alibaba Group)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Wu, Ziniu*; Yu, Pei; Yang, Peilun; Zhu, Rong; Han, Yuxing; Li, Yaliang; Lian, Defu; Zeng, Kai; Zhou, Jingren]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ziniuw@mit.edu*; yupp@mail.ustc.edu.cn; peilun.yang@student.uts.edu.au; red.zr@alibaba-inc.com; yuxinghn@gmail.com; yaliang.li@alibaba-inc.com; liandefu@ustc.edu.cn; kaizeng.zk@gmail.com; jingren.zhou@alibaba-inc.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR_submission6.pdf (1,025,406 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[supplementary_material_CIDR6.pdf (503,338 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Hannes Mühleisen (Centrum Wiskunde & Informatica); Shimin Chen (Chinese Academy of Sciences); Wolfgang Lehner (TU Dresden)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[hannes.muehleisen@cwi.nl; chensm@ict.ac.cn; wolfgang.lehner@tu-dresden.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[11]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/23/2021 2:14:40 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:25:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Farview: Disaggregated Memory with Operator Off-loading for Database Engines]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disaggregated memory uses network-attached DRAM as a way to decouple memory from CPU. In the context of databases, such a design offers significant advantages in terms of making a larger memory capacity available as a central pool to a collection of smaller processing nodes. To explore these possibilities, we have implemented Farview, a disaggregated memory solution for databases, operating as a smart remote buffer cache with operator offloading capabilities. Farview is implemented as an FPGA-based smart NIC making DRAM available as a disaggregated, network-attached memory module capable of performing data processing at line rate over data streams to/from memory. Farview supports offloading for a variety of operator types, including selection, projection, aggregation, regular expressions, and encryption.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Dario Korolija]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[dario.korolija@inf.ethz.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Dario Korolija (ETH Zurich)*; Dimitrios Koutsoukos (ETHZ); Kimberly Keeton (Unaffiliated); Konstantin  Taranov (ETH Zurich); Dejan Milojicic (Hewlett Packard Labs); Gustavo Alonso (ETHZ)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Korolija, Dario*; Koutsoukos, Dimitrios; Keeton, Kimberly; Taranov, Konstantin ; Milojicic, Dejan; Alonso, Gustavo]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[dario.korolija@inf.ethz.ch*; dkoutsou@inf.ethz.ch; kimberly.keeton@gmail.com; konstantin.taranov@inf.ethz.ch; dejan.milojicic@hpe.com; alonso@inf.ethz.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[6]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[farview.pdf (1,264,506 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Jens Teubner (TU Dortmund University); Wolfgang Lehner (TU Dresden)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; jens.teubner@cs.tu-dortmund.de; wolfgang.lehner@tu-dresden.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[12]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/23/2021 8:03:37 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:25:54 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Mach: A Pluggable Metrics Storage Engine for the Age of Observability]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Observability is gaining traction as a key capability for understanding the internal behavior of large-scale system deployments. Instrumenting these systems to report quantitative telemetry data called metrics enables engineers to monitor and maintain services that operate at massive scale, and to respond rapidly to any issues that might arise. In order to be useful, metrics must be ingested, stored, and queryable in real time, but many existing solutions cannot keep up with the sheer volume of data being generated.
+
+This paper describes Mach, a storage engine we are building specifically to handle high-volume metrics data. Similar to many popular libraries (e.g., Berkeley DB, LevelDB, RocksDB), Mach provides a simple API for use as a pluggable storage engine in an observability setting. All aspects of Mach's design aggressively leverage the characteristics of metrics data and workloads through our loosely coordinated architecture, yielding an order-of-magnitude performance improvement over existing approaches—especially those marketed as "time series database systems" (TSDBs). In fact, our preliminary results show that Mach can achieve 10x higher write throughput and 3x higher read throughput compared to several widely used alternatives.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Franco Solleza]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[franco_solleza@brown.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Franco Solleza (Brown University)*; Andrew Crotty (Carnegie Mellon University); Suman Karumuri (Slack); Nesime Tatbul (Intel Labs and MIT); Stan Zdonik (Brown University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Solleza, Franco*; Crotty, Andrew; Karumuri, Suman; Tatbul, Nesime; Zdonik, Stan]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[franco_solleza@brown.edu*; andrew_crotty@brown.edu; skarumuri@slack-corp.com; tatbul@csail.mit.edu; sbz@cs.brown.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[paper12.pdf (1,233,259 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Gustavo Alonso (ETHZ); Jens Teubner (TU Dortmund University); Justin Levandoski (Google)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alonso@inf.ethz.ch; jens.teubner@cs.tu-dortmund.de; justin.levandoski@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[13]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/23/2021 8:41:48 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:26:03 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Are You Sure You Want to Use MMAP in Your Database Management System?]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Memory-mapped (mmap) file I/O is an OS-provided feature that maps the contents of a file on secondary storage into a program's address space. The program then accesses pages via pointers as if the file resided entirely in memory. The OS transparently loads pages only when the program references them and automatically evicts pages if memory fills up.
+
+mmap's perceived ease of use has seduced database management system (DBMS) developers for decades as a viable alternative to implementing a buffer pool. There are, however, severe correctness and performance issues with mmap that are not immediately apparent. Such problems make it difficult, if not impossible, to use mmap correctly and efficiently in a modern DBMS. In fact, several popular DBMSs initially used mmap to support larger-than-memory databases but soon encountered these hidden perils, forcing them to switch to managing file I/O themselves after significant engineering costs. In this way, mmap and DBMSs are like coffee and spicy food: an unfortunate combination that becomes obvious after the fact.
+
+Given that developers keep trying to use mmap in new DBMSs, we wrote this paper to provide a warning to others that mmap is not a suitable replacement for a traditional buffer pool. We discuss POSIX mmap's three main shortcomings in detail, and our experimental analysis demonstrates clear performance limitations. Based on these findings, we conclude with a prescription for when a DBMS might consider using mmap for file I/O.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Andrew Crotty]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[andrew_crotty@brown.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Andrew Crotty (Carnegie Mellon University)*; Viktor Leis ( Friedrich-Alexander-Universität Erlangen-Nürnberg); Andrew Pavlo (Carnegie Mellon University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Crotty, Andrew*; Leis, Viktor; Pavlo, Andrew]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[andrew_crotty@brown.edu*; viktor.leis@fau.de; pavlo@cs.cmu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[8]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[paper13.pdf (722,221 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Jens Teubner (TU Dortmund University); Peter Triantafillou (University of Warwick)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; jens.teubner@cs.tu-dortmund.de; p.triantafillou@warwick.ac.uk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[16]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/25/2021 4:58:52 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:27:06 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[One Model to Rule them All: Towards Zero-Shot Learning for Databases]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[In this paper, we present our vision of so called zero-shot learning for databases which is a new learning approach for database components. Zero-shot learning for databases is inspired by recent advances in transfer learning of models such as GPT-3 and can support a new database out-of-the box without the need to train a new model.
+As a first concrete contribution in this paper, we show the feasibility of zero-shot learning for the task of physical cost estimation and present very promising initial results. Moreover, as a second contribution we discuss the core challenges related to zero-shot learning for databases and present a roadmap to extend zero-shot learning towards many other tasks beyond cost estimation or even beyond classical database systems and workloads.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Benjamin Hilprecht]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[benjamin.hilprecht@cs.tu-darmstadt.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Benjamin Hilprecht (TU Darmstadt)*; Carsten Binnig (TU Darmstadt)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Hilprecht, Benjamin*; Binnig, Carsten]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[benjamin.hilprecht@cs.tu-darmstadt.de*; carsten.binnig@cs.tu-darmstadt.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[5]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR2022_ZeroShot_Vision (1).pdf (676,414 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Jens Teubner (TU Dortmund University); Justin Levandoski (Google)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; jens.teubner@cs.tu-dortmund.de; justin.levandoski@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[17]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/25/2021 6:09:55 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:27:12 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Machine Learning, Linear Algebra, and More: Is SQL All You Need?]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[SQL is the standard language for retrieving and manipulating relational data. Although SQL is ubiquitous for simple analytical queries, it is rarely used for more complex computations like machine learning, linear algebra, and other computationally-intensive algorithms. These algorithms are often programmed in a procedural fashion and look very different from declarative SQL queries. However, SQL actually does provide constructs to perform all kinds of computations. In this paper, we show how to translate procedural constructs to SQL -- enabling complex SQL-only algorithms. Using SQL for algorithms keeps computations close to the data, requires minimal user permissions, and increases software portability. The performance of the resulting SQL algorithms depends heavily on the underlying DBMS and the SQL code. Surprisingly, we find that query engines like HyPer can achieve very high performance -- in some cases even outperforming state-of-the-art linear algebra packages like NumPy.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Mark Blacher]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mark.blacher@uni-jena.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Mark Blacher (Friedrich Schiller University Jena)*; Joachim Giesen (Friedrich Schiller University Jena); Sören Laue (Friedrich Schiller University Jena / Data Assessment Solutions GmbH Hannover); Julien Klaus (Friedrich Schiller University Jena); Viktor Leis ( Friedrich-Alexander-Universität Erlangen-Nürnberg)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Blacher, Mark*; Giesen, Joachim; Laue, Sören; Klaus, Julien; Leis, Viktor]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mark.blacher@uni-jena.de*; joachim.giesen@uni-jena.de; soeren.laue@uni-jena.de; Julien.Klaus@uni-jena.de; viktor.leis@fau.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[main.pdf (462,737 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Jens Teubner (TU Dortmund University); Justin Levandoski (Google)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; jens.teubner@cs.tu-dortmund.de; justin.levandoski@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[18]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/25/2021 8:23:45 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:57:54 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The 3D Hash Join: Building On Non-Unique Join Attributes]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[One of the most prominent ways to evaluate an equi-join is based on hashing. We consider the problem of non-unique join attributes on the build side. In conventional hash tables where collisions are resolved by chaining, duplicates inevitably lead to long collision chains. This causes a high number of expensive main memory accesses and join predicate evaluations during the probe phase, increasing the runtime of the overall join. A related problem occurs when the query optimizer cannot determine the uniqueness of the join attribute of the build side.
+
+We present the 3D Hash Join to efficiently evaluate main-memory hash joins in the presence of duplicate build keys and skew. The main idea is to cluster the hash table collision chains based on the distinct values of the build attribute. In an experimental comparison with a reference implementation of a chaining hash table, our approach achieves a speedup of up to a factor of 3.22 for key/foreign key joins and 5.67 for many-to-many joins.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Daniel Flachs]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[daniel.flachs@uni-mannheim.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Daniel Flachs (University of Mannheim)*; Magnus Mueller (University of Mannheim); Guido Moerkotte (University of Mannheim)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Flachs, Daniel*; Mueller, Magnus; Moerkotte, Guido]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[daniel.flachs@uni-mannheim.de*; magnus@uni-mannheim.de; moerkotte@uni-mannheim.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[3D_Hash_Join_v5.pdf (659,174 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Peter Bailis (Stanford University); Peter Triantafillou (University of Warwick)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; pbailis@cs.stanford.edu; p.triantafillou@warwick.ac.uk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[26]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/26/2021 11:29:35 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:29:23 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[A Progress Report on DBOS: A Database-oriented Operating System]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[For the last year, a group of us at MIT, Stanford, CMU, Google, and VMware have been designing and implementing a new Operating System (OS) stack for modern hyperscale datacenter environments.  This new stack leverages a set of multi-core, multi-node distributed DBMSs near the bottom of the stack to manage a cluster of machines on a public or private cloud. In this paper, we briefly review the rationale for a new OS, present our resulting architecture, and review our progress to date.
+The meat of our paper is a presentation of the main lessons thus far from this project. Many of these have to do with missing capabilities in multi-node DBMSs that form the guts of our proposal. Finally, we present future research directions in database-oriented operating systems.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qian Li]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[qianli@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qian Li (Stanford University)*; Peter Kraft (Stanford University); Kostis Kaffes (Stanford University); Athinagoras Skiadopoulos (Stanford University); Deeptaanshu Kumar (Carnegie Mellon University); Jason Li (MIT); Michael Cafarella (MIT CSAIL); Goetz Graefe (Google); Jeremy Kepner (MIT Lincoln Laboratory); Christos Kozyrakis (Stanford University); Michael Stonebraker (MIT); Lalith Suresh (VMware Research); Matei Zaharia (Stanford and Databricks)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Li, Qian*; Kraft, Peter; Kaffes, Kostis; Skiadopoulos, Athinagoras; Kumar, Deeptaanshu; Li, Jason; Cafarella, Michael; Graefe, Goetz; Kepner, Jeremy; Kozyrakis, Christos; Stonebraker, Michael; Suresh, Lalith; Zaharia, Matei]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[qianli@cs.stanford.edu*; kraftp@cs.stanford.edu; kkaffes@stanford.edu; askiad@stanford.edu; deeptaan@alumni.cmu.edu; jasonli1@mit.edu; michjc@csail.mit.edu; goetzg@google.com; kepner@ll.mit.edu; kozyraki@stanford.edu; stonebraker@csail.mit.edu; lsuresh@vmware.com; matei@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[6]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DBOS_CIDR_upload3.pdf (662,125 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Aaron Elmore (University of Chicago); Danica Porobic (Oracle); Manos Athanassoulis (Boston University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[aelmore@cs.uchicago.edu; danica.porobic@oracle.com; mathan@bu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[31]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/26/2021 3:29:33 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:30:22 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CompuCache: Remote Computable Caching using Spot VMs ]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Data management systems are hungry for main memory, and cloud data centers are awash in it. But that memory is not always easily accessible and often too expensive. To bridge this gap, we propose a new cloud service, CompuCache, that allows data-intensive systems to opportunistically offload their in-memory data, and computation over that data, to inexpensive cloud resources. For reduced cost, each cache is hosted by spot virtual machine (VM) instances when possible or provisioned VMs when not. CompuCache distributes each stored procedure execution across the instances. It provides a byte-array abstraction and stored procedures so users can easily allocate inexpensive caches and specify their behavior. In this paper, we discuss challenges in designing the interface, execution strategy, and fault tolerance mechanisms for CompuCache. We propose initial solutions for them, describe types of applications that can benefit from CompuCache, and report on the performance of an initial prototype. It executes 126 million stored procedure invocations per second on one VM with 16 threads.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qizhen Zhang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[qizhen@seas.upenn.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qizhen Zhang (University of Pennsylvania)*; Philip A Bernstein (Microsoft Research); Daniel S Berger (Microsoft Research); Badrish Chandramouli (Microsoft Research); Vincent Liu (University of Pennsylvania); Boon Thau Loo (Univ. of Pennsylvania)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Zhang, Qizhen*; Bernstein, Philip A; Berger, Daniel S; Chandramouli, Badrish; Liu, Vincent; Loo, Boon Thau]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[qizhen@seas.upenn.edu*; philbe@microsoft.com; daberg@microsoft.com; badrishc@microsoft.com; liuv@seas.upenn.edu; boonloo@seas.upenn.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[5]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CompuCache_CIDR2022_#31.pdf (558,826 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Aaron Elmore (University of Chicago); Manos Athanassoulis (Boston University); Nesime Tatbul (Intel Labs and MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[aelmore@cs.uchicago.edu; mathan@bu.edu; tatbul@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[33]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/26/2021 11:40:22 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:31:01 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accelerating Python UDFs in Vectorized Query Execution]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Modern analytical database systems offer support for user-defined funtions as a flexible extension to SQL. Python is one of the most popular UDF languages being easy to use and offering a rich feature set for data-intensive tasks, but also suffering from bad performance and scalability. In this work, we describe approaches to accelerate embedded Python UDF execution using vectorization, parallelisation and compilation. We compare different compilation frameworks and show how Python code can be compiled, dynamically loaded and queried during database runtime in a transparent way. Our evaluation showed that using compilation and parallelisation together leads to significant speedups for various use cases.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Steffen Kläbe]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[steffen.klaebe@tu-ilmenau.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Steffen Kläbe (Actian Corp.)*; Robert DeSantis (Actian Corp); Stefan Hagedorn (TU Ilmenau); Kai-Uwe Sattler (TU Ilmenau)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kläbe, Steffen*; DeSantis, Robert; Hagedorn, Stefan; Sattler, Kai-Uwe]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[steffen.klaebe@tu-ilmenau.de*; robert.desantis@actian.com; stefan.hagedorn@tu-ilmenau.de; kus@tu-ilmenau.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accelerating_Python_UDFs_in_Vectorized_Query_Execution.pdf (391,838 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Aaron Elmore (University of Chicago); Danica Porobic (Oracle); Nesime Tatbul (Intel Labs and MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[aelmore@cs.uchicago.edu; danica.porobic@oracle.com; tatbul@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[34]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 7:16:54 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:31:19 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Darwin: Scale-In Stream Processing]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Companies increasingly rely on stream processing engines (SPEs) to quickly analyze data and monitor infrastructure. These systems enable continuous querying of data at high rates. Current production-level systems, such as Apache Flink and Spark, rely on clusters of servers to scale out processing capacity. Yet, these scale-out systems are resource inefficient and cannot fully utilize the hardware. As a solution, hardware-optimized scale-up SPEs were developed. To get the best performance, they neglect essential features for industry adoption, such as larger-than-memory state and recovery.
+
+While Internet-scale companies process billions of events per second, most companies have data arrival rates better measured in events per minute or hour. To acknowledge that real-world stream processing setups have drastically varying performance requirements, we propose scale-in processing. Scale-in processing is a new paradigm that adapts to varying application demands by achieving high hardware utilization on a wide range of hardware setups, reducing overall infrastructure requirements. In contrast to scaling-up or -out, it focuses on fully utilizing the given hardware instead of larger or more servers. We present Darwin, our scale-in SPE prototype that compiles stream processing queries for arbitrary target environments and provides recoverable larger-than-memory state management. Our results show that Darwin achieves an order of magnitude speed-up over current scale-out systems and matches processing rates of state-of-the-art scale-up systems.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Lawrence Benson]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[lawrence.benson@hpi.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Lawrence Benson (Hasso Plattner Institute, University of Potsdam)*; Tilmann Rabl (HPI, University of Potsdam)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Benson, Lawrence*; Rabl, Tilmann]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[lawrence.benson@hpi.de*; tilmann.rabl@hpi.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[darwin_cidr22.pdf (690,654 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Aaron Elmore (University of Chicago); Danica Porobic (Oracle); Nesime Tatbul (Intel Labs and MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[aelmore@cs.uchicago.edu; danica.porobic@oracle.com; tatbul@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[40]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 8:51:00 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:32:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Knowledge Graph Exploration Systems: are we lost?]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Knowledge graphs (KGs) represent facts in the form of nodes and relationships and are widely used to represent and share knowledge in many different domains.
+
+However, their widespread adoption to integrate different data sources and their generation processes have made KGs very complicated and difficult to understand, leading to the study of new knowledge graph exploration approaches to better understand their contents and extract relevant insights.
+Nevertheless, the needs of current KG exploration use cases are not met (even neglected) by existing KG data management systems. 
+Hence, the question: are we lost? We hope not.
+Therefore, with the aim of fostering research on these open issues, this position paper, first presents an overview of the state-of-the-art approaches for KG exploration. Then, it identifies the (currently unmet) requirements for effective KG exploration systems, and finally, it presents promising research directions for the realization of a system able to fully support knowledge graph exploration.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Matteo Lissandrini]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[matteo@cs.aau.dk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Matteo Lissandrini (Aalborg University)*; Davide Mottin (Aarhus University); Katja Hose (Aalborg University); Torben Bach Pedersen (Aalborg University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Lissandrini, Matteo*; Mottin, Davide; Hose, Katja; Pedersen, Torben Bach]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[matteo@cs.aau.dk*; davide@cs.au.dk; khose@cs.aau.dk; tbp@cs.aau.dk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR_KG_Exploration_Systems.pdf (1,067,204 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Arun Kumar (University of California, San Diego); H. V. Jagadish (University of Michigan); Volker Markl (Technische Universität Berlin)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[arunkk@eng.ucsd.edu; jag@eecs.umich.edu; volker.markl@tu-berlin.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[41]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 10:36:16 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:32:52 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Interactive Video Data Cleaning and Exploration]{Interactive Video Data Cleaning and Exploration (Vision Paper)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Current VDBMSs fail to support the growing number of video datasets in diverse domains because these systems assume clean data and rely on pretrained models to detect known objects or events. Existing systems also lack good support for compositional queries that seek events consisting of multiple objects with spatial and temporal relationships. In this paper, we propose techniques to enable VDBMSs to support efficient data cleaning, exploration and organization, and compositional queries, even when no pretrained model exists to extract semantic content. These techniques utilize optimizations to minimize the manual effort required of users.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Maureen Daum]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mdaum@cs.washington.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Maureen Daum (University of Washington)*; Enhao Zhang (University of Washington); Dong He (University of Washington); Magdalena Balazinska (UW); Brandon Haynes (Microsoft); Ranjay Krishna (Stanford University); Apryle Craig (University of Washington); Aaron Wirsing (University of Washington)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Daum, Maureen*; Zhang, Enhao; He, Dong; Balazinska, Magdalena; Haynes, Brandon; Krishna, Ranjay; Craig, Apryle; Wirsing, Aaron]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mdaum@cs.washington.edu*; enhaoz@cs.washington.edu; donghe@cs.washington.edu; magda@cs.washington.edu; Brandon.Haynes@microsoft.com; ranjaykrishna@cs.stanford.edu; apryle@uw.edu; wirsinga@uw.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[paper.pdf (2,397,458 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Arun Kumar (University of California, San Diego); H. V. Jagadish (University of Michigan); Volker Markl (Technische Universität Berlin)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[arunkk@eng.ucsd.edu; jag@eecs.umich.edu; volker.markl@tu-berlin.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[44]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 1:39:00 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:33:27 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Self-Organizing Data Containers]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[We propose a new self-organizing, self-optimizing, meta-data rich storage format for the cloud, called a self-organizing data container (SDC), that enables order-of-magnitude performance improvements in data-intensive applications through instance-optimization, i.e., the adaptation of data representation to exploit both the distribution of the data and the workload operating on it. Unlike existing low-level cloud storage formats like Apache Arrow and Parquet, SDCs capture both data and metadata, like access histories and distributional statistics, and are designed to be flexible enough to encompass a variety of modern high-performance representations for data analytics, including partitioning, replication, indexing, and materialization.  We present a preliminary design for SDCs, some motivating experiments, and discuss new challenges they present.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Samuel Madden]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[madden@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Samuel Madden (MIT)*; Jialin Ding (MIT); Tim Kraska (MIT); Sivaprasad Sudhir (MIT); David E Cohen (Intel); Timothy Mattson (Intel); Nesime Tatbul (Intel Labs and MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Madden, Samuel*; Ding, Jialin; Kraska, Tim; Sudhir, Sivaprasad; Cohen, David E; Mattson, Timothy; Tatbul, Nesime]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[madden@csail.mit.edu*; jialind@mit.edu; kraska@mit.edu; siva@csail.mit.edu; david.e.cohen@intel.com; timothy.g.mattson@intel.com; tatbul@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[5]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR_2021-7.pdf (544,478 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[H. V. Jagadish (University of Michigan); Volker Markl (Technische Universität Berlin); Wolfgang Lehner (TU Dresden)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jag@eecs.umich.edu; volker.markl@tu-berlin.de; wolfgang.lehner@tu-dresden.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[49]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 5:36:28 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:34:58 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Augmenting Decision Making via Interactive What-If Analysis]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The fundamental goal of business data analysis is to improve business decisions by understanding the relationship between data and objectives. Business users such as sales, marketing, product, or operations managers often make decisions to achieve key performance indicator (KPI) goals such as increasing customer retention, decreasing investments, increasing sales, etc. To discover the relationship between data and their KPI of interest, business users perform data exploration by analyzing multiple slices of the dataset mentally. For example, analyzing customer retention across quarters of the year or suggesting optimal media channels across strata of customers. However, the increasing complexity of datasets combined with the cognitive limitations of humans makes it challenging to carry over multiple hypotheses, even for simple datasets. Therefore performing such analyses is hard mentally. Existing commercial tools provide partial solutions whose effectiveness remains unclear. They are also often developed for data scientists, not business users.
+
+Here we argue for four functionalities that we believe are necessary to enable business users to reason with insights, learn the relationships between data and KPIs, and facilitate data-driven decisions. We implement these functionalities in SigmaDecision, an interactive visual data analysis system enabling business users to experiment with the data by asking what-if questions. We evaluate the system through three business use cases: marketing mix modeling analysis, customer retention analysis, and deal closing analysis, and report on feedback from multiple business users. Overall, business users find SigmaDecision intuitive and useful for quick testing and validation of their hypotheses around interested KPI as well as in making effective and fast data-driven decisions.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Sneha Gathani]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[sneha@sigmacomputing.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Sneha Gathani (Sigma Computing)*; Madelon Hulsebos (Sigma Computing); James Gale (Sigma Computing); Peter Haas (University of Massachusetts Amherst); Cagatay Demiralp (Sigma Computing)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Gathani, Sneha*; Hulsebos, Madelon; Gale, James; Haas, Peter; Demiralp, Cagatay]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[sneha@sigmacomputing.com*; madelon@sigmacomputing.com; jlg@sigmacomputing.com; phaas@cs.umass.edu; cagatay@sigmacomputing.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[SystemD-CIDR2022.pdf (523,101 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qiong Luo (Hong Kong University of Science and Technology); Spyros Blanas (The Ohio State University); Wolfgang Lehner (TU Dresden)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[luo@cse.ust.hk; blanas.2@osu.edu; wolfgang.lehner@tu-dresden.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[50]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 5:48:23 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:35:07 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kyrix-J: Visual Discovery of Connected Datasets in a Data Lake]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Understanding data in large data lakes is becoming increasingly challenging. While some existing systems help with data discovery in data lakes, they are limited in surfacing connections between datasets and helping users comprehend them, which is crucial for many applications. To this end, we have built a system called Kyrix-J. Kyrix-J uses interactive visualizations to enable rapid discovery of connected datasets in data lakes. We allow a user to ``jump'' from one visualization to another following connections between the underlying data. Kyrix-J automatically generates these jumps so that the user can start using the system without a manual app-authoring process. We also contribute a novel user interface with Kyrix-J which facilitates a variety of database exploration tasks. Finally, we conduct user study which shows that Kyrix-J is easy to use and allows the users to effortlessly explore connected datasets in a data lake. ]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Wenbo Tao]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[wenbo@mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Wenbo Tao (MIT)*; Adam Sah (Independent); Leilani Battle (University of Washington); Remco Chang (Tufts University); Michael Stonebraker (MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Tao, Wenbo*; Sah, Adam; Battle, Leilani; Chang, Remco; Stonebraker, Michael]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[wenbo@mit.edu*; asah@gmail.com; leibatt@cs.washington.edu; remco@cs.tufts.edu; stonebraker@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kyrix_J_CIDR.pdf (1,897,096 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qiong Luo (Hong Kong University of Science and Technology); Spyros Blanas (The Ohio State University); Yuanyuan Tian (Microsoft Gray Systems Lab)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[luo@cse.ust.hk; blanas.2@osu.edu; yuanyuantian@microsoft.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[56]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 9:52:21 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:36:47 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Introducing a Query Acceleration Path for Analytics in SQLite3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[As large scale data processing becomes an ever more prominent component of modern computing tasks, databases now exist as a fundamental necessity of most computational platforms. However, in many cases there exists a disparity between the specializations of database management systems and the needs of the applications that run on them. The distinction between transactional and analytical workloads for databases has been well established, but not fully addressed within the space of the most widely used embedded database system, namely SQLite3. To overcome this shortcoming, we implement SQLite3/HE, an analytical database engine implemented as an alternative execution path for SQLite. Through the utilization of an additional, complementary storage layer, SQLite3/HE transforms SQLite into a hybrid database system, able to fully leverage the benefits of both row and columnar storage layouts. SQLite3/HE improves the performance of analytical queries in the 100x-1000x speedup range, at no cost to the existing transactional query performance. These results validate the decision to implement SQLite3/HE as an alternative execution path, enabling it to serve as a drop-in replacement for SQLite3 in existing systems.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Martin Prammer]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[prammer@wisc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Martin Prammer (University of Wisconsin - Madison)*; Suryadev Sahadevan Rajesh (University of Wisconsin - Madison); Junda Chen (University of Wisconsin-Madison); Jignesh Patel (UW - Madison)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Prammer, Martin*; Rajesh, Suryadev Sahadevan; Chen, Junda; Patel, Jignesh]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[prammer@wisc.edu*; sahadevanraj@wisc.edu; jchen693@wisc.edu; jignesh@cs.wisc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[0.66]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[sqlite3-he.pdf (806,280 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Avrilia Floratou (Microsoft); Azza Abouzied (NYU Abu Dhabi); Umar Farooq Minhas (Microsoft Research)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[avflor@microsoft.com; aa175@nyu.edu; ufminhas@microsoft.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[57]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 10:44:24 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:37:04 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Demonstration of GRainDB: A Relational-core Graph-Relational DBMS]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ever since the birth of our field, RDBMSs and several classes of graph database management systems (GDBMSs) have existed side by side, providing a set of complementary features in data models, query languages, and visualization capabilities these data models provide. As a result, RDBMSs and GDBMSs 
+appeal to different users for developing different sets of applications and there is immense value in extending RDBMSs to provide some capabilities of GDBMSs and natively support graph workloads. We demonstrate GRainDB, a new system that extends the DuckDB RDBMS to provide graph modeling, querying, and visualization capabilities. In addition, GRainDB modifies the internals of DuckDB to provide a set of fast join capabilities, such as predefined pointer-based joins that use system-level record IDs (RID) and adjacency list-like RID indices, to make DuckDB more efficient on graph workloads.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Guodong Jin]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jinguodong@ruc.edu.cn]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Guodong Jin (Renmin University of China)*; Nafisa Anzum (University of Waterloo); Semih Salihoglu (University of Waterloo)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jin, Guodong*; Anzum, Nafisa; Salihoglu, Semih]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jinguodong@ruc.edu.cn*; nanzum@uwaterloo.ca; Semih.Salihoglu@uwaterloo.ca]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[main.pdf (1,838,879 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Avrilia Floratou (Microsoft); Julia Stoyanovich (New York University); Umar Farooq Minhas (Microsoft Research)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[avflor@microsoft.com; stoyanovich@nyu.edu; ufminhas@microsoft.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[63]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/29/2021 8:02:59 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:38:29 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Building a Shared Conceptual Model of Complex, Heterogeneous Data Systems: A Demonstration]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The world of data objects and systems is complex and heterogeneous, making collaboration across tools, teams, and institutions difficult. Important goals like effective data science, responsible data governance, and well-informed data consumption all require participation from multiple parties who share conceptual data models despite being unfamiliar with, or organizationally distant from each other. In order to be productive together, data collaborators need a shared conceptual model that includes traditional schemas and system models, such as pipelines and procedures. This shared model does not have to be entirely correct, but to enable effective collaboration, it should be tool-, team-, and institution-independent. We describe a working demonstration system that aims to build this shared conceptual model. This system borrows ideas from knowledge graphs and other massive collaborative efforts to curate data artifacts beyond the reach of any one person or institution.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Michael Cafarella]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[michjc@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Michael R Anderson (University of Michigan); Yuze Lou (University of Michigan); Jiayun Zou (University of Michigan); Michael Cafarella (MIT CSAIL)*; Sarah Chasins (University of California, Berkeley); Doug Downey (Allen Institute for Artificial Intelligence); Tian Gao (University of Michigan); Kexin Huang (University of Michigan); Dinghao Shen (University of Michigan); Jenny Vo-Phamhi (University of Michigan); Yitong Wang (University of Michigan); Yuning Wang (University of Michigan); Anna Zeng (MIT)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Anderson, Michael R; Lou, Yuze; Zou, Jiayun; Cafarella, Michael*; Chasins, Sarah; Downey, Doug; Gao, Tian; Huang, Kexin; Shen, Dinghao; Vo-Phamhi, Jenny; Wang, Yitong; Wang, Yuning; Zeng, Anna]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mrander@umich.edu; yuzelou@umich.edu; alicezou@umich.edu; michjc@csail.mit.edu*; schasins@berkeley.edu; ddowney@allenai.org; gaotian@umich.edu; huangkex@umich.edu; jackyy@umich.edu; jennyvo@umich.edu; yitongw@umich.edu; wyuning@umich.edu; annazeng@mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[KNPSDemo2021_August29b.pdf (1,786,393 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Azza Abouzied (NYU Abu Dhabi); Bingsheng He (National University of Singapore); Julia Stoyanovich (New York University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[aa175@nyu.edu; hebs@comp.nus.edu.sg; stoyanovich@nyu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[64]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/30/2021 1:44:38 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:38:42 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[SSDs Striking Back: The Storage Jungle and Its Implications to Persistent Indexes]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The recent exciting development of persistent memory (PM) has led to many new proposals that directly operate and persist indexes on the memory bus, potentially removing the need for the storage stack. However, next-generation SSDs are quickly catching up with performance that overlaps with PM, effectively turning the storage hierarchy into a storage jungle. It is unclear how future persistent indexes (and data structures in general) should be designed, and more importantly, how their cost/performance would change given PM's unconventional installation requirements compared to SSDs. 
+
+This paper takes a first step to revisit the overall system cost and performance characteristics of the storage jungle, in the context of persistent indexes. We do so by experimentally evaluating PM and SSD indexes under real-world hardware constraints. We find that although PM has its own set of advantages, traditional DRAM-SSD hierarchies continue to be more cost-effective, and there is much to be further unleashed. Through careful analysis, we distill a series of observations, implications, and outlook for future index designs to navigate through the storage jungle.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Tianzheng Wang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[tzwang@sfu.ca]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kaisong Huang (Simon Fraser University); Darien Imai (Simon Fraser University); Tianzheng Wang (Simon Fraser University)*; Dong Xie (Penn State University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Huang, Kaisong; Imai, Darien; Wang, Tianzheng*; Xie, Dong]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[kha85@sfu.ca; darieni@sfu.ca; tzwang@sfu.ca*; dongx@psu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[modern-storage-index.pdf (666,248 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Bingsheng He (National University of Singapore); Joseph Hellerstein (UC Berkeley); Julia Stoyanovich (New York University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[hebs@comp.nus.edu.sg; hellerstein@berkeley.edu; stoyanovich@nyu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[70]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 2:52:05 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:40:12 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Effective query optimization is the backbone of relational database systems; query optimizers use all manners of tricks, from specialized auxiliary data structures over caching and batch processing to the use of secondary metadata. Nevertheless, these systems do not fully exploit the potential of data dependencies, although dozens of such dependency-based query optimization techniques exist. This disregard occurs because the required data dependencies are, in practice, hard to find and hard to maintain.
+
+This paper presents our vision of a workload-driven, lazy dependency discovery system for query optimization. We propose a lightweight approach that identifies relevant data dependency candidates based on actually executed query plans, validates the candidates dynamically against the database, and maintains the results using different strategies that also exploit concepts of columnar DBMSs. Our evaluation demonstrates the feasibility of this approach and the potential of dependency-based optimizations using a prototypical implementation in Hyrise that implements three exemplary dependency-based optimization techniques.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jan Kossmann]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jan.kossmann@hpi.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jan Kossmann (Hasso Plattner Institute)*; Felix Naumann (Hasso Plattner Institute); Daniel Lindner (Hasso Plattner Institute); Thorsten Papenbrock (Philipps University of Marburg)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kossmann, Jan*; Naumann, Felix; Lindner, Daniel; Papenbrock, Thorsten]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jan.kossmann@hpi.de*; felix.naumann@hpi.de; daniel.lindner@student.hpi.de; papenbrock@informatik.uni-marburg.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Workload_driven__Lazy_Discovery_of_Data_Dependencies_for_Query_Optimization.pdf (608,880 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Alkis Simitsis (Athena Research Center); Carsten Binnig (TU Darmstadt); Joseph Hellerstein (UC Berkeley)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alkis.simitsis@gmail.com; carsten.binnig@cs.tu-darmstadt.de; hellerstein@berkeley.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[75]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 10:16:23 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:41:14 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[VIVA: An End-to-End System for Interactive Video Analytics]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The data analytics community has begun to address the growing desire for video analytics in the form of bespoke systems, e.g., using approximations to accelerate specific queries or for indexing video data. However, these systems focus on optimizing a specific query type or single step in query execution. In particular, no system provides end-to-end and practical video analytics systems that allows users to iteratively and interactively engage with queries, as is the case with analytics systems for structured data.
+
+In response, we are building VIVA: an end-to-end system for interactive video analytics. VIVA contains three novel components and interfaces. First, VIVA uses relational hints, which generalize the notion of a proxy model. Relational hints allow users to express relationships between columns that are difficult to automatically infer (e.g., mentions of a person in a transcript can be used as a proxy for the person appearing in the video). Second, VIVA introduces a mixed-data query optimizer that optimizes queries across both structured data and unstructured data. VIVA also features an embedding cache that decides which results/embeddings to store for future queries. Third, VIVA co-optimizes storage and query execution with its video file manager and accelerator-based execution engine. The former decides how to pre-fetch/manage video, while the latter selects and manages heterogeneous hardware backends spanning the growing number of DNN accelerators. We describe the challenges and design criteria needed for VIVA's development and outline ongoing and future work for realizing VIVA.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Daniel Kang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ddkang@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Daniel Kang (Stanford University)*; Francisco Romero (Stanford University); Peter D Bailis (Stanford University); Christos Kozyrakis (Stanford University); Matei Zaharia (Stanford and Databricks)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Kang, Daniel*; Romero, Francisco; Bailis, Peter D; Kozyrakis, Christos; Zaharia, Matei]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ddkang@cs.stanford.edu*; faromero@stanford.edu; pbailis@cs.stanford.edu; kozyraki@stanford.edu; matei@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[5]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[paper.pdf (1,439,244 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Alkis Simitsis (Athena Research Center); Carsten Binnig (TU Darmstadt); Hannes Mühleisen (Centrum Wiskunde & Informatica)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alkis.simitsis@gmail.com; carsten.binnig@cs.tu-darmstadt.de; hannes.muehleisen@cwi.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[77]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 10:43:27 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:41:29 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[D-RDMA: Bringing Zero-Copy RDMA to Database Systems]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The DMA part of RDMA stands for Direct Memory Access. It refers to the ability of a network card (among other devices) to read and write data from a host’s memory without CPU assistance. RDMA’s performance depends on efficient DMAs in both the initiating and target hosts. In turn, a DMA’s cost is almost always proportional to the length of the data transfer. The exception is small DMAs, which suffer from high overheads.
+In this work, we show that databases often generate small DMA operations when using RDMA, as the data they transmit is seldom contiguous by the time transmissions occur. Modern databases avoid the issue by copying data into larger transmission buffers, and issuing RDMAs over these buffers. However, the copying uses significant amounts of CPU cycles and memory bandwidth which goes against RDMA’s zero- copy, CPU-bypass design. To solve this issue, we propose d-RDMA, a declarative extension to RDMA. d-RDMA is declarative in that it specifies what data to transmit but not the DMA schedule to do so. The approach leverages a smart NIC to group data fragments into larger DMAs and produce the same packet stream as RDMA. Our experiments shows that the network throughput can increase from 18 Gbps, using 100% of a single CPU core and a transmission buffer, to 98 Gbps (on a 100 Gbps card) and virtually no CPU, using our solution and a smart NIC in a common data shuffle scenario. d-RDMA can enable a new generation of high-performance systems to take full advantage of fast networking without incurring current CPU penalties.
+]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Alberto Lerner]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alberto.lerner@unifr.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[André Ryser (University of Fribourg); Alberto Lerner (University of Friborug)*; Alex Forencich (University of California - San Diego); Philippe Cudre-Mauroux (Exascale Infolab, Fribourg University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ryser, André; Lerner, Alberto*; Forencich, Alex; Cudre-Mauroux, Philippe]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[andre@exascale.info; alberto.lerner@unifr.ch*; jforenci@eng.ucsd.edu; philippe.cudre-mauroux@unifr.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[cidr_submission.pdf (576,109 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Alkis Simitsis (Athena Research Center); Carsten Binnig (TU Darmstadt); Hannes Mühleisen (Centrum Wiskunde & Informatica)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alkis.simitsis@gmail.com; carsten.binnig@cs.tu-darmstadt.de; hannes.muehleisen@cwi.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[81]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 12:16:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:42:26 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Boosting Efficiency of External Pipelines by Blurring Application Boundaries]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Modern application development addresses increasingly specialized problems using domain-specific utilities, such as Optical CodeRecognition and standalone statistical tools.
+Tooling diversity combined with ever-growing data volume requires data pipelines to be efficient as well as support a variety of data processing tools in the same pipeline.
+Existing approaches, however, impose a tradeoff between modularity and performance: on one hand, data processing systems are specialized for fast execution of complex queries, favoring efficiency at the expense of high development costs and required domain expertise.
+On the other hand, highly extensible systems opt for composability at the expense of inefficient execution due to minimal assumptions about input and output formats.
+
+This paper proposes Generalized OLAP (GOLAP), a new DBMS paradigm that places automatic extensibility of functionality as a first-class design goal.
+GOLAP ingests external utilities to achievethe functionality provided by external modular data pipelines while maintaining the performance of natively optimized DBMS functions.
+Through runtime inspection, GOLAP detects inter-utility communication inefficiencies and parallelization opportunities beyond the limits of isolated utility optimizations.
+It then modifies the utilities to avoid unnecessary inter-utility operations and parallelizes the pipeline to increase hardware utilization.
+To evaluate GOLAP, we build Caesar, a prototype that optimizes simple pipelines, showing up to 22x speedup while introducing a limited instrumentation period with a slowdown of less than 17%.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Anna Herlihy]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[anna.herlihy@epfl.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Anna Herlihy (EPFL)*; Periklis Chrysogelos (EPFL); Anastasia Ailamaki (EPFL)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Herlihy, Anna*; Chrysogelos, Periklis; Ailamaki, Anastasia]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[anna.herlihy@epfl.ch*; periklis.chrysogelos@epfl.ch; anastasia.ailamaki@epfl.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[cidr_blurring_application_boundaries.pdf (661,625 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jens Dittrich (Saarland University, Saarland Informatics Campus); Kai Zeng (Alibaba Group); Matthias Boehm (Graz University of Technology)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jens.dittrich@bigdata.uni-saarland.de; kaizeng.zk@gmail.com; m.boehm@tugraz.at]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[82]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 12:33:01 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:42:44 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Memory Efficient Scheduling of Query Pipeline Execution]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[State-of-the-art query processors pursue a pipeline-based query execution model. Within such a model, a pipeline computes a query plan fragment up to a pipeline breaker resulting in an intermediate result, which will be consumed by subsequent pipelines. Interest- ingly, the ordering of execution of such pipelines poses an opportu- nity for memory savings. Within this paper, we tackle the challenge to compute an optimal schedule of the individual pipelines with re- spect to minimize the memory consumption needed for a particular query. We therefore will precisely state the problem and show the potential of an optimal pipeline execution ordering. We will then provide a formal model to describe the search space and propose four different algorithms to identify optimal/good schedules. The paper also presents some insights into our implementation within a prototypical query engine and reports some results relying on the Join Order Benchmark scenarios. Specifically, the experimental evaluation focuses on identified memory savings and the stabil- ity of the query runtime behavior. The evaluation also reports on the small overhead of the proposed search algorithms during the planning time, thus emphasizing the practical applicability of our approach.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Lukas Landgraf]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[l.landgraf@sap.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Lukas Landgraf (TU Dresden)*; Wolfgang Lehner (TU Dresden); Florian Wolf (SAP SE); Alexander Boehm (SAP SE)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Landgraf, Lukas*; Lehner, Wolfgang; Wolf, Florian; Boehm, Alexander]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[l.landgraf@sap.com*; wolfgang.lehner@tu-dresden.de; florian.wolf01@sap.com; alexander.boehm@sap.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Memory_Efficient_Pipeline_Execution_Ordering-10.pdf (2,854,093 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jens Dittrich (Saarland University, Saarland Informatics Campus); Kai Zeng (Alibaba Group); Renata Borovica-Gajic (University of Melbourne)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jens.dittrich@bigdata.uni-saarland.de; kaizeng.zk@gmail.com; renata.borovica@unimelb.edu.au]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[93]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 6:03:53 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:44:57 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Append is Near: Log-based Data Management on ZNS SSDs]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Log-based data management systems use storage as if it was an append-only medium in order to transform random writes into sequential writes, delivering a major advantage when logs were persisted on hard disks. Although solid-state drives (SSDs) offer improved random write capabilities, sequential writes continue to be advantageous due to locality and space efficiency. However, the inherent properties of flash-based SSDs induce significant disadvantages when utilizing a random write block interface, causing write amplification, uneven wear, log stacking, and garbage collection overheads. To eliminate these disadvantages, Zoned Namespace (ZNS) SSDs have recently been introduced. They offer increased capacity, reduced write amplification, and higher performance but require the host to participate in data placement through zones, which have sequential-write semantics and must be explicitly reset.
+In ZNS, the Zone Append primitive allows the host to push down fine-grained data placement onto the device, supporting appends to a zone without knowing the location of the tail. Full zones become immutable, greatly simplifying disaggregated storage and operations like replication.
+
+We propose another pushdown technique, Group Append, which allows appends of data that is smaller (or possibly larger) than a block, offloading data buffering to the controller. We explore how ZNS SSDs with Zone Append, Group Append, and computational storage can benefit four log-based data management areas: (i) log-based file systems, (ii) LSM trees such as RocksDB, (iii) database systems, and (iv) event logs/shared logs. We also propose research directions for all four log-based data management using ZNS SSDs.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Devashish R Purandare]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[devashish@ucsc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Devashish R Purandare (University of California, Santa Cruz)*; Peter Wilcox (UC Santa Cruz); Heiner Litz (UC Santa Cruz ); Shel Finkelstein ("University of California at Santa Cruz, USA")]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Purandare, Devashish R*; Wilcox, Peter; Litz, Heiner; Finkelstein, Shel]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[devashish@ucsc.edu*; pcwilcox@ucsc.edu; hlitz@ucsc.edu; shel@ucsc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[0.66]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Accept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR2021.pdf (510,684 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jens Dittrich (Saarland University, Saarland Informatics Campus); Kai Zeng (Alibaba Group); Matthias Boehm (Graz University of Technology)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jens.dittrich@bigdata.uni-saarland.de; kaizeng.zk@gmail.com; m.boehm@tugraz.at]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>

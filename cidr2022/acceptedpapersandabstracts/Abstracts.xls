@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="s1">
+      <Font x:Family="Swiss" ss:Bold="1" />
+    </Style>
+    <Style ss:ID="s2">
+      <NumberFormat ss:Format="0%" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="DEF_SYEHPFAD">
+    <Table>
+      <Row>
+        <Cell ss:Index="1">
+          <Data ss:Type="String">DEF_SYEHPFAD</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="3">
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Paper ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Last Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Paper Title</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Abstract</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Contact Author Name</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Contact Author Email</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Authors</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Names</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Track Name</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Primary Subject Area</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Secondary Subject Areas</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Conflicts</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Assigned</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Completed</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">% Completed</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Bids</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Discussion</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Status</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Author Feedback</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Author Feedback Submitted?</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Camera Ready</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Camera Ready Submitted?</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Requested For Presentation</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Number of Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Supplementary Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Number of Supplementary Files</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Reviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">Reviewer Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">MetaReviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">MetaReviewer Emails</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">SeniorMetaReviewers</Data>
+        </Cell>
+        <Cell ss:StyleID="s1">
+          <Data ss:Type="String">SeniorMetaReviewerEmails</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/10/2021 11:10:47 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:23:20 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Screening Native Machine Learning Pipelines with ArgusEyes]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Software systems that learn from data are being deployed in increasing numbers in real world application scenarios. It is a difficult and tedious task to ensure at development time that the end-to-end ML pipelines for such applications adhere to sound experimentation practices and compliance requirements. Identifying potential correctness issues currently requires a high degree of discipline, knowledge and time from data scientists, and they often only implement one-off solutions, based on specialised frameworks that are incompatible with the rest of the data science ecosystem.
+
+We propose techniques to automatically screen ML pipelines for many common correctness issues, given only access to their relational inputs, matrix outputs and the corresponding provenance. We automatically extract these artifacts, and as a consequence, our approach is lightweight and does not require code changes in the natively written ML pipeline. 
+
+We design the prototypical platform "ArgusEyes" to screen ML pipelines combining code from various popular ML libraries, and furthermore enable the computation of important metadata such as group fairness metrics or data valuation with Shapley values. We discuss how "ArgusEyes" identifies the semantics and the lineage of common artifacts in classification tasks, apply our platform to several example pipelines with real world data, and showcase how to integrate it into a continuous integration workflow on Github.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Sebastian Schelter]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[s.schelter@uva.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Sebastian Schelter (University of Amsterdam)*; Stefan Grafberger (University of Amsterdam); Shubha Guha (University of Amsterdam); Olivier Sprangers (University of Amsterdam); Bojan Karlas (ETH Zurich); Ce Zhang (ETH)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Schelter, Sebastian*; Grafberger, Stefan; Guha, Shubha; Sprangers, Olivier; Karlas, Bojan; Zhang, Ce]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[s.schelter@uva.nl*; s.grafberger@uva.nl; s.guha@uva.nl; o.sprangers@uva.nl; karlasb@inf.ethz.ch; ce.zhang@inf.ethz.ch]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[10]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[arguseyes.pdf (835,835 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jens Teubner (TU Dortmund University); Justin Levandoski (Google); Shimin Chen (Chinese Academy of Sciences)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[jens.teubner@cs.tu-dortmund.de; justin.levandoski@gmail.com; chensm@ict.ac.cn]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[8]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/22/2021 2:30:48 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:51:18 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Micro-architectural Analysis of OLAP Systems on Persistent Memory]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[In this paper, we present micro-architectural analysis of six OLAP systems running directly on byte-addressable persistent memory(PM) in comparison with on DRAM. From the experimental results, we observed that, despite decades of research on reducing the data cache stalls in OLAP systems, data cache stalls are much more significant in OLAP systems running on PM, contributing up to 90%of CPU cycles in TPC-H workloads. Although OLAP workloads are mostly read-only, writes of the intermediate results contribute to the slowdown of up to 1.4x due to read-write asymmetry of PM. Another contributing factor is, OLAP systems on PM suffer from bandwidth saturation and interference among concurrent query executions. We believe the findings and insights from these significant differences among OLAP workloads on PM and on DRAM shed light on the future OLAP system design.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jie Liang Ang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[angjieliang@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Jie Liang Ang (National University of Singapore)*; Jefferson Chu (National University of Singapore); HIEU LE TRUNG (Bytedance); Jiajun Liu (NUS); Jiong He (Bytedance Ltd.); Qian Lin (ByteDance); Bingsheng He (National University of Singapore)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ang, Jie Liang*; Chu, Jefferson; LE TRUNG, HIEU; Liu, Jiajun; He, Jiong; Lin, Qian; He, Bingsheng]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[angjieliang@gmail.com*; e0309385@u.nus.edu; hieu.le@bytedance.com; jiajun.liu@u.nus.edu; john.he@bytedance.com; qian.lin@bytedance.com; hebs@comp.nus.edu.sg]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR2022_DCPMM (2).pdf (1,929,432 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Gustavo Alonso (ETHZ); Shimin Chen (Chinese Academy of Sciences); Wolfgang Lehner (TU Dresden)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alonso@inf.ethz.ch; chensm@ict.ac.cn; wolfgang.lehner@tu-dresden.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[20]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/25/2021 6:26:46 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:28:06 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Towards Observability for Machine Learning Pipelines]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Software organizations are increasingly incorporating machine learning (ML) into their product offerings, driving a need for new data management tools. Many of these tools facilitate the initial development and deployment of ML applications, contributing to a crowded landscape of disconnected solutions targeted at different stages, or components, of the ML lifecycle. A lack of end-to-end ML pipeline visibility makes it hard to address any issues that may arise after a production deployment, such as unexpected output values or lower-quality predictions. In this paper, we propose a system that wraps around existing tools in the ML development stack and offers end-to-end observability. We introduce our prototype and our vision for MLTRACE, a platform-agnostic system that provides observability to ML practitioners by (1) executing predefined tests and monitoring ML-specific metrics at component runtime, (2) tracking end-to-end data flow, and (3) allowing users to ask arbitrary post-hoc questions about pipeline health.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Shreya Shankar]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[shreya@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Shreya Shankar (University of California Berkeley)*; Aditya Parameswaran (University of California, Berkeley)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Shankar, Shreya*; Parameswaran, Aditya]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[shreya@cs.stanford.edu*; adityagp@berkeley.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[submission.pdf (1,554,644 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Ioana Manolescu (INRIA and Institut Polytechnique de Paris); Peter Bailis (Stanford University); Peter Triantafillou (University of Warwick)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[ioana.manolescu@inria.fr; pbailis@cs.stanford.edu; p.triantafillou@warwick.ac.uk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[23]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/26/2021 1:27:07 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:50:27 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Runtime Encoding Execution in AnalyticDB: Efficient Query Executor for Cloud-native Database]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The performance of analytical processing is the key to cloud database clients. Achieving high query performance requires the query executor (QE) to have outstanding computation and parallelism ability, together with the help of proper tuning on the data model and the queries according to the characteristics of the workload. Based on the observations from Alibaba AnalyticDB, a cloud-native OLAP database system designed for high-concurrency, low-latency and real-time queries, cloud-native databases interface with various data layouts including native and open store storage such as HDFS, OSS, etc. and serve a diversity of workloads with limited data model tuning due to the lack of professional DBAs. How to retain high query performance under such circumstances has become a new challenge to QE.
+  
+To tackle this challenge, we propose runtime encoding execution concept to accelerate queries by operating directly on computational efficient data encoded during the runtime. Choosing runtime encoding instead of directly utilizing the raw compressed data or other auxiliary data built by the storage layer studied recently is to break the limitations due to the open store storage's uneven compression capabilities for computation. To best fit in the cloud-native workloads, multiple light-weight runtime encoding schemes are designed according to
+a) operator features to make computation more cache friendly, and allow operators such as sorting, aggregation, etc. to compute with fast algorithms.
+b) query features and data models based on desensitized statistics from the customers to ensure that a majority of workloads can get benefits from the runtime encoding execution approach.
+
+Experiments evaluation shows that runtime encoding execution improves the performance by 50.18%~82.83% on the selected sorting and hashing queries.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Huan Feng]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[fenghuan517@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Huan Feng (Alibaba Group)*; QIAOYI DING (ALIBABA); Zhe Chen (Alibaba); Liang Lin (Alibaba); Chaoqun Zhan (Alibaba Inc.)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Feng, Huan*; DING, QIAOYI; Chen, Zhe; Lin, Liang; Zhan, Chaoqun]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[fenghuan517@gmail.com*; qiaoyi.dingqy@alibaba-inc.com; chenzhe.cz@alibaba-inc.com; yibo.ll@alibaba-inc.com; lizhe.zcq@alibaba-inc.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[cidr.pdf (1,106,228 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Manos Athanassoulis (Boston University); Peter Bailis (Stanford University); Peter Triantafillou (University of Warwick)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[mathan@bu.edu; pbailis@cs.stanford.edu; p.triantafillou@warwick.ac.uk]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[37]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 7:32:02 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:50:05 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DataFarm: Farm Your ML-based Query Optimizer’s Food! – Human-Guided Training Data Generation –]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Machine learning (ML) is becoming a core component in query optimizers, e.g., for estimating costs or cardinalities. A fundamental requirement for most learning-based solutions is the availability of valuable data to train ML models on. In the case of query optimization, this means large heterogeneous sets of labeled query plans/jobs (i.e., plans with their runtime or cardinality output) are needed. However, collecting such a training dataset is a very tedious and time-consuming task: It requires both developing a large number of jobs and executing them to acquire ground-truth labels.
+To overcome these issues, we demonstrate DataFarm, a novel framework for efficiently generating and labeling training data for ML-based query optimizers. DataFarm allows for generating training data tailored to users’ needs by learning from their already existing workload patterns, input data, and computational resources. It uses an active learning approach to determine which jobs need to be executed and which ones not and encloses the human into that
+loop, resulting in higher quality data. The graphical user interface (GUI) of DataFarm allows users to get informative information for the generated jobs and guides them through the generation process step-by-step. It also displays data visualizations that allow them to understand and tune the generation process. We show how users can intervene and provide feedback to the system in an iterative fashion. As an output, users can download both the generated query plans/jobs, to be used as a benchmark, and the training data with their labels. We show that involving the human in the training data generation leads to higher-quality training data, improving the downstream ML task which they are used for.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Robin P. van de Water]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[r.p.vandewater@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Robin P. van de Water (TU Berlin)*; Francesco Ventura (TU Berlin); Zoi Kaoudi (TU Berlin); Jorge Arnulfo Quiane Ruiz (TU Berlin); Volker Markl (Technische Universität Berlin)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[van de Water, Robin P.*; Ventura, Francesco; Kaoudi, Zoi; Quiane Ruiz, Jorge Arnulfo; Markl, Volker]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[r.p.vandewater@gmail.com*; francesco.ventura@tu-berlin.de; zoi.kaoudi@tu-berlin.de; jorge.quiane@tu-berlin.de; volker.markl@tu-berlin.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DataFarm_CIDR_2022.pdf (4,667,392 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Arun Kumar (University of California, San Diego); Danica Porobic (Oracle); H. V. Jagadish (University of Michigan); Thomas Neumann (TUM)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[arunkk@eng.ucsd.edu; danica.porobic@oracle.com; jag@eecs.umich.edu; neumann@in.tum.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[48]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 4:20:41 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:51:01 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Making Table Understanding Work in Practice]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Understanding the semantics of tables at scale is crucial for tasks like data integration, preparation, and search. Table understanding methods aim at detecting a table's topic, semantic column types, column relations, or entities. With the rise of deep learning, powerful models have been developed for these tasks with excellent accuracy on benchmarks. However, we observe that there exists a gap between the performance of these models on these benchmarks and their applicability in practice. In this paper, we address the question: what do we need for these models to work in practice?
+
+We discuss three challenges of deploying table understanding models and propose a framework to address them. These challenges include 1) difficulty in customizing models to specific domains, 2) lack of training data for typical database tables often found in enterprises, and 3) lack of confidence in the inferences made by models. We present SigmaTyper which implements this framework for the semantic column type detection task. SigmaTyper encapsulates a hybrid model trained on GitTables and integrates a lightweight human-in-the-loop approach to customize the model. Lastly, we highlight avenues for future research that further close the gap towards making table understanding effective in practice.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Madelon Hulsebos]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[madelon.hulsebos@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Madelon Hulsebos (University of Amsterdam)*; Sneha Gathani (Sigma Computing); James Gale (Sigma Computing); Isil Dillig (UT Austin); Paul Groth (University of Amsterdam); Cagatay Demiralp (Sigma Computing)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Hulsebos, Madelon*; Gathani, Sneha; Gale, James; Dillig, Isil; Groth, Paul; Demiralp, Cagatay]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[madelon.hulsebos@gmail.com*; sneha@sigmacomputing.com; jlg@sigmacomputing.com; isil@cs.utexas.edu; p.t.groth@uva.nl; cagatay@sigmacomputing.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[SigmaTyper-CIDR-2021-Aug31-845pm.pdf (633,292 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qiong Luo (Hong Kong University of Science and Technology); Spyros Blanas (The Ohio State University); Yuanyuan Tian (Microsoft Gray Systems Lab)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[luo@cse.ust.hk; blanas.2@osu.edu; yuanyuantian@microsoft.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[51]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 5:59:46 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 10:52:04 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Data Management Opportunities for Foundation Models]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Industrial machine learning pipelines are experiencing a paradigm shift from customized architectures and hand curated features to self-supervised foundation model ecosystems where models are trained without manual labels and adapted to hundreds of downstream tasks. The dramatic reduction in engineer effort resulting from foundation model ecosystems has contributed to their rise in popularity. Foundation models are already deployed in industrial pipelines. In this abstract paper, we highlight three key data management challenges and opportunities with managing the foundation model data lifecycle. Each challenge is presented as a twist on traditional data management challenges spanning data integration, data exploration, and data programming.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Laurel Orr]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[lorr1@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Laurel Orr (Stanford University)*; Karan Goel (Stanford); Christopher Re (Stanford University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Orr, Laurel*; Goel, Karan; Re, Christopher]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[lorr1@cs.stanford.edu*; kgoel@cs.stanford.edu; chrismre@cs.stanford.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Data_Centric__CIDR_final.pdf (395,271 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[54]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 9:21:36 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:51:33 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Can Transfer Learning be used to build a Query Optimizer?]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Query optimizers are performance-critical but complicated components in any database system. The traditional way to build a query optimizer is to write one from scratch for every database system. New database systems take years if not decades to end up with a good query optimizer. In this paper, we take a tentative step towards exploring a novel approach - namely, to train an optimizer on one system and simply transfer that learning to another system. The goal of this paper is exploratory and to determine if such an approach is feasible, even in a limited setting at first. We present an example use case of transferring a learned optimizer from PostgreSQL to Couchbase for a limited, but common, class of queries. Our approach achieves more than 10x speedup on standard benchmark queries, tentatively pointing to a new line of research around transfer learning for query optimizers.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Yunjia Zhang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[yunjia@cs.wisc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Yunjia Zhang (University of Wisconsin-Madison)*; Yannis Chronis (University of Wisconsin Madison); Jignesh Patel (UW - Madison); Theodoros Rekatsinas (University of Wisconsin-Madison)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Zhang, Yunjia*; Chronis, Yannis; Patel, Jignesh; Rekatsinas, Theodoros]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[yunjia@cs.wisc.edu*; chronis@cs.wisc.edu; jignesh@cs.wisc.edu; thodrek@cs.wisc.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[0.75]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR_2022_submission (7).pdf (1,074,159 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Fatma Ozcan (Google); Justin Levandoski (Google); Qiong Luo (Hong Kong University of Science and Technology); Spyros Blanas (The Ohio State University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[fatma.ozc@gmail.com; justin.levandoski@gmail.com; luo@cse.ust.hk; blanas.2@osu.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[55]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/27/2021 9:52:14 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:36:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Towards NLP-Enhanced Data Profiling Tools]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Data profiling tools obtain valuable information via natural language processing (NLP) of column and table names. If profiling time is limited, NLP helps to prioritize data analysis methods and targets. We describe our vision for NLP-enhanced data profiling tools, motivated by recent advances in the area of NLP. We propose a general architecture for corresponding profiling tools and present first experimental results. In our experiments, we prioritize correlation analysis to column pairs that are predicted to be correlated. The predictions are based on large, pre-trained language models, trained to predict correlation probability based on column names. Across different tables, profiling cost budgets, and correlation metrics, the prototype uncovers more correlations than a baseline.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Immanuel Trummer]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[itrummer@cornell.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Immanuel Trummer (Cornell)*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Trummer, Immanuel*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[itrummer@cornell.edu*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[NLP_Enhanced_Data_Profiling (10).pdf (553,232 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Qiong Luo (Hong Kong University of Science and Technology); Spyros Blanas (The Ohio State University); Yuanyuan Tian (Microsoft Gray Systems Lab)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[luo@cse.ust.hk; blanas.2@osu.edu; yuanyuantian@microsoft.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[69]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 1:11:34 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:54:35 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[A Network Use for Incomplete Knowledge Management]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[The network use for database, when compared with distributed system or imperative programming \etc, has been a mixed success. What those other disciplines lacked in elegance --- \eg declarative abstraction, strong guarantee --- at first, they make up in performance and scalability in the long run. In order to make a more permanent impact in networking, we suggest a new network use for the management of incomplete knowledge. Incomplete knowledge which has been a pain point for non-data approaches, is particularly relevant for networks, at every level of data management: network admins care more about the partially specified operating region instead of a completely known instantaneous state; the Internet domain structure organized around multiple owners renders any invariant checking requiring full Internet access futile; and the irregular data resulted from decades of unplanned protocol deployments that show no sign of stopping makes management of the full protocol stack extremely challenging. Using these as driving problems, this paper presents a first of its kind network use for data techniques that are only available in such database areas as incomplete database, distributed database, and semistructured data.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Anduo Wang]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[anduo.wang@gmail.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Anduo Wang (Temple University)*; Fangping Lan (Temple University)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Wang, Anduo*; Lan, Fangping]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[anduo.wang@gmail.com*; fangping.lan@temple.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[cidr22.pdf (593,078 bytes); extended-abstract.pdf (282,544 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[2]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Bingsheng He (National University of Singapore); Joseph Hellerstein (UC Berkeley); Peter Boncz (Centrum Wiskunde & Informatica)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[hebs@comp.nus.edu.sg; hellerstein@berkeley.edu; boncz@cwi.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[80]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 11:32:27 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:42:11 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Examples are All You Need: Iterative Data Discovery by Example in Data Lakes]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Building effective data science pipelines often hinges on finding the right data to be consumed by downstream operators. The database community has successfully developed sophisticated query languages that are appropriate when users know what to look for (e.g., records) and how to find it (e.g., tables to join). To fully take advantage of the query language capabilities, data must be stored in a predefined schema and the users need to master the query languages while having a good understanding of the schema. However, in the era of data science, data scientists often need to extract data from data lakes, which typically lack meta-data (from which the schema can be inferred) and are too large to sift through manually. In the course of our collaboration with the U.S. Air Force, we realize that there is a pressing need to develop a data discovery system that (1) users do not need to learn how to query, and thus, making data discovery easy for them; (2) returns effective discovery results that satisfy the user's intent; and (3) can return results efficiently. To address these requirements, we introduce DICE ---a Data dIsCovery by Example system that (1) does not require any query language expertise and only needs a few exemplar records to find relevant data from data lakes; (2) involves users in the discovery process, i.e., because an example-driven search often incurs an intent ambiguity, it is important to allow users to steer the discovery process iteratively; and (3) can return "quick-and-dirty" results interactively.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[El Kindi Rezig]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[elkindi@csail.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[El Kindi Rezig (MIT)*; Anshul Bhandari (National Institute of Technology Hamirpur); Anna Fariha (Microsoft); Benjamin Price (MIT Lincoln Laboratory); Allan Vanterpool (United States Air Force); Andrew Bowne (United States Air Force); Lindsey McEvoy (U.S. Air Force AI Accelerator (SAF/AQ)); Vijay Gadepally (MIT Lincoln Laboratory)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Rezig, El Kindi*; Bhandari, Anshul; Fariha, Anna; Price, Benjamin; Vanterpool, Allan; Bowne, Andrew; McEvoy, Lindsey; Gadepally, Vijay]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[elkindi@csail.mit.edu*; 185529@nith.ac.in; annafariha@microsoft.com; ben.price@ll.mit.edu; allan.vanterpool@us.af.mil; andrew.bowne.2@spaceforce.mil; lindsey.mcevoy.1@us.af.mil; vijayg@ll.mit.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[4]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[dice_rezig.pdf (1,176,374 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Hannes Mühleisen (Centrum Wiskunde & Informatica); Kai Zeng (Alibaba Group); Renata Borovica-Gajic (University of Melbourne)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[hannes.muehleisen@cwi.nl; kaizeng.zk@gmail.com; renata.borovica@unimelb.edu.au]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[85]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 2:07:33 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 7:50:44 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Amalur: Next-generation Data Integration in Data Lakes]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Data science workflows require extracting, preparing and integrating data from multiple data sources. Due to the lack of proper tooling this is a very cumbersome process that hinders the productivity of data scientists. Moreover, this is a very slow process: most of the times, data scientists prepare data in a data processing system or a data lake, and export it in the form of a table, in order for it to be consumed by a Machine Learning (ML) algorithm.
+
+Recent advances in the area of factorized ML, allow us to push down certain linear algebra (LA) operators, and to execute them closer to the data sources. At the same time, we have a proliferation of novel data exploration and discovery tools as well as dataset relatedness and matching algorithms. With this work we argue that this is the right moment to revisit all the components of classic data integration (DI) systems, and to see how these fit into modern data lakes that are meant to support LA as a first-class citizen. 
+
+In this paper we first investigate how the advances in factorized ML and modern data integration techniques influence and can benefit from each other, forming new research opportunities. We then describe Amalur: a reference architecture of a next-generation data lake system which facilitates linear algebra processing over heterogeneous sources. We propose a formal representation based on matrices, which connects to the schema mapping formalism in first-order logic, and enables LA factorization over joinable or unionable data in a data lake. Finally, we outline the future research challenges related to next-generation data lake systems.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Rihan Hai]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[R.Hai@tudelft.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Rihan Hai (TU Delft)*; Christos Koutras (TU Delft); Andra Ionescu (TU Delft); Asterios Katsifodimos (TU Delft)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Hai, Rihan*; Koutras, Christos; Ionescu, Andra; Katsifodimos, Asterios]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[R.Hai@tudelft.nl*; c.koutras@tudelft.nl; a.ionescu-3@tudelft.nl; a.katsifodimos@tudelft.nl]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR2022.pdf (1,571,280 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Fatma Ozcan (Google); Kai Zeng (Alibaba Group); Renata Borovica-Gajic (University of Melbourne)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[fatma.ozc@gmail.com; kaizeng.zk@gmail.com; renata.borovica@unimelb.edu.au]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[100]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 10:44:03 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/22/2021 10:52:08 AM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Photon: A High-Performance Query Engine for the Lakehouse]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[We present Photon, a new native vectorized query engine powering the Databricks Runtime. Photon achieves state-of-the-art query execution times and industry-leading price performance on real workloads against data stored in the Parquet and Delta format, in situ over data lakes such as Amazon S3, ADLS, and GCS. Photon supports not only SQL but also the DataFrame APIs of Apache Spark, PySpark, and Koalas.
+
+This is a one page abstract submission.]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Shoumik Palkar]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Shoumik.Palkar@databricks.com]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Alexander Behm (Databricks); Shoumik Palkar (Databricks)*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Behm, Alexander; Palkar, Shoumik*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[alex.behm@databricks.com; Shoumik.Palkar@databricks.com*]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[paper.pdf (82,660 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[103]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[8/31/2021 11:32:48 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[10/21/2021 10:49:38 PM -07:00]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Correctness in Stream Processing: Challenges and Opportunities]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Today's real-time data analytics applications are built using a range of software platforms for distributed data stream processing. However, engineering and performance advances over two decades of research have not been met by adequate attention to software correctness. We argue broadly for the application of formal methods to stream processing systems. We survey ongoing work and opportunities in this space along three dimensions: (1) formalizing ordering requirements, (2) formalizing safe distribution, and (3) formalizing performance guarantees. An overarching theme is that unlike traditional database applications which have benefited from core languages based on relational algebra, today's stream processing applications lack an agreed upon language standard. We describe how our formalisms can be integrated into such a standard and implemented in existing systems.
+]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Caleb Stanford]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[castan@cis.upenn.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Caleb Stanford (University of Pennsylvania)*; Konstantinos Kallas (University of Pennsylvania); Rajeev Alur (University of Pennsylvania )]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Stanford, Caleb*; Kallas, Konstantinos; Alur, Rajeev]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[castan@cis.upenn.edu*; kallas@seas.upenn.edu; alur@cis.upenn.edu]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[DEF_SYEHPFAD]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[3]]></Data>
+        </Cell>
+        <Cell ss:StyleID="s2">
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Disabled (0)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[AbstractAccept]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[No]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[CIDR_2021.pdf (452,218 bytes)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[1]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number"><![CDATA[0]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[Guoliang Li (Tsinghua University); Jana Giceva (TUM); Viktor Leis ( Friedrich-Alexander-Universität Erlangen-Nürnberg)]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[liguoliang@mail.tsinghua.edu.cn; jana.giceva@tum.de; viktor.leis@fau.de]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"><![CDATA[]]></Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
