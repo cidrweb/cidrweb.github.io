@@ -32,11 +32,15 @@
             Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
             Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
             */
-        
+
         grid-template-columns:
             [times] 8em
-            [track-1-start] 4fr
-            [track-1-end];
+            [track-all-start] 2fr
+
+            [track-1-start] auto
+      		[track-1-end track-2-start] auto
+      		[track-2-end] auto
+            [track-all-end];
     }
 }
 
@@ -149,18 +153,19 @@ body {
     }
 }
 
+
 .track-slot,
 .time-slot {
     font-size:1em;
 }
 
 .track-1 {
-    background-color: #1259B2;
+    background-color: #544D69;
     color: #fff;
 }
 
 .track-2 {
-    background-color: #1259B2687f00;
+    background-color: #544D69;
     color: #fff;
 }
 
@@ -177,8 +182,8 @@ body {
 .track-all {
     justify-content: center;
     align-items: center;
-    background: #ccc;
-    color: #000;
+    background: #1259B2;
+    color: #fff;
     box-shadow: none;
 }
 
