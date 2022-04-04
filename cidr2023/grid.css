@@ -1,0 +1,207 @@
+/*************************
+ * GRID SCHEDULE LAYOUT
+ *************************/
+@media screen and (min-width:700px) {
+    .schedule {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows:
+            [time-0700] auto
+            [time-0830] auto
+            [time-0845] auto
+            [time-0900] auto
+            [time-0930] auto
+            [time-1000] auto
+            [time-1030] auto
+            [time-1100] auto
+            [time-1200] auto
+            [time-1300] auto
+            [time-1400] auto
+            [time-1430] auto
+            [time-1500] auto
+            [time-1600] auto
+            [time-1700] auto
+            [time-1730] auto
+			[time-1800] auto
+            [time-1930] auto;
+            
+            
+            /* Note 1:
+            Use 24hr time for gridline names for simplicity
+
+            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+            */
+
+        grid-template-columns:
+            [times] 8em
+            [track-all-start] 2fr
+
+            [track-1-start] auto
+      		[track-1-end track-2-start] auto
+      		[track-2-end] auto
+            [track-all-end];
+    }
+}
+
+.time-slot {
+    grid-column: times
+}
+
+.track-slot {
+    display: none; /* hidden on small screens and browsers without grid support */
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width:700px) {
+        .track-slot {
+            display: block;
+            padding: 10px 5px 5px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255,255,255,.9);
+        }
+    }
+}
+
+/* Small-screen & fallback styles */
+.session {
+    margin-bottom:  1em;
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width: 700px) {
+        .session {
+            margin: 0;
+        }   
+    }
+}
+
+/*************************
+ * VISUAL STYLES
+ * Design-y stuff ot particularly important to the demo
+ *************************/
+body {
+    padding: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.session {
+    padding: .5em;
+    border-radius: 2px;
+    font-size: 14px;
+    box-shadow:
+        rgba(255,255,255,.6) 1px 1px 0,
+        rgba(0,0,0,.3) 4px 4px 0;
+}
+
+.session-title,
+.session-time {
+    display: block;
+    font-style: underline;
+
+}
+.session-track,
+.session-presenter {
+    display: block;
+    font-style: normal;
+    font-size: .8em;
+
+}
+.keynote-presenter {
+    display: block;
+    font-style: bold;
+    font-size: 1em;
+
+}
+.session-talk {
+    display: block;
+    font-style: italic;
+
+}
+.session-location {
+    display: block;
+    font-style: italic;
+
+}
+
+.session-location a {
+    display: block;
+    font-style: italic;
+
+}
+
+.session-title,
+.time-slot {
+    margin: 0;
+    font-size: 1em;
+}
+
+.session-title a {
+    color: #fff;
+    text-decoration-style: dotted;
+    
+    &:hover {
+        font-style: italic;
+    }
+    
+    &:focus {
+        outline: 2px dotted rgba(255,255,255,.8);
+    }
+}
+
+
+.track-slot,
+.time-slot {
+    font-size:1em;
+}
+
+.track-1 {
+    background-color: #544D69;
+    color: #fff;
+}
+
+.track-2 {
+    background-color: #544D69;
+    color: #fff;
+}
+
+.track-3 {
+    background-color: #544D69;
+    color: #fff;
+}
+
+.track-4 {
+    background-color: #c35500;
+    color: #fff;
+}
+
+.track-all {
+    justify-content: center;
+    align-items: center;
+    background: #1259B2;
+    color: #fff;
+    box-shadow: none;
+}
+
+.text {
+    max-width: 750px;
+    font-size: 15px;
+    margin: 0 auto 50px;
+}
+
+.meta {
+    color: #555;
+    font-style: italic;
+}
+
+.meta a {
+    color: #555;
+}
+
+hr {
+    margin: 40px 0;
+}
