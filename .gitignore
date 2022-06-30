@@ -4,3 +4,5 @@ _site/
 *.swp
 .ipynb_checkpoints/file_330862_0_1646757386-checkpoint.ipynb
 *.ipynb
+*~
+~*
