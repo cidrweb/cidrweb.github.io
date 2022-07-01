@@ -1268,7 +1268,7 @@
   \global\@ACM@journal@bibstripfalse
 }
 \if@ACM@journal\else
-\acmConference[CIDR'23]{13th Annual Conference on Innovative Data Systems Research}{January 8-11, 2023}{Amsterdam, Netherlands}%13th Annual Conference on Innovative Data Systems Research (CIDR `23)}{January 8-11, 2023, Amsterdam, Netherlands.}
+\acmConference[CIDR'23]{13th Annual Conference on Innovative Data Systems Research}{January 8-11, 2023}{Amsterdam, The Netherlands}%13th Annual Conference on Innovative Data Systems Research (CIDR `23)}{January 8-11, 2023, Amsterdam, The Netherlands.}
 
 \fi
 \def\acmBooktitle#1{\gdef\@acmBooktitle{#1}}
@@ -1624,7 +1624,7 @@
    This paper is published under the Creative Commons Attribution~4.0
    International (CC-BY~4.0) license. Authors reserve their rights to
    disseminate the work on their personal and corporate Web sites with
-   the appropriate attribution, provided that you attribute the original work to the authors and CIDR 2023. 13th Annual Conference on Innovative Data Systems Research (CIDR ’23). January 8-11, 2023, Amsterdam, Netherlands.
+   the appropriate attribution, provided that you attribute the original work to the authors and CIDR 2023. 13th Annual Conference on Innovative Data Systems Research (CIDR ’23). January 8-11, 2023, Amsterdam, The Netherlands.
 }
 \def\copyrightyear#1{\def\@copyrightyear{#1}}
 \copyrightyear{\@acmYear}
