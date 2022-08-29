@@ -1,5 +1,5 @@
 %%
-%% This is file `acmart.cls',
+%% This is file `cidr-2023.cls',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -11,7 +11,7 @@
 %% For the copyright see the source file.
 %% 
 %% Any modified versions of this file must be renamed
-%% with new filenames distinct from acmart.cls.
+%% with new filenames distinct from cidr-2023.cls.
 %% 
 %% For distribution of the original source see the terms
 %% for copying and modification in the file acmart.dtx.
@@ -46,13 +46,13 @@
 \RequirePackage{xkeyval}
 \RequirePackage{xstring}
 \RequirePackage{iftex}
-\define@choicekey*+{acmart.cls}{format}[\ACM@format\ACM@format@nr]{%
+\define@choicekey*+{cidr-2023.cls}{format}[\ACM@format\ACM@format@nr]{%
   manuscript, acmsmall, acmlarge, acmtog, sigconf, siggraph,
   sigplan, sigchi, sigchi-a}[manuscript]{}{%
   \ClassError{\@classname}{The option format must be manuscript,
     acmsmall, acmlarge, acmtog, sigconf, siggraph,
     sigplan, sigchi or sigchi-a}}
-\def\@DeclareACMFormat#1{\DeclareOptionX{#1}{\setkeys{acmart.cls}{format=#1}}}
+\def\@DeclareACMFormat#1{\DeclareOptionX{#1}{\setkeys{cidr-2023.cls}{format=#1}}}
 \@DeclareACMFormat{manuscript}
 \@DeclareACMFormat{acmsmall}
 \@DeclareACMFormat{acmlarge}
@@ -63,7 +63,7 @@
 \@DeclareACMFormat{sigchi}
 \@DeclareACMFormat{sigchi-a}
 \ExecuteOptionsX{format}
-\define@boolkey+{acmart.cls}[@ACM@]{screen}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{screen}[true]{%
   \if@ACM@screen
     \PackageInfo{\@classname}{Using screen mode}%
   \else
@@ -71,7 +71,7 @@
   \fi}{\PackageError{\@classname}{The option screen can be either true or
     false}}
 \ExecuteOptionsX{screen=false}
-\define@boolkey+{acmart.cls}[@ACM@]{urlbreakonhyphens}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{urlbreakonhyphens}[true]{%
   \if@ACM@urlbreakonhyphens
     \PackageInfo{\@classname}{Using breaking urls on hyphens}%
   \else
@@ -79,7 +79,7 @@
   \fi}{\PackageError{\@classname}{The option urlbreakonhyphens can be either true or
     false}}
 \ExecuteOptionsX{urlbreakonhyphens=true}
-\define@boolkey+{acmart.cls}[@ACM@]{acmthm}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{acmthm}[true]{%
   \if@ACM@acmthm
     \PackageInfo{\@classname}{Requiring acmthm}%
   \else
@@ -87,7 +87,7 @@
   \fi}{\PackageError{\@classname}{The option acmthm can be either true or
     false}}
 \ExecuteOptionsX{acmthm=true}
-\define@boolkey+{acmart.cls}[@ACM@]{review}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{review}[true]{%
   \if@ACM@review
     \PackageInfo{\@classname}{Using review mode}%
     \AtBeginDocument{\@ACM@printfoliostrue}%
@@ -96,7 +96,7 @@
   \fi}{\PackageError{\@classname}{The option review can be either true or
     false}}
 \ExecuteOptionsX{review=false}
-\define@boolkey+{acmart.cls}[@ACM@]{authorversion}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{authorversion}[true]{%
   \if@ACM@authorversion
     \PackageInfo{\@classname}{Using authorversion mode}%
   \else
@@ -104,7 +104,7 @@
   \fi}{\PackageError{\@classname}{The option authorversion can be either true or
     false}}
 \ExecuteOptionsX{authorversion=false}
-\define@boolkey+{acmart.cls}[@ACM@]{nonacm}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{nonacm}[true]{%
   \if@ACM@nonacm
     \PackageInfo{\@classname}{Using nonacm mode}%
     \AtBeginDocument{\@ACM@printacmreffalse}%
@@ -116,15 +116,15 @@
   \fi}{\PackageError{\@classname}{The option nonacm can be either true or
     false}}
 \ExecuteOptionsX{nonacm=false}
-\define@boolkey+{acmart.cls}[@ACM@]{balance}[true]{}{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{balance}[true]{}{%
   \PackageError{\@classname}{The option balance can be either true or
     false}}
 \ExecuteOptionsX{balance}
-\define@boolkey+{acmart.cls}[@ACM@]{pbalance}[true]{}{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{pbalance}[true]{}{%
   \PackageError{\@classname}{The option pbalance can be either true or
     false}}
 \ExecuteOptionsX{pbalance=false}
-\define@boolkey+{acmart.cls}[@ACM@]{natbib}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{natbib}[true]{%
   \if@ACM@natbib
     \PackageInfo{\@classname}{Explicitly selecting natbib mode}%
   \else
@@ -132,7 +132,7 @@
   \fi}{\PackageError{\@classname}{The option natbib can be either true or
     false}}
 \ExecuteOptionsX{natbib=true}
-\define@boolkey+{acmart.cls}[@ACM@]{anonymous}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{anonymous}[true]{%
   \if@ACM@anonymous
     \PackageInfo{\@classname}{Using anonymous mode}%
   \else
@@ -140,7 +140,7 @@
   \fi}{\PackageError{\@classname}{The option anonymous can be either true or
     false}}
 \ExecuteOptionsX{anonymous=false}
-\define@boolkey+{acmart.cls}[@ACM@]{timestamp}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{timestamp}[true]{%
   \if@ACM@timestamp
     \PackageInfo{\@classname}{Using timestamp mode}%
   \else
@@ -148,7 +148,7 @@
   \fi}{\PackageError{\@classname}{The option timestamp can be either true or
     false}}
 \ExecuteOptionsX{timestamp=false}
-\define@boolkey+{acmart.cls}[@ACM@]{authordraft}[true]{%
+\define@boolkey+{cidr-2023.cls}[@ACM@]{authordraft}[true]{%
   \if@ACM@authordraft
     \PackageInfo{\@classname}{Using authordraft mode}%
     \@ACM@timestamptrue
@@ -175,13 +175,13 @@
 \ClassWarning{\@classname}{%
   The format siggraph is now obsolete.\MessageBreak
   I am switching to sigconf.}
-  \setkeys{acmart.cls}{format=sigconf}
+  \setkeys{cidr-2023.cls}{format=sigconf}
 \fi
 \ifnum\ACM@format@nr=7\relax % sigchi
 \ClassWarning{\@classname}{%
   The format sigchi is now obsolete.\MessageBreak
   I am switching to sigconf.}
-  \setkeys{acmart.cls}{format=sigconf}
+  \setkeys{cidr-2023.cls}{format=sigconf}
 \fi
 \ifnum\ACM@format@nr=8\relax % sigchi
 \ClassWarning{\@classname}{%
@@ -1752,7 +1752,7 @@
     pdfsubject={\@concepts},
     pdfkeywords={\@keywords},
     pdfcreator={LaTeX with acmart
-      \csname ver@acmart.cls\endcsname\space
+      \csname ver@cidr-2023.cls\endcsname\space
       and hyperref
       \csname ver@hyperref.sty\endcsname}}%
   \andify\authors
@@ -2891,4 +2891,4 @@
 \normalsize\normalfont\frenchspacing
 \endinput
 %%
-%% End of file `acmart.cls'.
+%% End of file `cidr-2023.cls'.
