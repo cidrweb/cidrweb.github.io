@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script>
+
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="table-container">
+
+
+        <!-- Header -->
+        <div class="table-block footer-push">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="twelve columns">
+                            <!--<img src="../img/logo.png">-->
+                            <h3 class="header-title-1"> Conference on Innovative Data Systems (CIDR)</h3>
+                            <h3 class="header-title-2">Research Proceedings</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h1 class="title">Symphony: Towards Natural Language Query Answering over Multi-modal Data Lakes</h1>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Zui Chen,  Zihui  Gu,  Lei  Cao,  Ju  Fan,  Sam  Madden,  Nan  Tang</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2023/p51-chen.pdf" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+
+                                <a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>
+                            </div>
+
+                            <div class="abstract">
+                                <h2 class="abstract-heading">Abstract</h2>
+                                <p class="abstract-text">
+                                    Wouldn’t it be great if we could query large, diverse data lakes of tables, text, and databases as easily as using Siri or Alexa? The problem is hard from two perspectives: integrating data lakes requires data normalization/transformation, schema matching, and entity resolution and is notoriously hard, with high human cost. Even if successful, such integration efforts typically do not support arbitrary SQL queries over the integrated data set. In this paper, we propose Symphony, a novel system that enables users to easily query complex, multi-modal data lakes without performing upfront integration. For ease of use, Symphony adopts a natural language (NL) interface. To avoid integration, it employs a unified representation for multi-modal datasets, called cross-modality representation learning. When a user poses an NL query, Symphony discovers which tables or textual data should be retrieved based on the learned cross-modal representations, decomposes a complicated NL query into NL sub-queries on-demand, evaluates each sub-query on one data source and combines the results from these sub-queries. A preliminary evaluation shows that the resulting system is able to effectively answer questions over tables and text extracted from Wikipedia.
+                                </p>
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">@inproceedings{cidr/2023/51-chen,
+  author       = {Zui Chen and
+                  Zihui  Gu and
+                  Lei  Cao and
+                  Ju  Fan and
+                  Sam  Madden and
+                  Nan  Tang},
+  title        = {Symphony: Towards Natural Language Query Answering over Multi-modal Data Lakes},
+  booktitle    = {Proceedings of the 13th Conference on Innovative Data Systems Research, CIDR 2023},
+  publisher    = {www.cidrdb.org},
+  year         = {2023},
+  series       = {CIDR 2023},
+  url          = {https://cidr.org/temp-website/papers/2023/p51-chen.pdf},
+  location     = {Amsterdam, The Netherlands}
+}</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
