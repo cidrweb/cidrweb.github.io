@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /proc_test.html
+Disallow: /fbb0e34aceae2304dc7a1aeba89c21c6180654d7/
