@@ -21,15 +21,70 @@ body {
   padding-top: 50px;
 }
 
-
 .header {
   width: 100vw;
   height: 230px;
-  background-image: url(../img/bg-3.jpg);
-  background-size: cover;
+  position: relative;
+  /*background-image: url(../img/bg-4.jpg);*/
+  /*animation: slideshow 5s ease-in-out infinite;*/
+  animation: slideshow;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   background-repeat: no-repeat;
-  background-position: center 58%;
+  background-position: center 75%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
+
+@keyframes slideshow {
+  0%, 45%, 100% { background-image: url("../img/ams.jpg"); }
+  50%, 95% { background-image: url("../img/asi.jpg"); }
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.header .row {
+  padding-top: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.header .header-logo {
+  padding: 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+
+.header .header-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
 
 .header-title-1 {
   /*font-size: 42px;*/
@@ -96,7 +151,7 @@ body {
 }*/
 
 .index-link {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   padding: 5px;
 }
@@ -256,9 +311,8 @@ body {
 }
 
 .paper-card:hover::after {
-  /*border-color: #0479A8;*/
-  /*border-color: #ffc20e;*/
-  border-color: #e7e42d;
+  /*border-color: #e7e42d;*/
+  border-color: #F7C05F;
 }
 
 .paper-card::after {
@@ -283,6 +337,7 @@ body {
   font-weight: 600;
   line-height: 1.4;
   margin: 0;
+  color: #0B384E;
 }
 
 .paper-card .authors {
@@ -319,8 +374,9 @@ body {
 .paper-card .btn-pdf {
   position: relative;
   z-index: 1;
-  /*background: #606060;*/
   background: #0479A8;
+  /*background: #0B384E;*/
+  /*background: #81ADB6;*/
   color: white;
 }
 
