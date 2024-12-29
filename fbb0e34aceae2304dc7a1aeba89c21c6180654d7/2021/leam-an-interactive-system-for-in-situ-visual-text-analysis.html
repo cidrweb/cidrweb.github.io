@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+===========================================================
+CIDR proceedings website created and maintained by:
+ - Konstantinos Kanellis (kkanellis@cs.wisc.edu) and,
+ - Yannis Chronis (chronis@cs.wisc.edu)
+===========================================================
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+        function onBodyLoad() {
+            document.getElementById("paper-details").scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+        }
+    </script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="table-container">
+
+        <!-- Header -->
+        <div class="table-block">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-logo">
+                            <a class="clickable-box" href="index.html"></a>
+                            <img src="../img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="alert alert-info">
+This website is <i>under development</i>.  If you come accross any issues, please report them to Konstantinos Kanellis 
+                                    (<kbd>kkanellis@cs.wisc.edu</kbd>) or Yannis Chronis
+                                    (<kbd>chronis@google.com</kbd>).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="paper-details">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                                <!--<a href="#" onclick="navigateToUrl('index.html')"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>-->
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h4 class="title">Leam: An Interactive System for In-situ Visual Text Analysis</h4>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Sajjadur Rahman,  Peter  Griggs,  Çağatay  Demiralp</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2021/cidr2021_paper09.pdf" target="_blank" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+                                <!--<a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>-->
+                            </div>
+
+                            <div class="abstract">
+                                
+                                <h5 class="abstract-heading">Abstract</h5>
+                                <p class="abstract-text">
+                                    With the increase in scale and availability of digital text generated on the web, enterprises such as online retailers and aggregators often use text analytics to mine and analyze the data to improve their services and products alike. Text data analysis is an iterative, non-linear process with diverse workflows spanning multiple stages, from data cleaning to visualization. Existing text analytics systems usually accommodate a subset of these stages and often fail to address challenges related to data heterogeneity, provenance, workflow reusability and reproducibility, and compatibility with established practices. Based on a set of design considerations we derive from these challenges, we propose Leam, a system that treats the text analysis process as a single continuum by combining advantages of computational notebooks, spreadsheets, and visualization tools. Leam features an interactive user interface for running text analysis workflows, a new data model for managing multiple atomic and composite data types, and an expressive algebra that captures diverse sets of operations representing various stages of text analysis and enables coordination among different components of the system, including data, code, and visualizations. We report our current progress in Leam development while demonstrating its usefulness with usage examples. Finally, we outline a number of enhancements to Leam and identify several research directions for developing an interactive visual text analysis system.
+                                </p>
+                                
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">@inproceedings{cidr/2021/cidr2021_paper09,
+  author       = {Sajjadur Rahman and
+                  Peter  Griggs and
+                  Çağatay  Demiralp},
+  title        = {Leam: An Interactive System for In-situ Visual Text Analysis},
+  booktitle    = {Proceedings of the 11th Conference on Innovative Data Systems Research, CIDR 2021},
+  publisher    = {www.cidrdb.org},
+  year         = {2021},
+  series       = {CIDR 2021},
+  url          = {https://cidr.org/temp-website/papers/2021/cidr2021_paper09.pdf},
+  location     = {Virtual Event}
+}</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+===========================================================
+CIDR proceedings website created and maintained by:
+ - Konstantinos Kanellis (kkanellis@cs.wisc.edu) and,
+ - Yannis Chronis (chronis@cs.wisc.edu)
+===========================================================
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+        function onBodyLoad() {
+            document.getElementById("paper-details").scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+        }
+    </script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="table-container">
+
+        <!-- Header -->
+        <div class="table-block">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-logo">
+                            <a class="clickable-box" href="index.html"></a>
+                            <img src="../img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="alert alert-info">
+This website is <i>under development</i>.  If you come accross any issues, please report them to Konstantinos Kanellis 
+                                    (<kbd>kkanellis@cs.wisc.edu</kbd>) or Yannis Chronis
+                                    (<kbd>chronis@google.com</kbd>).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="paper-details">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                                <!--<a href="#" onclick="navigateToUrl('index.html')"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>-->
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h4 class="title">Augmenting Decision Making via Interactive What-If Analysis</h4>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Sneha Gathani,  Madelon  Hulsebos,  James  Gale,  Peter J  Haas</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2022/p49-gathani.pdf" target="_blank" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+                                <!--<a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>-->
+                            </div>
+
+                            <div class="abstract">
+                                
+                                <h5 class="abstract-heading">Abstract</h5>
+                                <p class="abstract-text">
+                                    The fundamental goal of business data analysis is to improve business decisions using data. Business users often make decisions to achieve key performance indicators (KPIs) such as increasing customer retention or sales, or decreasing costs. To discover the relationship between data attributes hypothesized to be drivers and those corresponding to KPIs of interest, business users currently need to perform lengthy exploratory analyses. This involves considering multitudes of combinations and scenarios and performing slicing, dicing, and transformations on the data accordingly, e.g., analyzing customer retention across quarters of the year or suggesting optimal media channels across strata of customers. However, the increasing complexity of datasets combined with the cognitive limitations of humans makes it challenging to carry over multiple hypotheses, even for simple datasets. Therefore mentally performing such analyses is hard. Existing commercial tools either provide partial solutions whose effectiveness remains unclear or fail to cater to business users altogether. Here we argue for four functionalities that we believe are necessary to enable business users to interactively learn and reason about the relationships (functions) between sets of data attributes thereby facilitating data-driven decision making. We implement these functionalities in SYSTEMD, an interactive visual data analysis system enabling business users to experiment with the data by asking whatif questions. We evaluate the system through three business use cases: marketing mix modeling, customer retention analysis, and deal closing analysis, and report on feedback from multiple business users. Overall, business users find the SYSTEMD functionalities highly useful for quick testing and validation of their hypotheses around their KPIs of interest, clearly addressing their unmet analysis needs. Their feedback also suggests that the user experience design can be enhanced to further improve the understandability of these functionalities.
+                                </p>
+                                
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">@inproceedings{cidr/2022/49-gathani,
+  author       = {Sneha Gathani and
+                  Madelon  Hulsebos and
+                  James  Gale and
+                  Peter J  Haas},
+  title        = {Augmenting Decision Making via Interactive What-If Analysis},
+  booktitle    = {Proceedings of the 12th Conference on Innovative Data Systems Research, CIDR 2022},
+  publisher    = {www.cidrdb.org},
+  year         = {2022},
+  series       = {CIDR 2022},
+  url          = {https://cidr.org/temp-website/papers/2022/p49-gathani.pdf},
+  location     = {Chaminade, CA, USA}
+}</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

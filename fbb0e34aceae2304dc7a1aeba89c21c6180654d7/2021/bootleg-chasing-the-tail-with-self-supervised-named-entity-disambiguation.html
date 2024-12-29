@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+===========================================================
+CIDR proceedings website created and maintained by:
+ - Konstantinos Kanellis (kkanellis@cs.wisc.edu) and,
+ - Yannis Chronis (chronis@cs.wisc.edu)
+===========================================================
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+        function onBodyLoad() {
+            document.getElementById("paper-details").scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+        }
+    </script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="table-container">
+
+        <!-- Header -->
+        <div class="table-block">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-logo">
+                            <a class="clickable-box" href="index.html"></a>
+                            <img src="../img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="alert alert-info">
+This website is <i>under development</i>.  If you come accross any issues, please report them to Konstantinos Kanellis 
+                                    (<kbd>kkanellis@cs.wisc.edu</kbd>) or Yannis Chronis
+                                    (<kbd>chronis@google.com</kbd>).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="paper-details">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                                <!--<a href="#" onclick="navigateToUrl('index.html')"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>-->
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h4 class="title">Bootleg: Chasing the Tail with Self-Supervised Named Entity Disambiguation</h4>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Laurel Orr,  Megan  Leszczynski,  Neel  Guha,  Sen  Wu,  Simran  Arora,  Xiao  Ling,  Christopher  Ré</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2021/cidr2021_paper13.pdf" target="_blank" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+                                <!--<a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>-->
+                            </div>
+
+                            <div class="abstract">
+                                
+                                <h5 class="abstract-heading">Abstract</h5>
+                                <p class="abstract-text">
+                                    Named Entity Disambiguation (NED) is the task of mapping textual mentions to entities in a database. A key challenge in NED is generalizing to rarely seen entities, termed tail entities. Traditional NED systems use hand-tuned features to improve tail generalization, but these features make the system challenging to deploy and maintain, especially in multiple locales. In 2018, a subset of the authors built a self-supervised NED system at Apple, which improved performance over its hand-tuned predecessor on a suite of downstream products. Motivated to understand the core reasons for this improvement, we introduce Bootleg, a clean-slate, open-source, self-supervised NED system.1 We first demonstrate that Bootleg matches or exceeds state-of-the-art performance on three NED benchmarks by up to 5.8 F1 points. Importantly, Bootleg improves performance over a BERT-based NED baseline by 41.2 F1 points on tail entities in Wikipedia using a simple transformer-based architecture and a hierarchical regularization scheme. Finally, we observe that embeddings from self-supervised models like Bootleg are increasingly being served to downstream applications, creating an embedding ecosystem. We initiate the study of the data management challenges associated with this ecosystem.
+                                </p>
+                                
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">@inproceedings{cidr/2021/cidr2021_paper13,
+  author       = {Laurel Orr and
+                  Megan  Leszczynski and
+                  Neel  Guha and
+                  Sen  Wu and
+                  Simran  Arora and
+                  Xiao  Ling and
+                  Christopher  Ré},
+  title        = {Bootleg: Chasing the Tail with Self-Supervised Named Entity Disambiguation},
+  booktitle    = {Proceedings of the 11th Conference on Innovative Data Systems Research, CIDR 2021},
+  publisher    = {www.cidrdb.org},
+  year         = {2021},
+  series       = {CIDR 2021},
+  url          = {https://cidr.org/temp-website/papers/2021/cidr2021_paper13.pdf},
+  location     = {Virtual Event}
+}</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

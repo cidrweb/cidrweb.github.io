@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+===========================================================
+CIDR proceedings website created and maintained by:
+ - Konstantinos Kanellis (kkanellis@cs.wisc.edu) and,
+ - Yannis Chronis (chronis@cs.wisc.edu)
+===========================================================
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+        function onBodyLoad() {
+            document.getElementById("paper-details").scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+        }
+    </script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="table-container">
+
+        <!-- Header -->
+        <div class="table-block">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-logo">
+                            <a class="clickable-box" href="index.html"></a>
+                            <img src="../img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="alert alert-info">
+This website is <i>under development</i>.  If you come accross any issues, please report them to Konstantinos Kanellis 
+                                    (<kbd>kkanellis@cs.wisc.edu</kbd>) or Yannis Chronis
+                                    (<kbd>chronis@google.com</kbd>).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="paper-details">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                                <!--<a href="#" onclick="navigateToUrl('index.html')"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>-->
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h4 class="title">Fixed It For You: Protocol Repair Using Lineage Graphs</h4>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Lennart Oldenburg,  Xiangfeng  Zhu,  Kamala  Ramasubramanian,  Peter  Alvaro</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2019/p122-oldenburg-cidr19.pdf" target="_blank" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+                                <!--<a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>-->
+                            </div>
+
+                            <div class="abstract">
+                                
+                                <h5 class="abstract-heading">Abstract</h5>
+                                <p class="abstract-text">
+                                    Distributed systems are diﬃcult to program and near impossible to debug. Existing tools that focus on single-node computation are poorly-suited to diagnose errors that involve the interaction of many machines over time. The database notion of provenance would appear to be a better ﬁt for answering the sort of cause-and-eﬀect questions that arise during debugging, but existing provenance-based approaches target only a narrow set of debugging scenarios. In this paper, we explore the limits of provenance-based debugging. We propose a simple query language to express common debugging questions as expressions over provenance graphs capturing traces of distributed executions. When programs and their correctness properties are written in the same highlevel declarative language, we can go a step further than highlighting errors by often generating repairs for distributed programs. We validate our prototype debugger, Nemo, on six protocols from our taxonomy of 52 real-world distributed bugs, either generating repair rules or pointing the programmer to root causes.
+                                </p>
+                                
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">@inproceedings{cidr/2019/122-oldenburg-cidr19,
+  author       = {Lennart Oldenburg and
+                  Xiangfeng  Zhu and
+                  Kamala  Ramasubramanian and
+                  Peter  Alvaro},
+  title        = {Fixed It For You: Protocol Repair Using Lineage Graphs},
+  booktitle    = {Proceedings of the 9th Conference on Innovative Data Systems Research, CIDR 2019},
+  publisher    = {www.cidrdb.org},
+  year         = {2019},
+  series       = {CIDR 2019},
+  url          = {https://cidr.org/temp-website/papers/2019/p122-oldenburg-cidr19.pdf},
+  location     = {Asilomar, CA, USA}
+}</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

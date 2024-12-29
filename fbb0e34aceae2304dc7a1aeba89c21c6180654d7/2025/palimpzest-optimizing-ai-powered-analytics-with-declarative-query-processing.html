@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+===========================================================
+CIDR proceedings website created and maintained by:
+ - Konstantinos Kanellis (kkanellis@cs.wisc.edu) and,
+ - Yannis Chronis (chronis@cs.wisc.edu)
+===========================================================
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CIDR Proceedings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+        function onBodyLoad() {
+            document.getElementById("paper-details").scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+        }
+    </script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="table-container">
+
+        <!-- Header -->
+        <div class="table-block">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-logo">
+                            <a class="clickable-box" href="index.html"></a>
+                            <img src="../img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="table-block footer-push">
+            <div class="main-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="alert alert-info">
+This website is <i>under development</i>.  If you come accross any issues, please report them to Konstantinos Kanellis 
+                                    (<kbd>kkanellis@cs.wisc.edu</kbd>) or Yannis Chronis
+                                    (<kbd>chronis@google.com</kbd>).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="paper-details">
+                        <div class="two columns" style="text-align: center">
+                            <p class="index-link">
+                                <a href="index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+                                <!--<a href="#" onclick="navigateToUrl('index.html')"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>-->
+                            </p>
+                        </div>
+
+                        <div class="ten columns">
+                            <h4 class="title">Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing</h4>
+
+                            <div class="authors-section">
+                                <div class="authors-label">Authors:</div>
+                                <div class="authors-list"> Chunwei Liu,  Matthew  Russo,  Michael  Cafarella,  Lei  Cao,  Peter Baile  Chen,  Zui  Chen,  Michael  Franklin,  Tim  Kraska,  Samuel  Madden,  Rana  Shahout,  Gerardo  Vitagliano</div>
+                            </div>
+
+                            <div class="actions">
+                                <a href="../papers/2025/p12-liu.pdf" target="_blank" class="download-btn">
+                                    <i class="fa-solid fa-file"></i>
+                                    Download PDF
+                                </a>
+                                <!--<a class="cite-btn" onclick="openModal()"><i class="fa-solid fa-quote-left"></i></a>-->
+                            </div>
+
+                            <div class="abstract">
+                                
+                                <h5 class="abstract-heading">Abstract</h5>
+                                <p class="abstract-text">
+                                    A long-standing goal of data management systems has been to build systems which can compute quantitative insights over large collections of unstructured data in a cost-effective manner. Until recently, it was difficult and expensive to extract facts from company documents, data from scientific papers, or metrics from image and video corpora. Today’s models can accomplish these tasks with high accuracy. However, a programmer who wants to answer a substantive AI-powered query must orchestrate large numbers of models, prompts, and data operations. In this paper, we present PALIMPZEST, a system that enables programmers to pose AI-powered analytical queries over arbitrary collections of unstructured data in a simple declarative language. The system uses a cost optimization framework — which explores the search space of AI models, prompting techniques, and related foundation model optimizations. PALIMPZEST implements the query while navigating the trade-offs between runtime, financial cost, and output data quality. We introduce a novel language for AIpowered analytics tasks, the optimization methods that PALIMPZEST uses, and the prototype system itself. We evaluate PALIMPZEST on a real-world workload. Our system produces plans that are up to 3.3x faster and 2.9x cheaper than a baseline method when using a singlethread setup, while also achieving superior F1-scores. PALIMPZEST applies its optimizations automatically, requiring no additional work from the user.
+                                </p>
+                                
+                            </div>
+
+                            <!-- Modal Backdrop -->
+                            <div class="modal-backdrop" id="modalBackdrop" onclick="closeModalOnBackdrop(event)">
+                                <!-- Modal Content -->
+                                <div class="modal">
+                                    <div class="modal-title">
+                                        Citation
+                                        <button class="close-btn" onclick="closeModal()">×</button>
+                                    </div>
+                                    <div class="citation-text">None</div>
+                                    <a href="" class="citation-link" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="table-block">
+            <div class="footer">
+                <div class="container">
+                    <footer id="footer" class="twelve columns">
+                        <span class="footer-text"><b>CIDR Proceedings</b> &#8212; <a
+                                href="https://www.cidrdb.org">cidr.org</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
